@@ -39,6 +39,16 @@ public class DetectNPC : MonoBehaviour
         {
             currentNPC = other.GetComponent<NPCDialogue>();
         }
+
+        if (other.CompareTag("NPCUI"))
+        {
+            SpriteRenderer spriteRenderer;
+            spriteRenderer = other.GetComponent<SpriteRenderer>();
+
+            Color tmpColor = spriteRenderer.color;
+            tmpColor.a = 1f; 
+            spriteRenderer.color = tmpColor;
+        }
     }
 
     // Bước ra xa NPC -> Xóa khỏi bộ nhớ (Chỉ chạy 1 lần)
@@ -48,5 +58,17 @@ public class DetectNPC : MonoBehaviour
         {
             currentNPC = null;
         }
+
+        if (other.CompareTag("NPCUI"))
+        {
+            SpriteRenderer spriteRenderer;
+            spriteRenderer = other.GetComponent<SpriteRenderer>();
+
+            Color tmpColor = spriteRenderer.color;
+            tmpColor.a = 0f; 
+            spriteRenderer.color = tmpColor;
+        }
     }
+
+     
 }

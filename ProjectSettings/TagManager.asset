@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacles
   - NPC
+  - NPCUI
   layers:
   - Default
   - TransparentFX
@@ -48,6 +49,21 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1519539081
+    locked: 0
+  - name: Background
+    uniqueID: 774069393
+    locked: 0
+  - name: Ground
+    uniqueID: 4058701003
+    locked: 0
+  - name: Characters
+    uniqueID: 1550804335
+    locked: 0
+  - name: Foreground
+    uniqueID: 930302747
+    locked: 0
+  - name: UI
+    uniqueID: 3512375843
     locked: 0
   m_RenderingLayers:
   - Default

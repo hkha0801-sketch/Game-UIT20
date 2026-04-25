@@ -160,12 +160,12 @@ TextureImporter:
       name: Maid Idle_0
       rect:
         serializedVersion: 2
-        x: 54
-        y: 459
-        width: 30
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 55
+        y: 460
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: Maid Idle_1
       rect:
         serializedVersion: 2
-        x: 198
-        y: 459
-        width: 30
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 199
+        y: 460
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: Maid Idle_2
       rect:
         serializedVersion: 2
-        x: 342
-        y: 459
-        width: 30
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 343
+        y: 460
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: Maid Idle_3
       rect:
         serializedVersion: 2
-        x: 486
-        y: 459
-        width: 30
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 487
+        y: 460
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: Maid Idle_4
       rect:
         serializedVersion: 2
-        x: 630
-        y: 459
-        width: 30
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 631
+        y: 460
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: Maid Idle_5
       rect:
         serializedVersion: 2
-        x: 58
-        y: 315
-        width: 29
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 59
+        y: 316
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: Maid Idle_6
       rect:
         serializedVersion: 2
-        x: 202
-        y: 315
-        width: 29
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 203
+        y: 316
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: Maid Idle_7
       rect:
         serializedVersion: 2
-        x: 346
-        y: 315
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 347
+        y: 316
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: Maid Idle_8
       rect:
         serializedVersion: 2
-        x: 490
-        y: 315
-        width: 29
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 491
+        y: 316
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: Maid Idle_9
       rect:
         serializedVersion: 2
-        x: 634
-        y: 315
-        width: 29
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 635
+        y: 316
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: Maid Idle_10
       rect:
         serializedVersion: 2
-        x: 55
-        y: 172
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 56
+        y: 173
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: Maid Idle_11
       rect:
         serializedVersion: 2
-        x: 199
-        y: 172
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 200
+        y: 173
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: Maid Idle_12
       rect:
         serializedVersion: 2
-        x: 343
-        y: 173
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 344
+        y: 174
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: Maid Idle_13
       rect:
         serializedVersion: 2
-        x: 487
-        y: 172
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 488
+        y: 173
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: Maid Idle_14
       rect:
         serializedVersion: 2
-        x: 631
-        y: 172
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632
+        y: 173
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,12 +490,12 @@ TextureImporter:
       name: Maid Idle_15
       rect:
         serializedVersion: 2
-        x: 60
-        y: 27
-        width: 33
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 61
+        y: 28
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -512,12 +512,12 @@ TextureImporter:
       name: Maid Idle_16
       rect:
         serializedVersion: 2
-        x: 204
-        y: 27
-        width: 33
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 205
+        y: 28
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -534,12 +534,12 @@ TextureImporter:
       name: Maid Idle_17
       rect:
         serializedVersion: 2
-        x: 348
-        y: 28
-        width: 33
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 349
+        y: 29
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -556,12 +556,12 @@ TextureImporter:
       name: Maid Idle_18
       rect:
         serializedVersion: 2
-        x: 492
-        y: 27
-        width: 33
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 493
+        y: 28
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -578,12 +578,12 @@ TextureImporter:
       name: Maid Idle_19
       rect:
         serializedVersion: 2
-        x: 636
-        y: 27
-        width: 33
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 637
+        y: 28
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,7 +600,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 08e960c0dc2708d48bf85dc435dea2fa
     internalID: 0
     vertices: []
     indices: 
@@ -608,7 +608,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Maid Idle_0: 8251958557810653103
       Maid Idle_1: 1330908914736015531
