@@ -3,9 +3,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
+    public Vector2 direction;
 
     private Animator ani;
-    private Vector2 direction;
 
     void Start()
     {
