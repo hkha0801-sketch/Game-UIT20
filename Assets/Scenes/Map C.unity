@@ -337,6 +337,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteSorter
   sortingPrecision: 100
+--- !u!1 &179645489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179645490}
+  - component: {fileID: 179645491}
+  m_Layer: 0
+  m_Name: MedalManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &179645490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179645489}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 769313875}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &179645491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179645489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e96e6e144d75b14b82cd6d8cda6f475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MedalManager
+  ownedMedals: []
 --- !u!1 &191063732
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,6 +1008,38 @@ Transform:
   m_LocalScale: {x: 5.065342, y: 5.1756496, z: -9.37}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &769313874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 769313875}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &769313875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769313874}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.50251, y: -2.1024, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 179645490}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &836805954
@@ -8190,7 +8267,7 @@ SpriteRenderer:
   m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8559,7 +8636,9 @@ GameObject:
   - component: {fileID: 1521008949}
   - component: {fileID: 1521008948}
   - component: {fileID: 1521008947}
+  - component: {fileID: 1521008955}
   - component: {fileID: 1521008954}
+  - component: {fileID: 1521008956}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -8596,9 +8675,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 179645491}
+        m_TargetAssemblyTypeName: MedalManager, Assembly-CSharp
+        m_MethodName: AddMedal
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 8c7bb3b4f5bd6314c8ddd46eb07961d3, type: 2}
+          m_ObjectArgumentAssemblyTypeName: MedalSO, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 6
-  TMPFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  TMPFont: {fileID: 0}
   Icon: {fileID: 7799592556485091163, guid: ca65dbd4c5957314895275c3381a0a6a, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1521008948
@@ -8617,7 +8708,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 5
-  TMPFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &1521008949
@@ -8636,7 +8727,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 4
-  TMPFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &1521008950
@@ -8655,8 +8746,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 3
-  TMPFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  Icon: {fileID: -3390516181381822301, guid: ca65dbd4c5957314895275c3381a0a6a, type: 3}
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 3249776907202158759, guid: ca65dbd4c5957314895275c3381a0a6a, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1521008951
 MonoBehaviour:
@@ -8674,7 +8765,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 2
-  TMPFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &1521008952
@@ -8693,7 +8784,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 1
-  TMPFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &1521008953
@@ -8712,7 +8803,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 0
-  TMPFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  TMPFont: {fileID: 0}
   Icon: {fileID: 4614615953355049484, guid: ca65dbd4c5957314895275c3381a0a6a, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1521008954
@@ -8730,9 +8821,47 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
-  NodeID: 7
-  TMPFont: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  Icon: {fileID: 7799592556485091163, guid: ca65dbd4c5957314895275c3381a0a6a, type: 3}
+  NodeID: 11
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 7911745388139033260, guid: ca65dbd4c5957314895275c3381a0a6a, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1521008955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521008945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 10
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1521008956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521008945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 13
+  TMPFont: {fileID: 0}
+  Icon: {fileID: -8130545663577869254, guid: ca65dbd4c5957314895275c3381a0a6a, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &1673304410 stripped
 GameObject:
@@ -10809,15 +10938,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
-  CurrentIDCounter: 8
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":481.5,\"yPos\":1},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
-    l\xE0 ai?\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":853.5,\"yPos\":0},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Kh\xF4ng
-    c\xF3 g\xEC\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":129.5,\"yPos\":278},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"ok...\\n\",\"parentUIDs\":[3],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":464.5,\"yPos\":285},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"bye\",\"parentUIDs\":[3],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":694,\"yPos\":-186},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"C\xE1i
-    g\xEC?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Maid\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":305.5,\"yPos\":133},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"T\xF4i
-    l\xE0 M, NPC test 1\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Maid\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":95.5,\"yPos\":393},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Maid\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":835.5,\"yPos\":113},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Maid\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  CurrentIDCounter: 14
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":922,\"yPos\":200},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
+    l\xE0 ai?\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1297,\"yPos\":460},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Kh\xF4ng
+    c\xF3 g\xEC\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":551,\"yPos\":482},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"ok...\\n\",\"parentUIDs\":[3],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":939,\"yPos\":471},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"bye\",\"parentUIDs\":[3],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":713,\"yPos\":62},\"ID\":10,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(This
+    option mean u had medal)\",\"parentUIDs\":[0],\"SpeechUID\":-1}],\"Parameters\":[{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"has_test\",\"BoolValue\":false}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"has_test\",\"CheckType\":0,\"RequiredValue\":true}],\"NodeUID\":10},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":1116.5,\"yPos\":17},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"C\xE1i
+    g\xEC?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Maid\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":726,\"yPos\":334},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"T\xF4i
+    l\xE0 Maid, NPC test 1\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Maid\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1105,\"yPos\":667},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[2,4,5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Maid\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":444,\"yPos\":173},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
+    \u0111\xE3 c\xF3 huy ch\u01B0\u01A1ng c\u1EE7a t\xF4i r\u1ED3i\",\"parentUIDs\":[10],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Maid\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":207,\"yPos\":341},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"T\u1EA1m
+    bi\u1EC7t\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Maid\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
-  DefaultName: 
-  DefaultSprite: {fileID: 0}
+  DefaultName: Maid
+  DefaultSprite: {fileID: 4614615953355049484, guid: ca65dbd4c5957314895275c3381a0a6a, type: 3}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1521008953}
@@ -10827,7 +10959,9 @@ MonoBehaviour:
   - {fileID: 1521008949}
   - {fileID: 1521008948}
   - {fileID: 1521008947}
+  - {fileID: 1521008955}
   - {fileID: 1521008954}
+  - {fileID: 1521008956}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -10887,6 +11021,7 @@ SceneRoots:
   - {fileID: 1750365663}
   - {fileID: 2074438790}
   - {fileID: 489200101}
+  - {fileID: 769313875}
   - {fileID: 151240884}
   - {fileID: 1422915976}
   - {fileID: 1307915831}
