@@ -24,4 +24,16 @@ public class MedalManager : MonoBehaviour
             ConversationManager.Instance.SetBool(flagName, true);
         }
     }
+
+    public void SyncMedalsToDialogue()
+    {
+        if (MedalManager.Instance == null) return;
+
+        foreach (MedalSO medal in MedalManager.Instance.ownedMedals)
+        {
+            string flagName = "has_" + medal.MedalID;
+            //Debug.Log(flagName);
+            ConversationManager.Instance.SetBool(flagName, true);
+        }
+    }
 }

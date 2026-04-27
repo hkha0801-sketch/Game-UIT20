@@ -5,13 +5,8 @@ public class DetectNPC : MonoBehaviour
     [SerializeField] private float detectDistance = 0.2f;
     [SerializeField] private PlayerMovement playerMovement;
     private Vector2 direction;
-    private NPCDialogue currentNPC;
+    private NPCController currentNPC;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -28,7 +23,7 @@ public class DetectNPC : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E) && currentNPC != null)
         {
-            currentNPC.StartDialogue();
+            currentNPC.Interact();
         }
 
     }
@@ -37,7 +32,7 @@ public class DetectNPC : MonoBehaviour
     {
         if (other.CompareTag("NPC"))
         {
-            currentNPC = other.GetComponent<NPCDialogue>();
+            currentNPC = other.GetComponent<NPCController>();
         }
 
         if (other.CompareTag("NPCUI"))
@@ -51,7 +46,6 @@ public class DetectNPC : MonoBehaviour
         }
     }
 
-    // Bước ra xa NPC -> Xóa khỏi bộ nhớ (Chỉ chạy 1 lần)
     private void OnTriggerExit2D(Collider2D other) 
     {
         if (other.CompareTag("NPC"))

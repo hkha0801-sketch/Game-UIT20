@@ -13,13 +13,13 @@ public class Icon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("mouse enter");
+        //Debug.Log("mouse enter");
         SetAlpha(1f);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Debug.Log("mouse exit");
+        //Debug.Log("mouse exit");
         SetAlpha(0.5f);
     }
 

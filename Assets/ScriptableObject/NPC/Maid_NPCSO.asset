@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ef044585b595a4448b2ceb308c5885a, type: 3}
-  m_Name: ITMedalSO
-  m_EditorClassIdentifier: Assembly-CSharp::MedalSO
-  MedalID: 
-  MedalName: 
-  MedalIcon: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: ec3b4a3ee45dea14fbcc34717ce5f382, type: 3}
+  m_Name: Maid_NPCSO
+  m_EditorClassIdentifier: Assembly-CSharp::NPCSO
+  NPCID: Maid
+  NPCName: Maid
