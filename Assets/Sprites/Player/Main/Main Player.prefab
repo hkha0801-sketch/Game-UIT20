@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1932d1c6c87348d428f3b2b750d9f39f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectNPC
-  detectDistance: 1.2
+  detectDistance: 0.2
   playerMovement: {fileID: 222591985057552376}
-  offsetY_Horizontal: 0
-  offsetY_Up: 0
+  offsetY_Horizontal: 5
+  offsetY_Up: 10
   offsetY_Down: 0
 --- !u!61 &8317987041883362575
 BoxCollider2D:
@@ -218,7 +218,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2975162620358651710
 BoxCollider2D:
   m_ObjectHideFlags: 0
