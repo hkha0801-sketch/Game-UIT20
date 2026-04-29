@@ -5,4 +5,6 @@ public class MedalSO : ScriptableObject {
     public string MedalID;
     public string MedalName;
     public Sprite MedalIcon;
+    [TextArea(3, 5)] 
+    public string Description;
 }
