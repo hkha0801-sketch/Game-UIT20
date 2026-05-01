@@ -111,6 +111,7 @@ GameObject:
   - component: {fileID: 6497549640182550743}
   - component: {fileID: 222591985057552376}
   - component: {fileID: 2480676115411158970}
+  - component: {fileID: 636408022117798750}
   m_Layer: 0
   m_Name: Main Player
   m_TagString: Player
@@ -128,7 +129,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.6425, y: -4.86, z: 0}
-  m_LocalScale: {x: 0.3097804, y: 0.3097804, z: 0.3097804}
+  m_LocalScale: {x: 0.5876844, y: 0.5876844, z: 0.5876844}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6779232783621061923}
@@ -299,7 +300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dde09bbec03d7846a6bd1ea92286fe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 8
+  speedX: 18
+  speedY: 12
   direction: {x: 0, y: 0}
 --- !u!114 &2480676115411158970
 MonoBehaviour:
@@ -314,3 +316,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteSorter
   sortingPrecision: 100
+--- !u!114 &636408022117798750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2785737331942668987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c64957f6959584ab7cb4f52a3cc756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DepthScaler
+  bottomY: 0
+  topY: 0
+  scaleAtBottom: 0
+  scaleAtTop: 0
+  isScalingEnabled: 1

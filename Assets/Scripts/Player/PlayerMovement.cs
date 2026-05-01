@@ -1,49 +1,10 @@
-// using UnityEngine;
-
-// public class PlayerMovement : MonoBehaviour
-// {
-//     public float speed = 5f;
-//     public Vector2 direction;
-
-//     private Animator ani;
-
-//     void Start()
-//     {
-//         ani = GetComponent<Animator>();
-//     }
-
-//     // Update is called once per frame
-//     void Update()
-//     {
-//         direction.x = Input.GetAxisRaw("Horizontal");
-//         direction.y = Input.GetAxisRaw("Vertical");
-
-//         Move();
-//         UpdateAnimation();
-//     }
-
-//     void Move()
-//     {
-//         transform.Translate(direction.normalized * speed * Time.deltaTime);
-//     }
-
-//     void UpdateAnimation()
-//     {
-//         if (direction != Vector2.zero) {
-//             ani.SetFloat("x", direction.x);
-//             ani.SetFloat("y", direction.y);
-//         }
-        
-//         ani.SetBool("isRun", (direction != Vector2.zero));
-//     }
-// }
-
-
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speedX = 5f;
+    public float speedY = 5f;
+    [HideInInspector] public float speedMultiplier = 1f;
     public Vector2 direction;
     private Animator ani;
 
@@ -57,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        // Cập nhật hướng nhìn cuối cùng khi có input
         if (moveX != 0 || moveY != 0)
         {
             direction.x = moveX;
@@ -70,8 +30,16 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-        Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        transform.Translate(input.normalized * speed * Time.deltaTime);
+          float currentScale = Mathf.Abs(transform.localScale.y);
+        
+        Vector2 inputDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+
+        float velocityX = inputDir.x * speedX;
+        float velocityY = inputDir.y * speedY;
+
+        Vector3 movement = new Vector3(velocityX, velocityY, 0);
+
+        transform.Translate(movement * currentScale * speedMultiplier * Time.deltaTime);
     }
 
     void UpdateAnimation(bool isRunning)
