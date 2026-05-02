@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8704520606598743720}
   - component: {fileID: 8317987041883362575}
   m_Layer: 0
-  m_Name: DetectNPC
+  m_Name: Interaction Zone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,7 +129,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.6425, y: -4.86, z: 0}
-  m_LocalScale: {x: 0.5876844, y: 0.5876844, z: 0.5876844}
+  m_LocalScale: {x: 0.28646505, y: 0.28646505, z: 0.28646505}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6779232783621061923}
@@ -254,7 +254,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.04250276, y: 2.6521397}
+  m_Offset: {x: 0.37667465, y: 2.6521397}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -264,7 +264,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.395199, y: 5.3042793}
+  m_Size: {x: 3.251995, y: 5.3042793}
   m_EdgeRadius: 0
 --- !u!95 &6497549640182550743
 Animator:
@@ -302,6 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speedX: 18
   speedY: 12
+  speedMultiplier: 1
   direction: {x: 0, y: 0}
 --- !u!114 &2480676115411158970
 MonoBehaviour:
@@ -332,4 +333,3 @@ MonoBehaviour:
   topY: 0
   scaleAtBottom: 0
   scaleAtTop: 0
-  isScalingEnabled: 1

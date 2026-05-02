@@ -7,6 +7,7 @@ TagManager:
   - Obstacles
   - NPC
   - NPCUI
+  - MapChangePoint
   layers:
   - Default
   - TransparentFX

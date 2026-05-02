@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10b38b16b12055e4ba192ec0da8958c9, type: 3}
-  m_Name: MapC_MapMedalsSO
+  m_Name: MapE_MapMedalsSO
   m_EditorClassIdentifier: Assembly-CSharp::MapMedalsSO
-  MapName: "S\xE2n b\xF3ng \u0111\xE1"
-  SceneName: Map C
-  MedalsInThisMap:
-  - {fileID: 11400000, guid: bb8573399f5535349910f4c2e421233f, type: 2}
+  MapName: "C\u1ED5ng A"
+  SceneName: Map E
+  MedalsInThisMap: []

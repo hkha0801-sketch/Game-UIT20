@@ -3,5 +3,6 @@ using UnityEngine;[CreateAssetMenu(fileName = "MapMedalsSO", menuName = "UITGAME
 public class MapMedalsSO : ScriptableObject
 {
     public string MapName;
+    public string SceneName;
     public List<MedalSO> MedalsInThisMap;
 }

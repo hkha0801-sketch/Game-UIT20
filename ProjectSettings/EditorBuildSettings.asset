@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map E.unity
     guid: fe4231de577634cd9ae4267dd63209c7
+  - enabled: 1
+    path: Assets/Scenes/Minigame/QuizScene.unity
+    guid: b02006354611ab74587cda85b8dac3cb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
