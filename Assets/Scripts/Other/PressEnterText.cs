@@ -25,9 +25,9 @@ public class PressEnter : MonoBehaviour
             }
 
             // bấm Enter
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.anyKeyDown)
             {
-                SceneManager.LoadScene("Map E");
+                SceneController.Instance.PlayGame();
             }
         }
     }

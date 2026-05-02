@@ -24,7 +24,7 @@ public class SceneController : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneTransition.Instance.PlayTransition(() => {SceneManager.LoadScene("StageSelectScene");});
+        SceneTransition.Instance.PlayTransition(() => {SceneManager.LoadScene("Map B");});
     }
 
     public void MainMenu()
