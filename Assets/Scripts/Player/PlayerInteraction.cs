@@ -56,8 +56,11 @@ public class PlayerInteraction : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && mapChangePoint != null && currentNPC == null)
         {
 
-            string mapSceneName = mapChangePoint.GetComponent<MapPanel>().MapData.SceneName;
-            SceneController.Instance.ChangeScene(mapSceneName);
+            MapPanel panel = mapChangePoint.GetComponent<MapPanel>();
+            string mapSceneName = panel.MapData.SceneName;
+            string spawnID = panel.targetSpawnPointID;
+
+            SceneController.Instance.ChangeScene(mapSceneName, spawnID);
         }
     }
 

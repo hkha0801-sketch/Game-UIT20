@@ -3988,6 +3988,7 @@ RectTransform:
   m_Children:
   - {fileID: 972449082}
   - {fileID: 188703498}
+  - {fileID: 2026957948}
   m_Father: {fileID: 235548957}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4054,6 +4055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapPanel
   MapData: {fileID: 11400000, guid: a5d62d67eee15cb428ab29ebcf04af3f, type: 2}
+  targetSpawnPointID: Gate_E_to_D
 --- !u!225 &363047795
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4229,6 +4231,7 @@ RectTransform:
   m_Children:
   - {fileID: 975820631}
   - {fileID: 1249821244}
+  - {fileID: 2075687887}
   m_Father: {fileID: 235548957}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4295,6 +4298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapPanel
   MapData: {fileID: 11400000, guid: 56397b4b0de113544b0be9f67bd2498a, type: 2}
+  targetSpawnPointID: Gate_E_to_C
 --- !u!225 &821867147
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -30198,7 +30202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2061786998076116891, guid: bb05954fe3d2eb04b85547d2387ebb95, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.1634
+      value: 12.44
       objectReference: {fileID: 0}
     - target: {fileID: 2061786998076116891, guid: bb05954fe3d2eb04b85547d2387ebb95, type: 3}
       propertyPath: m_LocalPosition.y
@@ -30781,6 +30785,7 @@ RectTransform:
   m_Children:
   - {fileID: 81788181}
   - {fileID: 948735781}
+  - {fileID: 2144842381}
   m_Father: {fileID: 235548957}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -30846,7 +30851,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cd3b7d25950e14ba209874ec0f4698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapPanel
-  MapData: {fileID: 11400000, guid: 6a9c68aae6f78b841a905987fa4fe560, type: 2}
+  MapData: {fileID: 11400000, guid: a5d62d67eee15cb428ab29ebcf04af3f, type: 2}
+  targetSpawnPointID: Gate_E_to_B
 --- !u!225 &1891109314
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -31033,6 +31039,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d80e3e0e7d938f84fa9fcc29966531e2, type: 3}
+--- !u!1 &2026957947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2026957948}
+  - component: {fileID: 2026957949}
+  m_Layer: 0
+  m_Name: SpawnPoint_MapD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2026957948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026957947}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.6, y: 1.16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 363047792}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2026957949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026957947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f64bc0b4daf01b4090806abf02c0184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnPoint
+  pointID: Gate_D_to_E
+  facingDirection: {x: 0, y: 1}
 --- !u!1 &2074438788
 GameObject:
   m_ObjectHideFlags: 0
@@ -31078,6 +31130,98 @@ Transform:
   - {fileID: 836805955}
   - {fileID: 342407602}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2075687886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2075687887}
+  - component: {fileID: 2075687888}
+  m_Layer: 0
+  m_Name: SpawnPoint_MapC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2075687887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075687886}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.73, y: -3.13, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 821867144}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2075687888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075687886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f64bc0b4daf01b4090806abf02c0184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnPoint
+  pointID: Gate_C_to_E
+  facingDirection: {x: -1, y: 0}
+--- !u!1 &2144842379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2144842381}
+  - component: {fileID: 2144842380}
+  m_Layer: 0
+  m_Name: SpawnPoint_MapB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2144842380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144842379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f64bc0b4daf01b4090806abf02c0184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnPoint
+  pointID: Gate_B_to_E
+  facingDirection: {x: 0, y: -1}
+--- !u!4 &2144842381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144842379}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: -4.89, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1891109311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
