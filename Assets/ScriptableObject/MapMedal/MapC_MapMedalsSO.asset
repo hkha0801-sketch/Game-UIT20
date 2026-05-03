@@ -16,3 +16,4 @@ MonoBehaviour:
   SceneName: Map C
   MedalsInThisMap:
   - {fileID: 11400000, guid: bb8573399f5535349910f4c2e421233f, type: 2}
+  - {fileID: 11400000, guid: f5157808e360125478114e3d20c73656, type: 2}

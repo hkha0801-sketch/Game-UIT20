@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10b38b16b12055e4ba192ec0da8958c9, type: 3}
   m_Name: MapA_MapMedalsSO
   m_EditorClassIdentifier: Assembly-CSharp::MapMedalsSO
-  MapName: "Ko bi\u1EBFt t\xEAn"
+  MapName: "S\xE2n th\u01B0 vi\u1EC7n"
   SceneName: Map A
-  MedalsInThisMap: []
+  MedalsInThisMap:
+  - {fileID: 11400000, guid: 0fc02b9399697234b8da7d4c6c7eb5a7, type: 2}
+  - {fileID: 11400000, guid: f2ddadd3f12417b44aed35dff7d3f47f, type: 2}

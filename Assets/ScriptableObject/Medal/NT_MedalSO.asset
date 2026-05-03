@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ef044585b595a4448b2ceb308c5885a, type: 3}
-  m_Name: SE_MedalSO
+  m_Name: NT_MedalSO
   m_EditorClassIdentifier: Assembly-CSharp::MedalSO
-  MedalID: SE
-  MedalName: SE Medal
-  MedalIcon: {fileID: 21300000, guid: 471b9a6409cd94983bec6362a0d1d3e2, type: 3}
+  MedalID: NT
+  MedalName: NT Medal
+  MedalIcon: {fileID: 21300000, guid: 3b45dcb32661049528ff95d9d0343fc1, type: 3}
   Description: "\u0110\xE2y l\xE0 m\u1ED9c l\u1EA5y \u0111\u01B0\u1EE3c sau khi ho\xE0n
     th\xE0nh quiz c\u1EE7a NPC SE"

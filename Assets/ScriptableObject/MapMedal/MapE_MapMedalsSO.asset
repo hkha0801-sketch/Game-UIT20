@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MapMedalsSO
   MapName: "C\u1ED5ng A"
   SceneName: Map E
-  MedalsInThisMap: []
+  MedalsInThisMap:
+  - {fileID: 11400000, guid: 3653f80703766ae4296c3fcf99c7e1be, type: 2}
