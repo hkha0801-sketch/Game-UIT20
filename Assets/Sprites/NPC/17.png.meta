@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 79cefa549d5184cd6ae69924c7dbefe7
+guid: 471b9a6409cd94983bec6362a0d1d3e2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -103977140524111918
-    second: Asset Khoa_0
-  - first:
-      213: 7688291000425827903
-    second: Asset Khoa_1
+      213: 6660783624410144326
+    second: 17_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -49,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -78,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Asset Khoa_0
+      name: 17_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 288
-        width: 424
-        height: 417
+        x: 443
+        y: 23
+        width: 659
+        height: 675
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d7ac4277599e8ef0800000000000000
-      internalID: -103977140524111918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset Khoa_1
-      rect:
-        serializedVersion: 2
-        x: 506
-        y: 271
-        width: 423
-        height: 434
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3ec63a3eeb42ba60800000000000000
-      internalID: 7688291000425827903
+      spriteID: 64e94b28a6bdf6c50800000000000000
+      internalID: 6660783624410144326
       vertices: []
       indices: 
       edges: []
@@ -163,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Asset Khoa_0: -103977140524111918
-      Asset Khoa_1: 7688291000425827903
+      17_0: 6660783624410144326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -18374,23 +18374,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1349314460643958069, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2998927
+      value: 0.67750406
       objectReference: {fileID: 0}
     - target: {fileID: 1349314460643958069, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.150479
+      value: 0.59962964
       objectReference: {fileID: 0}
     - target: {fileID: 1349314460643958069, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.73494244
+      value: 0.383052
       objectReference: {fileID: 0}
     - target: {fileID: 1349314460643958069, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.52
+      value: -20.89
       objectReference: {fileID: 0}
     - target: {fileID: 1349314460643958069, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.49
+      value: 8.2
       objectReference: {fileID: 0}
     - target: {fileID: 1349314460643958069, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18424,6 +18424,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3294502304864984659, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 14.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 3294502304864984659, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 7.16
+      objectReference: {fileID: 0}
     - target: {fileID: 5353666237452012827, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -18432,19 +18440,38 @@ PrefabInstance:
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1836102844}
+    - target: {fileID: 6210184839737139989, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b45dcb32661049528ff95d9d0343fc1, type: 3}
     - target: {fileID: 6214129906850433512, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1836102844}
     - target: {fileID: 7623576387468862601, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
       propertyPath: m_Name
-      value: NPC_MMTT
+      value: NPC_NT
       objectReference: {fileID: 0}
+    - target: {fileID: 8686886500040544315, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 1159664102075802002}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
+--- !u!114 &1159664102075802002 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5961026702997874083, guid: 77bb00cd3a6037e4aa51fba97297a4b4, type: 3}
+  m_PrefabInstance: {fileID: 1159664102075802001}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4e447ab5115bba4a877283471f4f658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialouge
 --- !u!1001 &7255830814185749043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18455,23 +18482,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2061786998076116891, guid: bb05954fe3d2eb04b85547d2387ebb95, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3917863
+      value: 0.8302217
       objectReference: {fileID: 0}
     - target: {fileID: 2061786998076116891, guid: bb05954fe3d2eb04b85547d2387ebb95, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2318101
+      value: 0.73479337
       objectReference: {fileID: 0}
     - target: {fileID: 2061786998076116891, guid: bb05954fe3d2eb04b85547d2387ebb95, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.78689796
+      value: 0.4693966
       objectReference: {fileID: 0}
     - target: {fileID: 2061786998076116891, guid: bb05954fe3d2eb04b85547d2387ebb95, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.52
+      value: 7.7035
       objectReference: {fileID: 0}
     - target: {fileID: 2061786998076116891, guid: bb05954fe3d2eb04b85547d2387ebb95, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.82
+      value: 4.6561
       objectReference: {fileID: 0}
     - target: {fileID: 2061786998076116891, guid: bb05954fe3d2eb04b85547d2387ebb95, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18509,6 +18536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC_SE
       objectReference: {fileID: 0}
+    - target: {fileID: 6825626217099004816, guid: bb05954fe3d2eb04b85547d2387ebb95, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 471b9a6409cd94983bec6362a0d1d3e2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
