@@ -66,10 +66,6 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.CompareTag("NPC"))
-        {
-            currentNPC = other.GetComponent<NPCController>();
-        }
 
         if (other.CompareTag("NPCUI"))
         {
@@ -80,6 +76,8 @@ public class PlayerInteraction : MonoBehaviour
                 tmpColor.a = 1f; 
                 spriteRenderer.color = tmpColor;
             }
+
+            currentNPC = other.GetComponentInParent<NPCController>();
         }
 
         if (other.CompareTag("MapChangePoint"))
@@ -96,11 +94,6 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other) 
     {
-        if (other.CompareTag("NPC"))
-        {
-            currentNPC = null;
-        }
-
         if (other.CompareTag("NPCUI"))
         {
             SpriteRenderer spriteRenderer = other.GetComponent<SpriteRenderer>();
@@ -110,6 +103,8 @@ public class PlayerInteraction : MonoBehaviour
                 tmpColor.a = 0f; 
                 spriteRenderer.color = tmpColor;
             }
+
+            currentNPC = null;
         }
 
         if (other.CompareTag("MapChangePoint"))

@@ -140,221 +140,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Asset Game 20 na\u0306m (26)_0"
+      name: ISE_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 471
-        width: 250
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32cd4449b8d4693b0800000000000000
-      internalID: -5506128232530519005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Asset Game 20 na\u0306m (26)_1"
-      rect:
-        serializedVersion: 2
-        x: 312
+        x: 37
         y: 472
-        width: 252
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 248
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8583f0002ee25d720800000000000000
-      internalID: 2870251885717043288
+      spriteID: d2c3bda0023141943b88bf04fbabfd66
+      internalID: 736495889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Asset Game 20 na\u0306m (26)_2"
+      name: ISE_1
       rect:
         serializedVersion: 2
-        x: 579
-        y: 472
-        width: 251
-        height: 242
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86912042dd0402b10800000000000000
-      internalID: 1954633556814862696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Asset Game 20 na\u0306m (26)_3"
-      rect:
-        serializedVersion: 2
-        x: 858
+        x: 313
         y: 472
         width: 250
-        height: 242
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f29c17f7744d2e110800000000000000
-      internalID: 1288825846927313199
+      spriteID: 721d988763ccbf043bd32a3920bb8a14
+      internalID: -376850416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Asset Game 20 na\u0306m (26)_4"
-      rect:
-        serializedVersion: 2
-        x: 1123
-        y: 472
-        width: 249
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd4fb8af106509170800000000000000
-      internalID: 8183135089430623452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Asset Game 20 na\u0306m (26)_5"
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 5
-        width: 250
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28310c6b043ca4ec0800000000000000
-      internalID: -3581835870908443774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Asset Game 20 na\u0306m (26)_6"
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 4
-        width: 251
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb44b4299771b0e00800000000000000
-      internalID: 1011928352187696318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Asset Game 20 na\u0306m (26)_7"
+      name: ISE_2
       rect:
         serializedVersion: 2
         x: 580
-        y: 2
-        width: 250
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c479f6af45aa6d50800000000000000
-      internalID: 6731374354580993221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Asset Game 20 na\u0306m (26)_8"
-      rect:
-        serializedVersion: 2
-        x: 858
-        y: 2
-        width: 250
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0bb2b101fbbf49430800000000000000
-      internalID: 3788929984552971184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Asset Game 20 na\u0306m (26)_9"
-      rect:
-        serializedVersion: 2
-        x: 1121
-        y: 2
+        y: 473
         width: 249
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6ba65a3fbe916c280800000000000000
-      internalID: -9023496302194496842
+      spriteID: 1c675731e28227f4391b97a198eb79f9
+      internalID: -1644825459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ISE_3
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 473
+        width: 248
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ef4acc38e0070469bc8b8031360dcf
+      internalID: -951834126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ISE_4
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 473
+        width: 247
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f249b846f52542e4a834c8697c17220f
+      internalID: -209446263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ISE_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 6
+        width: 248
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7db14f3ec53fb4b875f7866e20b77b
+      internalID: -2046910913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ISE_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 5
+        width: 249
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d683f192eab08894bb92bb900ff43b74
+      internalID: 1922786224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ISE_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 3
+        width: 248
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441b5eef71570d74a946e969461f7fa7
+      internalID: -1289985635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ISE_8
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 3
+        width: 248
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b66ce6becad304a8a60193165b6714
+      internalID: -572478846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ISE_9
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3
+        width: 247
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0883cf1399783234290fda1aeab21975
+      internalID: -1641525691
       vertices: []
       indices: 
       edges: []
@@ -363,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8ce11d2d569dd9f49875690ddebd3b71
     internalID: 0
     vertices: []
     indices: 
@@ -371,18 +371,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      "Asset Game 20 na\u0306m (26)_0": -5506128232530519005
-      "Asset Game 20 na\u0306m (26)_1": 2870251885717043288
-      "Asset Game 20 na\u0306m (26)_2": 1954633556814862696
-      "Asset Game 20 na\u0306m (26)_3": 1288825846927313199
-      "Asset Game 20 na\u0306m (26)_4": 8183135089430623452
-      "Asset Game 20 na\u0306m (26)_5": -3581835870908443774
-      "Asset Game 20 na\u0306m (26)_6": 1011928352187696318
-      "Asset Game 20 na\u0306m (26)_7": 6731374354580993221
-      "Asset Game 20 na\u0306m (26)_8": 3788929984552971184
-      "Asset Game 20 na\u0306m (26)_9": -9023496302194496842
+      ISE_0: 736495889
+      ISE_1: -376850416
+      ISE_2: -1644825459
+      ISE_3: -951834126
+      ISE_4: -209446263
+      ISE_5: -2046910913
+      ISE_6: 1922786224
+      ISE_7: -1289985635
+      ISE_8: -572478846
+      ISE_9: -1641525691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
