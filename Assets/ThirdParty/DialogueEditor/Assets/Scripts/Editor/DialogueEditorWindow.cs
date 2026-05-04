@@ -1532,55 +1532,118 @@ namespace DialogueEditor
             panelWidth = START_PANEL_WIDTH;
         }
 
-        private void Save(bool manual = false)
+        // private void Save(bool manual = false)
+        // {
+        //     if (Application.isPlaying)
+        //     {
+        //         Log("Save failed. Reason: Play mode.");
+        //         return;
+        //     }
+
+        //     if (CurrentAsset != null)
+        //     {
+        //         EditableConversation conversation = new EditableConversation();
+
+        //         // Prepare each node for serialization
+        //         for (int i = 0; i < uiNodes.Count; i++)
+        //         {
+        //             uiNodes[i].Info.SerializeAssetData(CurrentAsset);
+        //         }
+
+        //         // Now that each node has been prepared for serialization: 
+        //         // - Register the UIDs of their parents/children
+        //         // - Add it to the conversation
+        //         for (int i = 0; i < uiNodes.Count; i++)
+        //         {
+        //             uiNodes[i].Info.RegisterUIDs();
+
+        //             if (uiNodes[i] is UISpeechNode)
+        //             {
+        //                 conversation.SpeechNodes.Add((uiNodes[i] as UISpeechNode).SpeechNode);
+        //             }
+        //             else if (uiNodes[i] is UIOptionNode)
+        //             {
+        //                 conversation.Options.Add((uiNodes[i] as UIOptionNode).OptionNode);
+        //             }
+        //         }
+
+        //         // Serialize
+        //         CurrentAsset.Serialize(conversation);
+
+        //         // Null / clear everything. We aren't pointing to it anymore. 
+        //         if (!manual)
+        //         {
+        //             CurrentAsset = null;
+        //             while (uiNodes.Count != 0)
+        //                 uiNodes.RemoveAt(0);
+        //             CurrentlySelectedObject = null;
+        //         }
+
+        //         MarkSceneDirty();
+        //     }
+        // }
+
+    private void Save(bool manual = false)
+    {
+        if (Application.isPlaying)
         {
-            if (Application.isPlaying)
-            {
-                Log("Save failed. Reason: Play mode.");
-                return;
-            }
-
-            if (CurrentAsset != null)
-            {
-                EditableConversation conversation = new EditableConversation();
-
-                // Prepare each node for serialization
-                for (int i = 0; i < uiNodes.Count; i++)
-                {
-                    uiNodes[i].Info.SerializeAssetData(CurrentAsset);
-                }
-
-                // Now that each node has been prepared for serialization: 
-                // - Register the UIDs of their parents/children
-                // - Add it to the conversation
-                for (int i = 0; i < uiNodes.Count; i++)
-                {
-                    uiNodes[i].Info.RegisterUIDs();
-
-                    if (uiNodes[i] is UISpeechNode)
-                    {
-                        conversation.SpeechNodes.Add((uiNodes[i] as UISpeechNode).SpeechNode);
-                    }
-                    else if (uiNodes[i] is UIOptionNode)
-                    {
-                        conversation.Options.Add((uiNodes[i] as UIOptionNode).OptionNode);
-                    }
-                }
-
-                // Serialize
-                CurrentAsset.Serialize(conversation);
-
-                // Null / clear everything. We aren't pointing to it anymore. 
-                if (!manual)
-                {
-                    CurrentAsset = null;
-                    while (uiNodes.Count != 0)
-                        uiNodes.RemoveAt(0);
-                    CurrentlySelectedObject = null;
-                }
-
-                MarkSceneDirty();
-            }
+            return;
         }
+
+        if (CurrentAsset != null)
+        {
+            // Tạo đối tượng chứa dữ liệu để serialize
+            EditableConversation conversation = new EditableConversation();
+
+            // Chuẩn bị dữ liệu từng node
+            for (int i = 0; i < uiNodes.Count; i++)
+            {
+                uiNodes[i].Info.SerializeAssetData(CurrentAsset);
+            }
+
+            for (int i = 0; i < uiNodes.Count; i++)
+            {
+                uiNodes[i].Info.RegisterUIDs();
+
+                if (uiNodes[i] is UISpeechNode)
+                {
+                    conversation.SpeechNodes.Add((uiNodes[i] as UISpeechNode).SpeechNode);
+                }
+                else if (uiNodes[i] is UIOptionNode)
+                {
+                    conversation.Options.Add((uiNodes[i] as UIOptionNode).OptionNode);
+                }
+            }
+
+            // Chuyển dữ liệu vào file
+            CurrentAsset.Serialize(conversation);
+
+            // --- ĐOẠN MOD ĐỂ FIX LỖI KHÔNG LƯU ---
+            
+            // 1. Đánh dấu Object (Prefab/Mono) này đã bị thay đổi dữ liệu
+            UnityEditor.EditorUtility.SetDirty(CurrentAsset);
+
+            // 2. Nếu nó là một phần của Prefab, lưu các thay đổi vào Prefab đó
+            if (UnityEditor.PrefabUtility.IsPartOfAnyPrefab(CurrentAsset))
+            {
+                UnityEditor.PrefabUtility.RecordPrefabInstancePropertyModifications(CurrentAsset);
+            }
+
+            // 3. Ép Unity lưu toàn bộ Asset đã thay đổi xuống ổ cứng ngay lập tức
+            UnityEditor.AssetDatabase.SaveAssets();
+
+            // ---------------------------------------
+
+            if (!manual)
+            {
+                CurrentAsset = null;
+                while (uiNodes.Count != 0)
+                    uiNodes.RemoveAt(0);
+            }
+
+            MarkSceneDirty();
+            Debug.Log("<color=cyan>[Dialogue Editor]</color> Đã lưu kịch bản thành công!");
+        }
+    }
     }
 }
