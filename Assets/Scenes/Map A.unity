@@ -1155,7 +1155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: AllMaps.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: 'AllMaps.Array.data[0]'
@@ -1177,6 +1177,10 @@ PrefabInstance:
       propertyPath: 'AllMaps.Array.data[4]'
       value: 
       objectReference: {fileID: 11400000, guid: 6a9c68aae6f78b841a905987fa4fe560, type: 2}
+    - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
+      propertyPath: 'AllMaps.Array.data[5]'
+      value: 
+      objectReference: {fileID: 11400000, guid: c75e52bc8f17c064fa2177285707f111, type: 2}
     - target: {fileID: 3832457906206240834, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: m_Name
       value: BookPanel
@@ -24307,8 +24311,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1093420592}
-  - {fileID: 296758810}
   - {fileID: 1106007533}
+  - {fileID: 296758810}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - NPCUI
   - MapChangePoint
+  - Collectible
   layers:
   - Default
   - TransparentFX

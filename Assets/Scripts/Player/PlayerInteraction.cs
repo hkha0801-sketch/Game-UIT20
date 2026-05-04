@@ -15,6 +15,7 @@ public class PlayerInteraction : MonoBehaviour
     private Vector2 direction;
     private NPCController currentNPC;
     private GameObject mapChangePoint;
+    private CollectibleItem currentItem;
 
     void Update()
     {
@@ -45,22 +46,32 @@ public class PlayerInteraction : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
         }
 
-        if (Input.GetKeyDown(KeyCode.E) && currentNPC != null)
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            if (ConversationManager.Instance != null && !ConversationManager.Instance.IsConversationActive)
+            if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
+                return;
+
+            if (currentItem != null)
+            {
+                currentItem.StartItemDialogue();
+                return; 
+            }
+
+            if (currentNPC != null)
             {
                 currentNPC.Interact();
+                return;
             }
-        }
 
-        if (Input.GetKeyDown(KeyCode.E) && mapChangePoint != null && currentNPC == null)
-        {
-
-            MapPanel panel = mapChangePoint.GetComponent<MapPanel>();
-            string mapSceneName = panel.MapData.SceneName;
-            string spawnID = panel.targetSpawnPointID;
-
-            SceneController.Instance.ChangeScene(mapSceneName, spawnID);
+            if (mapChangePoint != null)
+            {
+                MapPanel panel = mapChangePoint.GetComponent<MapPanel>();
+                if (panel != null && panel.MapData != null)
+                {
+                    SceneController.Instance.ChangeScene(panel.MapData.SceneName, panel.targetSpawnPointID);
+                    return;
+                }
+            }
         }
     }
 
@@ -90,6 +101,11 @@ public class PlayerInteraction : MonoBehaviour
                 cg.alpha = 1f;
             }
         }
+
+        if (other.CompareTag("Collectible"))
+        {
+            currentItem = other.GetComponent<CollectibleItem>();
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other) 
@@ -116,6 +132,11 @@ public class PlayerInteraction : MonoBehaviour
             {
                 cg.alpha = 0f;
             }
+        }
+
+         if (other.CompareTag("Collectible"))
+        {
+            currentItem = null;
         }
     }
 }
