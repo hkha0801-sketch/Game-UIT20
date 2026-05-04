@@ -4054,7 +4054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cd3b7d25950e14ba209874ec0f4698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapPanel
-  MapData: {fileID: 11400000, guid: a5d62d67eee15cb428ab29ebcf04af3f, type: 2}
+  MapData: {fileID: 11400000, guid: 37ac84e925c1e0945be7e7a0c9ac40eb, type: 2}
   targetSpawnPointID: Gate_E_to_D
 --- !u!225 &363047795
 CanvasGroup:
@@ -30570,24 +30570,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: AllMaps.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: 'AllMaps.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 6a9c68aae6f78b841a905987fa4fe560, type: 2}
+      objectReference: {fileID: 11400000, guid: 51db1c59d1bf41f47b96cb902bc2516e, type: 2}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: 'AllMaps.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: 51db1c59d1bf41f47b96cb902bc2516e, type: 2}
+      objectReference: {fileID: 11400000, guid: a5d62d67eee15cb428ab29ebcf04af3f, type: 2}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: 'AllMaps.Array.data[2]'
       value: 
-      objectReference: {fileID: 11400000, guid: a5d62d67eee15cb428ab29ebcf04af3f, type: 2}
+      objectReference: {fileID: 11400000, guid: 56397b4b0de113544b0be9f67bd2498a, type: 2}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: 'AllMaps.Array.data[3]'
       value: 
-      objectReference: {fileID: 11400000, guid: 56397b4b0de113544b0be9f67bd2498a, type: 2}
+      objectReference: {fileID: 11400000, guid: 37ac84e925c1e0945be7e7a0c9ac40eb, type: 2}
+    - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
+      propertyPath: 'AllMaps.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 6a9c68aae6f78b841a905987fa4fe560, type: 2}
     - target: {fileID: 3832457906206240834, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: m_Name
       value: BookPanel
@@ -30706,7 +30710,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.5762687, y: -1.7096016}
+  m_Offset: {x: -0.5762687, y: 0.01889658}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -30716,7 +30720,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.6374826, y: 4.163993}
+  m_Size: {x: 5.6374826, y: 2.2045531}
   m_EdgeRadius: 0
 --- !u!114 &1891109313
 MonoBehaviour:
@@ -30944,7 +30948,7 @@ Transform:
   m_GameObject: {fileID: 2026957947}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.6, y: 1.16, z: 0}
+  m_LocalPosition: {x: 7.63, y: 1.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

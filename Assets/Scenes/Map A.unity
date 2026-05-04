@@ -1155,24 +1155,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: AllMaps.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: 'AllMaps.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 6a9c68aae6f78b841a905987fa4fe560, type: 2}
+      objectReference: {fileID: 11400000, guid: 51db1c59d1bf41f47b96cb902bc2516e, type: 2}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: 'AllMaps.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: 51db1c59d1bf41f47b96cb902bc2516e, type: 2}
+      objectReference: {fileID: 11400000, guid: a5d62d67eee15cb428ab29ebcf04af3f, type: 2}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: 'AllMaps.Array.data[2]'
       value: 
-      objectReference: {fileID: 11400000, guid: a5d62d67eee15cb428ab29ebcf04af3f, type: 2}
+      objectReference: {fileID: 11400000, guid: 56397b4b0de113544b0be9f67bd2498a, type: 2}
     - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: 'AllMaps.Array.data[3]'
       value: 
-      objectReference: {fileID: 11400000, guid: 56397b4b0de113544b0be9f67bd2498a, type: 2}
+      objectReference: {fileID: 11400000, guid: 37ac84e925c1e0945be7e7a0c9ac40eb, type: 2}
+    - target: {fileID: 2449756670964213562, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
+      propertyPath: 'AllMaps.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 6a9c68aae6f78b841a905987fa4fe560, type: 2}
     - target: {fileID: 3832457906206240834, guid: 86804ca8226f0f04b93dc30841123b22, type: 3}
       propertyPath: m_Name
       value: BookPanel
@@ -1397,7 +1401,7 @@ Transform:
   m_GameObject: {fileID: 561745798}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.66, y: -0.39, z: 0}
+  m_LocalPosition: {x: 2.82, y: -3.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25559,7 +25563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cd3b7d25950e14ba209874ec0f4698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapPanel
-  MapData: {fileID: 11400000, guid: 6a9c68aae6f78b841a905987fa4fe560, type: 2}
+  MapData: {fileID: 11400000, guid: 37ac84e925c1e0945be7e7a0c9ac40eb, type: 2}
   targetSpawnPointID: Gate_A_to_D
 --- !u!225 &1872118786
 CanvasGroup:
