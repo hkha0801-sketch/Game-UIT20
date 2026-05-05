@@ -1,4 +1,5 @@
 using UnityEngine;
+using DialogueEditor;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,6 +16,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
+        {
+            direction = Vector2.zero; 
+            UpdateAnimation(false); 
+            return;
+        }
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
