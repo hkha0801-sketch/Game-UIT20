@@ -35,7 +35,6 @@ public class QuizController : MonoBehaviour
         }
     }
 
-    // Gán dữ liệu từ Manager và bắt đầu
     private void InitializeGame()
     {
         if (MinigameManager.Instance == null || !(MinigameManager.Instance.CurrentData is QuizMinigameSO))
@@ -57,7 +56,6 @@ public class QuizController : MonoBehaviour
         StartQuiz();
     }
 
-    // Reset trạng thái và load câu đầu tiên
     private void StartQuiz()
     {
         currentQuestionIndex = 0;
@@ -68,7 +66,6 @@ public class QuizController : MonoBehaviour
         LoadQuestion();
     }
 
-    // Đổ dữ liệu câu hỏi hiện tại lên UI
     private void LoadQuestion()
     {
         QuizQuestion currentQuestion = quizData.Questions[currentQuestionIndex];
@@ -88,7 +85,6 @@ public class QuizController : MonoBehaviour
         }
     }
 
-    // Xử lý khi người chơi bấm nút đáp án
     private void OnAnswerSelected(int selectedIndex)
     {
         if (!isPlaying) return;
@@ -99,7 +95,6 @@ public class QuizController : MonoBehaviour
         {
             currentQuestionIndex++;
             
-            // Nếu đã trả lời hết câu hỏi
             if (currentQuestionIndex >= quizData.Questions.Count)
             {
                 WinGame();
@@ -127,13 +122,11 @@ public class QuizController : MonoBehaviour
         gameOverPanel.SetActive(true);
     }
 
-    // Nút "Chơi Lại" trên GameOver Panel gọi hàm này
     public void RetryGame()
     {
         StartQuiz();
     }
 
-    // Nút "Thoát" trên GameOver Panel gọi hàm này
     public void QuitGame()
     {
         MinigameManager.Instance.CompleteMinigame(false);

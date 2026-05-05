@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122649d003496fc4387f41e58e901122, type: 3}
+  m_Name: SE_MemoryGameSO
+  m_EditorClassIdentifier: Assembly-CSharp::MemoryGameSO
+  MinigameID: SE
+  MinigameName: Memory Card Game SE
+  SceneName: MemoryCardScene
+  TimeLimit: 30
+  Rows: 3
+  Columns: 4
+  CardPairs:
+  - imageA: {fileID: 21300000, guid: 471b9a6409cd94983bec6362a0d1d3e2, type: 3}
+    imageB: {fileID: 21300000, guid: 471b9a6409cd94983bec6362a0d1d3e2, type: 3}
+  - imageA: {fileID: 21300000, guid: 3b45dcb32661049528ff95d9d0343fc1, type: 3}
+    imageB: {fileID: 21300000, guid: 3b45dcb32661049528ff95d9d0343fc1, type: 3}
+  - imageA: {fileID: 21300000, guid: 5ae1368ecb3674472b9ddf6aed0de4b8, type: 3}
+    imageB: {fileID: 21300000, guid: 5ae1368ecb3674472b9ddf6aed0de4b8, type: 3}
+  - imageA: {fileID: 21300000, guid: 28ce21f01388a43d0abaa047253473db, type: 3}
+    imageB: {fileID: 21300000, guid: 28ce21f01388a43d0abaa047253473db, type: 3}
+  - imageA: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
+    imageB: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
+  - imageA: {fileID: 21300000, guid: f71c0dc03d067a342aa16a51674f6507, type: 3}
+    imageB: {fileID: 21300000, guid: f71c0dc03d067a342aa16a51674f6507, type: 3}

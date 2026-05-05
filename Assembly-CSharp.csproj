@@ -52,6 +52,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\UI\Icon.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\Conversation.cs" />
+    <Compile Include="Assets\Scripts\Minigame\MemoryGame\MemoryGameController.cs" />
     <Compile Include="Assets\Scripts\Other\ElevationZone.cs" />
     <Compile Include="Assets\Scripts\Manager\MedalManager.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\ScriptableObject\Minigame\QuizMinigameSO.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Example\ExampleInputManager.cs" />
+    <Compile Include="Assets\ScriptableObject\Minigame\MemoryGameSO.cs" />
     <Compile Include="Assets\Scripts\Scene\SceneTransition.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\Parameter.cs" />
     <Compile Include="Assets\Scripts\UI\MapPanel.cs" />
@@ -91,6 +93,7 @@
     <Compile Include="Assets\Scripts\NPC\NPCController.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\Condition.cs" />
     <Compile Include="Assets\Scripts\Other\SpriteSorter.cs" />
+    <Compile Include="Assets\Scripts\Minigame\MemoryGame\MemoryCard.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
   </ItemGroup>
   <ItemGroup>
