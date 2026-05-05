@@ -165,10 +165,10 @@ TextureImporter:
       name: ISE_1
       rect:
         serializedVersion: 2
-        x: 313
-        y: 472
-        width: 250
-        height: 241
+        x: 315
+        y: 473
+        width: 248
+        height: 240
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       name: ISE_2
       rect:
         serializedVersion: 2
-        x: 580
-        y: 473
+        x: 581
+        y: 472
         width: 249
         height: 240
       alignment: 7
