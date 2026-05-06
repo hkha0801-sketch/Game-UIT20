@@ -25,7 +25,7 @@ public class PressEnter : MonoBehaviour
             }
 
             // bấm Enter
-            if (Input.anyKeyDown)
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 SceneController.Instance.PlayGame();
             }

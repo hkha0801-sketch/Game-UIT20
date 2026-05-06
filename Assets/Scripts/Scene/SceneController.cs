@@ -51,10 +51,8 @@ public class SceneController : MonoBehaviour
         {
             if (sp.pointID == targetSpawnPointID)
             {
-                // 1. Dịch chuyển vị trí
                 player.transform.position = sp.transform.position;
 
-                // 2. Cập nhật hướng quay mặt
                 PlayerMovement movement = player.GetComponent<PlayerMovement>();
                 if (movement != null)
                 {
