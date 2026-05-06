@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec94563e7cdca8345ba049fa2bc043d7, type: 3}
+  m_Name: Gamapp_ClickerGameSO
+  m_EditorClassIdentifier: Assembly-CSharp::ClickerMinigameSO
+  MinigameID: ISE
+  MinigameName: Gamapp clicker
+  SceneName: ClickerScene
+  TargetText: "I. Gi\u1EDBi thi\u1EC7u\r\nKhi l\u1EADp tr\xECnh game, vi\u1EC7c x\xE2y
+    d\u1EF1ng m\u1ED9t c\u1ED1t truy\u1EC7n h\u1EA5p d\u1EABn r\u1EA5t quan tr\u1ECDng.
+    \u0110i\u1EC1u n\xE0y kh\xF4ng ch\u1EC9 bao g\u1ED3m nh\u1EEFng \u0111o\u1EA1n
+    intro ho\xE0nh tr\xE1ng hay ph\u1EA7n ti\u1EC3u s\u1EED chi ti\u1EBFt cho t\u1EEBng
+    nh\xE2n v\u1EADt, m\xE0 c\xF2n l\xE0 vi\u1EC7c t\u1EA1o ra m\u1ED9t th\u1EBF
+    gi\u1EDBi \u0111\u1EA7y \u0111\u1EE7 b\u1ED1i c\u1EA3nh \u0111\u1EC3 ng\u01B0\u1EDDi
+    ch\u01A1i c\xF3 th\u1EC3 tr\u1EA3i nghi\u1EC7m tr\u1ECDn v\u1EB9n.\r\nX\xE2y
+    d\u1EF1ng th\u1EBF gi\u1EDBi (World-building): L\xE0 kh\xF4ng gian bao ch\u1EE9a
+    logic c\u1EE7a game. M\u1ED9t th\u1EBF gi\u1EDBi c\xF3 quy lu\u1EADt r\xF5 r\xE0ng
+    (v\xED d\u1EE5: t\xE0i nguy\xEAn qu\xFD hi\u1EBFm l\xE0 g\xEC, xung \u0111\u1ED9t
+    phe ph\xE1i ra sao) s\u1EBD gi\xFAp c\xE1c t\xEDnh n\u0103ng game (mechanics)
+    tr\u1EDF n\xEAn h\u1EE3p l\xFD h\u01A1n.\r\nX\xE2y d\u1EF1ng nh\xE2n v\u1EADt
+    (Character): L\xE0 \"\u0111i\u1EC3m ch\u1EA1m\" c\u1EA3m x\xFAc. Ng\u01B0\u1EDDi
+    ch\u01A1i kh\xF4ng ch\u1EC9 \u0111i\u1EC1u khi\u1EC3n m\u1ED9t kh\u1ED1i pixel;
+    h\u1ECD \u0111i\u1EC1u khi\u1EC3n m\u1ED9t s\u1ED1 ph\u1EADn. Khi nh\xE2n v\u1EADt
+    c\xF3 h\xECnh d\xE1ng v\xE0 kh\u1EA3 n\u0103ng \u0111\u1EB7c bi\u1EC7t g\u1EAFn
+    li\u1EC1n v\u1EDBi b\u1ED1i c\u1EA3nh, ng\u01B0\u1EDDi ch\u01A1i s\u1EBD c\u1EA3m
+    th\u1EA5y c\xF3 tr\xE1ch nhi\u1EC7m h\u01A1n v\u1EDBi h\xE0nh tr\xECnh trong
+    game.\r\nQua c\xE1c ch\u1EB7ng \u0111\u01B0\u1EDDng c\u1EE7a nh\xE2n v\u1EADt,
+    c\xE2u chuy\u1EC7n s\u1EBD m\u1EDF r\u1ED9ng ra, kh\u01A1i g\u1EE3i s\u1EF1 t\xF2
+    m\xF2 v\u1EC1 m\u1ECDi kh\xEDa c\u1EA1nh c\u1EE7a th\u1EBF gi\u1EDBi m\xE0 b\u1EA1n
+    \u0111\xE3 t\u1EA1o d\u1EF1ng.T\u1EA1o ra th\u1EBF gi\u1EDBi h\u1EA5p d\u1EABn,
+    gi\xFAp ng\u01B0\u1EDDi ch\u01A1i c\u1EA3m nh\u1EADn v\xE0 k\u1EBFt n\u1ED1i
+    v\u1EDBi gam s\xE2u s\u1EAFc h\u01A1n. \r\n\r\nII. Storytelling & Gameplay\r\nA.
+    C\xE1ch l\u1ED3ng gh\xE9p c\u1ED1t truy\u1EC7n v\xE0o Gameplay\r\nB\u01B0\u1EDBc
+    1: S\xE1ng T\u1EA1o Th\u1EBF Gi\u1EDBi \r\nKhi ki\u1EBFn t\u1EA1o m\u1ED9t th\u1EBF
+    gi\u1EDBi m\u1EDBi trong game, l\u1EADp tr\xECnh vi\xEAn h\xE3y t\u1EF1 \u0111\u1EB7t
+    ra m\u1ED9t s\u1ED1 c\xE2u h\u1ECFi quan tr\u1ECDng. C\xF3 nh\u1EEFng th\xE0nh
+    ph\u1ED1 g\xEC trong th\u1EBF gi\u1EDBi n\xE0y? Ai ho\u1EB7c y\u1EBFu t\u1ED1
+    n\xE0o \u0111\xE3 t\u1ED3n t\u1EA1i \u1EDF \u0111\xE2y? \u0110\u1ECBa danh th\xFA
+    v\u1ECB l\xE0 g\xEC? Cu\u1ED9c s\u1ED1ng \u1EDF \u0111\xE2y c\xF3 nh\u1EEFng
+    xung \u0111\u1ED9t n\xE0o di\u1EC5n ra (ph\xE1t tri\u1EC3n, xung \u0111\u1ED9t,
+    ki\u1EBFm ti\u1EC1n l\xE0m gi\xE0u\u2026)? T\xE0i nguy\xEAn qu\xFD gi\xE1 trong
+    th\u1EBF gi\u1EDBi n\xE0y l\xE0 g\xEC?Vi\u1EC7c d\xE0nh th\u1EDDi gian \u0111\u1EC3
+    x\xE2y d\u1EF1ng m\u1ED9t n\u1EC1n t\u1EA3ng v\u1EEFng ch\u1EAFc s\u1EBD gi\xFAp
+    nh\xE0 thi\u1EBFt k\u1EBF game hi\u1EC3u s\xE2u h\u01A1n v\u1EC1 th\u1EBF gi\u1EDBi
+    c\u1EE7a m\xECnh.\n\r\nB\u01B0\u1EDBc 2: X\xE1c \u0110\u1ECBnh Nh\xE2n V\u1EADt\r\nTrong
+    game, nh\xE2n v\u1EADt kh\xF4ng ch\u1EC9 l\xE0 \u0111\u1EA1i di\u1EC7n m\xE0
+    c\xF2n l\xE0 linh h\u1ED3n c\u1EE7a th\u1EBF gi\u1EDBi \u0111\xF3. \u0110\u1EC3
+    t\u1EA1o n\xEAn m\u1ED9t nh\xE2n v\u1EADt th\xFA v\u1ECB, \u0111\u1EEBng qu\xEAn
+    c\xE1c y\u1EBFu t\u1ED1 nh\u01B0: nh\xE2n v\u1EADt xu\u1EA5t hi\u1EC7n t\u1EEB
+    \u0111\xE2u, h\xECnh d\xE1ng nh\u01B0 n\xE0o, v\xE0 kh\u1EA3 n\u0103ng \u0111\u1EB7c
+    bi\u1EC7t c\u1EE7a nh\xE2n v\u1EADt l\xE0 g\xEC? \u0110i\u1EC1u quan tr\u1ECDng
+    n\u1EEFa l\xE0 nh\xE2n v\u1EADt n\xE0y ph\u1EA3i c\xF3 s\u1EF1 k\u1EBFt n\u1ED1i
+    ch\u1EB7t ch\u1EBD v\u1EDBi m\u1ECDi th\u1EE9 xung quanh, v\xE0 \u0111\u1EA3m
+    b\u1EA3o ng\u01B0\u1EDDi ch\u01A1i c\u1EA3m th\u1EA5y s\u1EF1 li\xEAn k\u1EBFt
+    n\xE0y.\r\n\r\nB\u01B0\u1EDBc 3: Vi\u1EBFt c\u1ED1t truy\u1EC7n ch\xEDnh\r\nC\u1ED1t
+    truy\u1EC7n (storyline) ch\xEDnh l\xE0 tr\u1EE5c x\u01B0\u01A1ng s\u1ED1ng xuy\xEAn
+    su\u1ED1t to\xE0n b\u1ED9 game. Qua c\xE1c ch\u1EB7ng \u0111\u01B0\u1EDDng c\u1EE7a
+    nh\xE2n v\u1EADt, c\xE2u chuy\u1EC7n s\u1EBD m\u1EDF r\u1ED9ng ra, kh\u01A1i
+    g\u1EE3i s\u1EF1 t\xF2 m\xF2 v\u1EC1 m\u1ECDi kh\xEDa c\u1EA1nh c\u1EE7a th\u1EBF
+    gi\u1EDBi m\xE0 b\u1EA1n \u0111\xE3 t\u1EA1o d\u1EF1ng. C\u1ED1t truy\u1EC7n
+    c\u1EA7n ph\u1EA3i c\xF3 s\u1EF1 li\xEAn t\u01B0\u1EDFng m\u1EADt thi\u1EBFt
+    v\u1EDBi th\u1EBF gi\u1EDBi \u0111\xF3, bao g\u1ED3m vai tr\xF2 c\u1EE7a c\xE1c
+    nh\xE2n v\u1EADt, s\u1EF1 h\xF2a h\u1EE3p hay xung \u0111\u1ED9t gi\u1EEFa c\xE1c
+    nh\xE2n t\u1ED1 v\xE0 c\xE1ch m\xE0 c\xE1c nh\xE2n v\u1EADt gi\u1EA3i quy\u1EBFt
+    nh\u1EEFng th\u1EED th\xE1ch trong game. \n\r\nB\u01B0\u1EDBc 4: Gi\u1EDBi thi\u1EC7u
+    c\xE2u chuy\u1EC7n\r\nKhi \u0111\xE3 ho\xE0n thi\u1EC7n th\u1EBF gi\u1EDBi v\xE0
+    nh\xE2n v\u1EADt c\xF9ng c\u1ED1t truy\u1EC7n, b\u01B0\u1EDBc ti\u1EBFp theo
+    l\xE0 gi\u1EDBi thi\u1EC7u cho ng\u01B0\u1EDDi ch\u01A1i. Li\u1EC7t k\xEA c\xE1c
+    \u0111i\u1EC3m ch\xEDnh trong c\u1ED1t truy\u1EC7n v\xE0 \u0111\u1EA3m b\u1EA3o
+    r\u1EB1ng ch\u1EC9 nh\u1EEFng \u0111i\u1EC1u quan tr\u1ECDng nh\u1EA5t \u0111\u01B0\u1EE3c
+    tr\xECnh b\xE0y, ph\u1EA7n c\xF2n l\u1EA1i h\xE3y \u0111\u1EC3 ng\u01B0\u1EDDi
+    ch\u01A1i t\u1EF1 kh\xE1m ph\xE1. Ng\u01B0\u1EDDi ch\u01A1i th\u01B0\u1EDDng
+    thi\u1EBFu ki\xEAn nh\u1EABn, v\xEC v\u1EADy m\u1ED9t c\xE2u chuy\u1EC7n \u0111\u01B0\u1EE3c
+    tr\xECnh b\xE0y m\u1ED9t c\xE1ch \u0111\u01A1n gi\u1EA3n v\xE0 tr\u1EF1c quan
+    s\u1EBD t\u1EA1o \u1EA5n t\u01B0\u1EE3ng m\u1EA1nh m\u1EBD h\u01A1n v\u1EDBi
+    ng\u01B0\u1EDDi ch\u01A1i.\r\n\r\nB\u01B0\u1EDBc 5: M\u1EDF kh\xF3a m\u1EA1ch
+    truy\u1EC7n\r\nKhi ng\u01B0\u1EDDi ch\u01A1i \u0111\xE3 h\xF2a m\xECnh trong
+    th\u1EBF gi\u1EDBi c\u1EE7a b\u1EA1n, nhi\u1EC7m v\u1EE5 ti\u1EBFp theo l\xE0
+    d\u1EABn d\u1EAFt h\u1ECD kh\xE1m ph\xE1 c\xE1c n\xFAt th\u1EAFt trong c\xE2u
+    chuy\u1EC7n. B\u1EA1n c\xF3 th\u1EC3 k\u1EBFt h\u1EE3p c\u01A1 ch\u1EBF c\u1EE7a
+    game v\u1EDBi c\u1ED1t truy\u1EC7n th\xF4ng qua nhi\u1EC1u ph\u01B0\u01A1ng th\u1EE9c
+    s\xE1ng t\u1EA1o.\r\nC\xE1ch c\u1EAFt c\u1EA3nh (Cutscene) l\xE0 m\u1ED9t l\u1EF1a
+    ch\u1ECDn hi\u1EC7u qu\u1EA3 \u0111\u1EC3 truy\u1EC1n \u0111\u1EA1t c\u1ED1t
+    truy\u1EC7n, trong khi thi\u1EBFt k\u1EBF m\xE0n ch\u01A1i (Level Design) gi\xFAp
+    th\u1EC3 hi\u1EC7n s\u1EF1 chuy\u1EC3n bi\u1EBFn trong th\u1EBF gi\u1EDBi v\xE0
+    c\xE1c nh\xE2n v\u1EADt. B\xEAn c\u1EA1nh \u0111\xF3, m\xE0n h\xECnh ch\u1EDD
+    (Loading Screen) c\xF3 th\u1EC3 hi\u1EC3n th\u1ECB c\xE1c ph\u1EA7n gi\u1EDBi
+    thi\u1EC7u c\u1EE7a c\xE2u chuy\u1EC7n ho\u1EB7c ngo\u1EA1i truy\u1EC7n trong
+    game.\r\n"
+  TimeLimit: 60
+  LevelConfigs:
+  - ForceThreshold: 0
+    DecayRatePerSecond: 0.03
+    ForceAddedPerClick: 0.035
+    CharsRevealedPerClick: 1
+  - ForceThreshold: 0.2
+    DecayRatePerSecond: 0.15
+    ForceAddedPerClick: 0.03
+    CharsRevealedPerClick: 2
+  - ForceThreshold: 0.4
+    DecayRatePerSecond: 0.25
+    ForceAddedPerClick: 0.05
+    CharsRevealedPerClick: 4
+  - ForceThreshold: 0.6
+    DecayRatePerSecond: 0.3
+    ForceAddedPerClick: 0.07
+    CharsRevealedPerClick: 7
+  - ForceThreshold: 0.8
+    DecayRatePerSecond: 0.85
+    ForceAddedPerClick: 0.09
+    CharsRevealedPerClick: 12

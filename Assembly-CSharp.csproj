@@ -72,8 +72,10 @@
     <Compile Include="Assets\ThirdParty\DialogueEditor\Example\ExampleInputManager.cs" />
     <Compile Include="Assets\ScriptableObject\Minigame\MemoryGameSO.cs" />
     <Compile Include="Assets\Scripts\Scene\SceneTransition.cs" />
+    <Compile Include="Assets\Scripts\Minigame\Clicker\ClickerGameController.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\Parameter.cs" />
     <Compile Include="Assets\Scripts\UI\MapPanel.cs" />
+    <Compile Include="Assets\ScriptableObject\Minigame\ClickerMinigameSO.cs" />
     <Compile Include="Assets\Scripts\Other\DepthScaler.cs" />
     <Compile Include="Assets\Scripts\Other\PressEnterText.cs" />
     <Compile Include="Assets\Scripts\Scene\SceneController.cs" />
