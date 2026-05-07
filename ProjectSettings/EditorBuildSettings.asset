@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/Login.unity
     guid: c23fdbc435d8c4afd8c975632c404e68
@@ -24,8 +21,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Map E.unity
     guid: fe4231de577634cd9ae4267dd63209c7
   - enabled: 1
-    path: Assets/Scenes/Minigame/QuizScene.unity
+    path: Assets/Scenes/Minigame/QuizMinigameScene.unity
     guid: b02006354611ab74587cda85b8dac3cb
+  - enabled: 1
+    path: Assets/Scenes/Map D.unity
+    guid: 22186af88800a43889ed60e0b8c8416e
+  - enabled: 1
+    path: Assets/Scenes/Minigame/MemoryCardMinigameScene.unity
+    guid: 62d9e4f1b9a46f74e96918bae6927213
+  - enabled: 1
+    path: Assets/Scenes/Minigame/ClickerMinigameScene.unity
+    guid: c7e3954ee0c8f924bb4dfab7cc453835
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -3,29 +3,40 @@ using UnityEngine.UI;
 
 public class MedalSlotUI : MonoBehaviour
 {
+    [Header("Data")]
+    public MedalSO medalData; 
+
+    [Header("UI References")]
     [SerializeField] private Image iconImage;
     [SerializeField] private Button slotButton;
     
-    private MedalSO myMedal;
-    private string myMapName;
     private MedalBookUI bookUI;
 
-    public void Setup(MedalSO medal, string mapName, MedalBookUI ui, bool isOwned)
+    public void RefreshSlot(MedalBookUI ui)
     {
-        myMedal = medal;
-        myMapName = mapName;
         bookUI = ui;
+        if (medalData == null) {
+            iconImage.color = Color.black; 
+            slotButton.interactable = false;
+            return;
+        }
 
-        iconImage.sprite = medal.MedalIcon;
+        iconImage.sprite = medalData.MedalIcon;
+
+        bool isOwned = false;
+        if (MedalManager.Instance != null && MedalManager.Instance.ownedMedals != null)
+        {
+            isOwned = MedalManager.Instance.ownedMedals.Contains(medalData);
+        }
 
         if (isOwned)
         {
-            iconImage.color = Color.white;
+            iconImage.color = Color.white; 
             slotButton.interactable = true;
         }
         else
         {
-            iconImage.color = Color.black;
+            iconImage.color = Color.black; 
             slotButton.interactable = false;
         }
 
@@ -35,6 +46,6 @@ public class MedalSlotUI : MonoBehaviour
 
     private void OnSlotClicked()
     {
-        bookUI.ShowMedalDetails(myMedal, myMapName);
+        bookUI.ShowMedalDetails(medalData);
     }
 }

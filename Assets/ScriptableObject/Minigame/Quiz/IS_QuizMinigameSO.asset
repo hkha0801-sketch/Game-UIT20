@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::QuizzMinigameSO
   MinigameID: IS
   MinigameName: Quiz SE
-  SceneName: QuizScene
+  SceneName: QuizMinigameScene
   TimeLimit: 60
   Questions:
   - QuestionText: 1 + 1 = ?

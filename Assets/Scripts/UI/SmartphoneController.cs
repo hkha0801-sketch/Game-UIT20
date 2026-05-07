@@ -1,54 +1,53 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
-
-[System.Serializable]
-public struct ThemeColorPair
-{
-    public Color PhoneBorderColor;
-    public Color ButtonBorderColor;
-}
 
 public class SmartphoneController : MonoBehaviour
 {
-    private enum ConfirmType { None, QuitGame, GoToMenu }[Header("UI - Cấu trúc điện thoại")]
-    public GameObject phoneContainer;
-    public GameObject homeScreen;[Header("UI - Các Ứng Dụng (Apps)")]
-    public GameObject medalAppPanel;
-    public GameObject audioAppPanel;
+    public static SmartphoneController Instance;
 
-    [Header("UI - Xác nhận (Popup)")]
+    private enum ConfirmType { None, QuitGame, GoToMenu }
+    [Header("Main UI")]
+    public GameObject phoneContainer;
+    public GameObject homeScreen;
+
+    [Header("Popup UI")]
     public GameObject confirmPopupPanel;
     public TextMeshProUGUI confirmText;
-    private ConfirmType currentConfirmType = ConfirmType.None;[Header("Theme - Đổi màu viền")]
-    public Image phoneBorderImage;
-    public List<Image> buttonBorderImages;
-    public List<ThemeColorPair> themeList;
-    private int currentThemeIndex = 0;
+    private ConfirmType currentConfirmType = ConfirmType.None;
+
+    [Header("Alls App")]
+    public List<GameObject> objectsToHideWhenOpen;
 
     public bool IsPhoneActive => phoneContainer.activeSelf;
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     void Start()
     {
-        if (themeList.Count > 0)
-        {
-            ApplyTheme(themeList[0]);
-        }
         GoHome();
+        homeScreen.SetActive(false);
     }
 
     public void TurnOffPhone()
     {
         phoneContainer.SetActive(false);
+        ToggleHiddenObjects(false);
     }
 
     public void GoHome()
     {
-        medalAppPanel.SetActive(false);
-        audioAppPanel.SetActive(false);
-        confirmPopupPanel.SetActive(false);
-        
+        ToggleHiddenObjects(false);
         homeScreen.SetActive(true);
     }
 
@@ -56,31 +55,6 @@ public class SmartphoneController : MonoBehaviour
     {
         homeScreen.SetActive(false);
         appPanel.SetActive(true);
-    }
-
-    public void CycleTheme()
-    {
-        if (themeList.Count == 0) return;
-
-        currentThemeIndex++;
-        if (currentThemeIndex >= themeList.Count)
-        {
-            currentThemeIndex = 0;
-        }
-
-        ApplyTheme(themeList[currentThemeIndex]);
-    }
-
-    private void ApplyTheme(ThemeColorPair theme)
-    {
-        if (phoneBorderImage != null)
-            phoneBorderImage.color = theme.PhoneBorderColor;
-
-        foreach (Image btnBorder in buttonBorderImages)
-        {
-            if (btnBorder != null)
-                btnBorder.color = theme.ButtonBorderColor;
-        }
     }
 
     public void ShowConfirmQuitGame()
@@ -119,7 +93,6 @@ public class SmartphoneController : MonoBehaviour
 
     public void TogglePhone()
     {
-
         if (DialogueEditor.ConversationManager.Instance.IsConversationActive) return;
 
         bool isActive = !phoneContainer.activeSelf;
@@ -128,8 +101,22 @@ public class SmartphoneController : MonoBehaviour
         if (isActive)
         {
             GoHome();
+            ToggleHiddenObjects(false); 
+        }
+        else
+        {
+            ToggleHiddenObjects(true);  
         }
     }
 
-
+    private void ToggleHiddenObjects(bool isVisible)
+    {
+        foreach (GameObject obj in objectsToHideWhenOpen)
+        {
+            if (obj != null) 
+            {
+                obj.SetActive(isVisible);
+            }
+        }
+    }
 }

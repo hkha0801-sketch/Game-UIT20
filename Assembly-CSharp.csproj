@@ -51,6 +51,7 @@
     <Compile Include="Assets\Scripts\NPC\NPCDialogue.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\UI\Icon.cs" />
+    <Compile Include="Assets\Scripts\UI\MinimapPoint.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\Conversation.cs" />
     <Compile Include="Assets\Scripts\Minigame\MemoryGame\MemoryGameController.cs" />
     <Compile Include="Assets\Scripts\Other\ElevationZone.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\Connection.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
+    <Compile Include="Assets\Scripts\UI\PhoneIconManager.cs" />
     <Compile Include="Assets\Scripts\Manager\MinigameManager.cs" />
     <Compile Include="Assets\Scripts\Other\BackGroundMove.cs" />
     <Compile Include="Assets\Scripts\Item\CollectibleItem.cs" />

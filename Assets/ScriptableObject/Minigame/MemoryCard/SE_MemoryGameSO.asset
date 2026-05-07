@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MemoryGameSO
   MinigameID: SE
   MinigameName: Memory Card Game SE
-  SceneName: MemoryCardScene
+  SceneName: MemoryCardMinigameScene
   TimeLimit: 30
   Rows: 3
   Columns: 4
