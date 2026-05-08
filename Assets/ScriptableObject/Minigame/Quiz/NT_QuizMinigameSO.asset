@@ -15,6 +15,8 @@ MonoBehaviour:
   MinigameID: NT
   MinigameName: Quiz SE
   SceneName: QuizMinigameScene
+  TutorialText: "Tr\u1EA3 l\u1EDDi c\xE1c c\xE2u h\u1ECFi si\xEAu \u0111\u01A1n gi\u1EA3n
+    \u0111\u1EC3 v\u01B0\u1EE3t qua m\xE0n ch\u01A1i (sai 1 c\xE2u = c\xFAt)"
   TimeLimit: 60
   Questions:
   - QuestionText: 1 + 1 = ?
@@ -23,4 +25,16 @@ MonoBehaviour:
     - 3
     - 4
     - "T\u1EA5t c\u1EA3 \u0111\u1EC1u \u0111\xFAng :)?"
+    CorrectAnswerIndex: 0
+  - QuestionText: 2 + 1 = ?
+    Answers:
+    - 2
+    - 3
+    - 4
+    - "T\u1EA5t c\u1EA3 \u0111\u1EC1u \u0111\xFAng :)?"
+    CorrectAnswerIndex: 1
+  - QuestionText: "B\u1EA1n th\u1EA5y game n\xE0y hay kh\xF4ng?"
+    Answers:
+    - "C\xF3 (\u0111\xE2y l\xE0 \u0111\xE1p \xE1n \u0111\xFAng)"
+    - "Kh\xF4ng (\u0111\u1EEBng c\xF3 ch\u1ECDn c\xE1i n\xE0y)"
     CorrectAnswerIndex: 0

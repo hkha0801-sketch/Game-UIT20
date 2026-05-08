@@ -81,6 +81,7 @@ public class SmartphoneController : MonoBehaviour
         }
         else if (currentConfirmType == ConfirmType.GoToMenu)
         {
+            TurnOffPhone(); 
             SceneController.Instance.ChangeScene("Login");
         }
     }
@@ -93,7 +94,10 @@ public class SmartphoneController : MonoBehaviour
 
     public void TogglePhone()
     {
-        if (DialogueEditor.ConversationManager.Instance.IsConversationActive) return;
+        if (DialogueEditor.ConversationManager.Instance != null)
+        {
+            if (DialogueEditor.ConversationManager.Instance.IsConversationActive) return;
+        }
 
         bool isActive = !phoneContainer.activeSelf;
         phoneContainer.SetActive(isActive);

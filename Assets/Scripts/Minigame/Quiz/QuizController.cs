@@ -2,67 +2,34 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class QuizController : MonoBehaviour
+public class QuizController : MinigameController
 {
-    [Header("UI - Main")]
+    [Header("Quiz UI")]
     public TextMeshProUGUI questionText;
-    public TextMeshProUGUI timerText;
-    public Button[] answerButtons; // Yêu cầu đúng 4 nút
-
-    [Header("UI - Game Over Panel")]
-    public GameObject gameOverPanel;
+    public Button[] answerButtons;
 
     private QuizMinigameSO quizData;
     private int currentQuestionIndex = 0;
-    private float currentTime;
-    private bool isPlaying = false;
 
-    void Start()
+    protected override void OnInit()
     {
-        InitializeGame();
-    }
+        if (MinigameManager.Instance == null) return;
+        baseGameData = MinigameManager.Instance.CurrentData;
+        quizData = baseGameData as QuizMinigameSO;
 
-    void Update()
-    {
-        if (!isPlaying) return;
-
-        currentTime -= Time.deltaTime;
-        timerText.text = "Time: " + Mathf.CeilToInt(currentTime).ToString();
-
-        if (currentTime <= 0)
-        {
-            LoseGame();
-        }
-    }
-
-    private void InitializeGame()
-    {
-        if (MinigameManager.Instance == null || !(MinigameManager.Instance.CurrentData is QuizMinigameSO))
-        {
-            Debug.LogError("Quiz Data is missing!");
-            return;
-        }
-
-        quizData = MinigameManager.Instance.CurrentData as QuizMinigameSO;
-        
-        // Gán sự kiện click cho 4 nút đáp án
         for (int i = 0; i < answerButtons.Length; i++)
         {
             int index = i; 
             answerButtons[i].onClick.RemoveAllListeners();
             answerButtons[i].onClick.AddListener(() => OnAnswerSelected(index));
         }
-
-        StartQuiz();
     }
 
-    private void StartQuiz()
+    protected override float GetBaseTimeLimit() => quizData.TimeLimit;
+
+    protected override void OnGameStart()
     {
         currentQuestionIndex = 0;
-        currentTime = quizData.TimeLimit;
-        gameOverPanel.SetActive(false);
-        isPlaying = true;
-
         LoadQuestion();
     }
 
@@ -87,48 +54,14 @@ public class QuizController : MonoBehaviour
 
     private void OnAnswerSelected(int selectedIndex)
     {
-        if (!isPlaying) return;
+        if (!isPlaying || isPaused) return;
 
-        int correctIndex = quizData.Questions[currentQuestionIndex].CorrectAnswerIndex;
-
-        if (selectedIndex == correctIndex)
+        if (selectedIndex == quizData.Questions[currentQuestionIndex].CorrectAnswerIndex)
         {
             currentQuestionIndex++;
-            
-            if (currentQuestionIndex >= quizData.Questions.Count)
-            {
-                WinGame();
-            }
-            else
-            {
-                LoadQuestion();
-            }
+            if (currentQuestionIndex >= quizData.Questions.Count) WinGame();
+            else LoadQuestion();
         }
-        else
-        {
-            LoseGame();
-        }
-    }
-
-    private void WinGame()
-    {
-        isPlaying = false;
-        MinigameManager.Instance.CompleteMinigame(true);
-    }
-
-    private void LoseGame()
-    {
-        isPlaying = false;
-        gameOverPanel.SetActive(true);
-    }
-
-    public void RetryGame()
-    {
-        StartQuiz();
-    }
-
-    public void QuitGame()
-    {
-        MinigameManager.Instance.CompleteMinigame(false);
+        else LoseGame();
     }
 }

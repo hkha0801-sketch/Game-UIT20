@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: SE_MemoryGameSO
   m_EditorClassIdentifier: Assembly-CSharp::MemoryGameSO
   MinigameID: SE
-  MinigameName: Memory Card Game SE
+  MinigameName: Memory Card Game
   SceneName: MemoryCardMinigameScene
+  TutorialText: "L\u1EADt c\xE1c h\u1EBFt c\xE1c th\u1EBB b\xE0i c\xF9ng h\xECnh
+    \u0111\u1EC3 chi\u1EBFn th\u1EAFng"
   TimeLimit: 30
   Rows: 3
   Columns: 4

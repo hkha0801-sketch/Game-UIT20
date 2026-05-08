@@ -70,6 +70,7 @@
     <Compile Include="Assets\ScriptableObject\NPC\NPCSO.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
+    <Compile Include="Assets\Scripts\Minigame\MinigameController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\ScriptableObject\Minigame\QuizMinigameSO.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Example\ExampleInputManager.cs" />
