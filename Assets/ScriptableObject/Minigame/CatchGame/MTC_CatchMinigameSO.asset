@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4ed2fea8920cb41855bf2c00dcb234, type: 3}
+  m_Name: MTC_CatchMinigameSO
+  m_EditorClassIdentifier: Assembly-CSharp::CatchMinigameSO
+  MinigameID: MTC
+  MinigameName: "Linh ki\u1EC7n m\xE1y t\xEDnh r\u01A1i t\u1EEB tr\u1EDDi xu\u1ED1ng???"
+  SceneName: CatchMinigameScene
+  TutorialText: "Nh\u1EB7t t\xE0y l\u1ED9c t\u1EEB tr\u1EDDi r\u01A1i xu\u1ED1ng
+    (A/D \u0111\u1EC3 di chuy\u1EC3n)"
+  targetScore: 100
+  timeLimit: 90
+  spawnInterval: 1
+  normalItems:
+  - itemSprite: {fileID: 0}
+    score: 0
+    fallSpeed: 0
+    spawnWeight: 0
+  - itemSprite: {fileID: 0}
+    score: 0
+    fallSpeed: 0
+    spawnWeight: 0
+  - itemSprite: {fileID: 0}
+    score: 0
+    fallSpeed: 0
+    spawnWeight: 0
+  - itemSprite: {fileID: 0}
+    score: 0
+    fallSpeed: 0
+    spawnWeight: 0
+  - itemSprite: {fileID: 0}
+    score: 0
+    fallSpeed: 0
+    spawnWeight: 0
+  effectItems:
+  - itemSprite: {fileID: 0}
+    effectSO: {fileID: 0}
+    fallSpeed: 0
+    spawnWeight: 0
