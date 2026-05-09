@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: NT_NPCSO
   m_EditorClassIdentifier: Assembly-CSharp::NPCSO
   NPCID: NT
-  NPCName: "NPC khoa m\u1EA1ng"
+  NPCName: NPC khoa NT

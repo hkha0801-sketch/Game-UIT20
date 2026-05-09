@@ -237,7 +237,7 @@ MonoBehaviour:
         m_MethodName: GiveMedal
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f5157808e360125478114e3d20c73656, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 19dcee9221fa6a74da5763440db6807a, type: 2}
           m_ObjectArgumentAssemblyTypeName: MedalSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -268,7 +268,7 @@ MonoBehaviour:
         m_MethodName: CallMinigame
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 69732cfd5add5fc4bb18c9533b86193c, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 64b7eb9cd90d19b4ca88c2dae82e4a93, type: 2}
           m_ObjectArgumentAssemblyTypeName: MinigameSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -402,8 +402,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 930302747
-  m_SortingLayer: 6
+  m_SortingLayerID: 1550804335
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -3606383029764839114, guid: 15db44ae495264961a2310275916e4e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -450,7 +450,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 2.690431, y: 3.2579224}
+  m_Offset: {x: 2.926631, y: 3.3666492}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -460,7 +460,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 13.870503, y: 6.4692044}
+  m_Size: {x: 13.398104, y: 6.686658}
   m_EdgeRadius: 0
 --- !u!50 &7672812955674247056
 Rigidbody2D:
@@ -501,7 +501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b211f3330ef9a44a244181e6378a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCController
-  npcData: {fileID: 11400000, guid: 6321bf144eda6984a84284a2166c66b2, type: 2}
+  npcData: {fileID: 11400000, guid: d4e0d5878126a264bb3908fc97bd6e95, type: 2}
   npcDialogue: {fileID: 2823158726521926253}
 --- !u!114 &2823158726521926253
 MonoBehaviour:
@@ -708,7 +708,7 @@ GameObject:
   - component: {fileID: 5619391713281383289}
   - component: {fileID: 3381916757891631906}
   m_Layer: 0
-  m_Name: 'NPCConversationNT '
+  m_Name: NPCConversationAC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -743,21 +743,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 22
-  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":287,\"yPos\":452},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ch\u01A1i
-    lu\xF4n!\",\"parentUIDs\":[15,16],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":505,\"yPos\":456},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0110\u1EC3
-    khi kh\xE1c\",\"parentUIDs\":[15,16],\"SpeechUID\":-1}],\"Parameters\":[{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"is_met\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"has_NT\",\"BoolValue\":false},{\"__type\":\"EditableIntParameter:#DialogueEditor\",\"ParameterName\":\"minigame_NT\",\"IntValue\":-1}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"is_met\",\"CheckType\":0,\"RequiredValue\":false}],\"NodeUID\":15},{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"is_met\",\"CheckType\":0,\"RequiredValue\":true},{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"has_NT\",\"CheckType\":0,\"RequiredValue\":false},{\"__type\":\"EditableIntCondition:#DialogueEditor\",\"ParameterName\":\"minigame_NT\",\"CheckType\":0,\"RequiredValue\":-1}],\"NodeUID\":16},{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"has_NT\",\"CheckType\":0,\"RequiredValue\":true}],\"NodeUID\":17},{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableIntCondition:#DialogueEditor\",\"ParameterName\":\"minigame_NT\",\"CheckType\":0,\"RequiredValue\":1},{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"has_NT\",\"CheckType\":0,\"RequiredValue\":false}],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":658,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":240.5,\"yPos\":247},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"G\u1EB7p
-    l\u1EA7n \u0111\u1EA7u\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"NT
-    NPC\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":521.5,\"yPos\":244},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Quay
-    l\u1EA1i l\u1EA5y m\u1ED9c\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"NT
-    NPC\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1053.5,\"yPos\":232},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0110\xE3
-    c\xF3 m\u1ED9c n\xE0y r\u1ED3i\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"NT
-    NPC\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":772.5,\"yPos\":237},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0110\u01B0a
-    m\u1ED9c\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"NT
-    NPC\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":512,\"yPos\":564},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Khi
-    n\xE0o mu\u1ED1n ch\u01A1i th\xEC quay l\u1EA1i nh\xE9!\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"NT
-    NPC\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":285.5,\"yPos\":452},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ch\u01A1i
+    lu\xF4n!\",\"parentUIDs\":[15,16],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":503.5,\"yPos\":456},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0110\u1EC3
+    khi kh\xE1c\",\"parentUIDs\":[15,16],\"SpeechUID\":-1}],\"Parameters\":[{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"is_met\",\"BoolValue\":false},{\"__type\":\"EditableBoolParameter:#DialogueEditor\",\"ParameterName\":\"has_AC\",\"BoolValue\":false},{\"__type\":\"EditableIntParameter:#DialogueEditor\",\"ParameterName\":\"minigame_AC\",\"IntValue\":-1}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"is_met\",\"CheckType\":0,\"RequiredValue\":false}],\"NodeUID\":15},{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"is_met\",\"CheckType\":0,\"RequiredValue\":true},{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"has_AC\",\"CheckType\":0,\"RequiredValue\":false},{\"__type\":\"EditableIntCondition:#DialogueEditor\",\"ParameterName\":\"minigame_AC\",\"CheckType\":0,\"RequiredValue\":-1}],\"NodeUID\":16},{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"has_AC\",\"CheckType\":0,\"RequiredValue\":true}],\"NodeUID\":17},{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableIntCondition:#DialogueEditor\",\"ParameterName\":\"minigame_AC\",\"CheckType\":0,\"RequiredValue\":1},{\"__type\":\"EditableBoolCondition:#DialogueEditor\",\"ParameterName\":\"has_AC\",\"CheckType\":0,\"RequiredValue\":false}],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":656.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":null,\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":244,\"yPos\":241},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"G\u1EB7p
+    l\u1EA7n \u0111\u1EA7u\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":520,\"yPos\":244},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Quay
+    l\u1EA1i l\u1EA5y m\u1ED9c\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":1052,\"yPos\":232},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0110\xE3
+    c\xF3 m\u1ED9c n\xE0y r\u1ED3i\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":771,\"yPos\":237},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0110\u01B0a
+    m\u1ED9c\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":510.5,\"yPos\":564},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Khi
+    n\xE0o mu\u1ED1n ch\u01A1i th\xEC quay l\u1EA1i nh\xE9!\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
-  DefaultName: 
+  DefaultName: NPC AC
   DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
@@ -776,11 +771,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2823158726521926253}
         m_TargetAssemblyTypeName: NPCDialogue, Assembly-CSharp
-        m_MethodName: OnFirstMeetingSuccess
-        m_Mode: 1
+        m_MethodName: GiveMedal
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 19dcee9221fa6a74da5763440db6807a, type: 2}
+          m_ObjectArgumentAssemblyTypeName: MedalSO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

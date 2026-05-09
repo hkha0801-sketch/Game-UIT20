@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec94563e7cdca8345ba049fa2bc043d7, type: 3}
-  m_Name: Gamapp_ClickerGameSO
+  m_Name: GamA_ClickerGameSO
   m_EditorClassIdentifier: Assembly-CSharp::ClickerMinigameSO
-  MinigameID: ISE
+  MinigameID: GamA
   MinigameName: "Vi\u1EBFt b\xE0i game design ch\u01B0a em?"
   SceneName: ClickerMinigameScene
   TutorialText: "Click chu\u1ED9t li\xEAn t\u1EE5c v\xE0o m\xE0n h\xECnh \u0111\u1EC3

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7986f0fe1ac4d414d99024b8d1475f15, type: 3}
-  m_Name: CE_QuizMinigameSO
+  m_Name: AC_QuizMinigameSO
   m_EditorClassIdentifier: Assembly-CSharp::QuizzMinigameSO
-  MinigameID: CE
-  MinigameName: Quiz SE
+  MinigameID: AC
+  MinigameName: Quiz AC
   SceneName: QuizMinigameScene
   TutorialText: "Tr\u1EA3 l\u1EDDi c\xE1c c\xE2u h\u1ECFi si\xEAu \u0111\u01A1n gi\u1EA3n
     \u0111\u1EC3 v\u01B0\u1EE3t qua m\xE0n ch\u01A1i (sai 1 c\xE2u = c\xFAt)"
