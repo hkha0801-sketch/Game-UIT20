@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: 088d2fe3a6363495188349528a955483
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5379824893481949807
+    second: 53_0
+  - first:
+      213: 4735424187637698781
+    second: 53_1
+  - first:
+      213: 1092073899104298850
+    second: 53_2
+  - first:
+      213: 7961087770171162664
+    second: 53_3
+  - first:
+      213: -7145596918727634731
+    second: 53_4
+  - first:
+      213: -8014218052700200626
+    second: 53_5
+  - first:
+      213: -2509096851103158077
+    second: 53_6
+  - first:
+      213: 3219204852148756847
+    second: 53_7
+  - first:
+      213: -8881137367367746645
+    second: 53_8
+  - first:
+      213: -3543291770903846012
+    second: 53_9
+  - first:
+      213: -3906356848965192724
+    second: 53_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wak_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 375
+        width: 145
+        height: 336
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ca8de5509384551abd1bffad364e8d
+      internalID: -1201625229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 371
+        width: 144
+        height: 336
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12caa2720fcce44d5854a0d85bc91577
+      internalID: -878720583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_2
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 369
+        width: 145
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1694a7506ee467898214f435b3eeeb
+      internalID: 205760928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_3
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 369
+        width: 145
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d79340b5beb4dd2b992ee90bf904a4
+      internalID: -330682134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_4
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 368
+        width: 205
+        height: 343
+      alignment: 9
+      pivot: {x: 0.3952598, y: 0.00000017794507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dd03206cd844a82bc362e620a6a19e
+      internalID: 1635610474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_5
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 26
+        width: 387
+        height: 553
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4714eda32a0734baea7bab1c83779f82
+      internalID: -739666024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 26
+        width: 201
+        height: 341
+      alignment: 9
+      pivot: {x: 0.35979202, y: 0.000000055933977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb48e44daf3f42cfabae26e8456daf3
+      internalID: 12318146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 279
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea81a495787f4954a3ad7d12b96504f
+      internalID: -1478368051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_8
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 26
+        width: 204
+        height: 341
+      alignment: 9
+      pivot: {x: 0.36843258, y: 0.000000055933977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95d4c54421ae4d60bc8bff07e8b2f9c
+      internalID: -527641198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_9
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 24
+        width: 188
+        height: 343
+      alignment: 9
+      pivot: {x: 0.400065, y: -0.00000007785096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fe12512612044618df00b995e0239f
+      internalID: -1914980612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_10
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 26
+        width: 174
+        height: 341
+      alignment: 9
+      pivot: {x: 0.43830013, y: 0.000000055933977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534b93c345f2a463cb4d07f7079be19d
+      internalID: -493673335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wak_11
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 25
+        width: 150
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe021bb171b446058131fbb57b52770
+      internalID: 192569912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dd47730d9daf1485da8a78008c62e01d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Wak_0: -1201625229
+      Wak_1: -878720583
+      Wak_10: -493673335
+      Wak_11: 192569912
+      Wak_2: 205760928
+      Wak_3: -330682134
+      Wak_4: 1635610474
+      Wak_5: -739666024
+      Wak_6: 12318146
+      Wak_7: -1478368051
+      Wak_8: -527641198
+      Wak_9: -1914980612
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

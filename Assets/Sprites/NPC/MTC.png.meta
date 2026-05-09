@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: aca97a58c0d6d44d0a50afd71e7c82cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -41970534257140035
+    second: 55_0
+  - first:
+      213: -6168754432897145772
+    second: 55_1
+  - first:
+      213: -6875687290825863876
+    second: 55_2
+  - first:
+      213: -7887924470974707843
+    second: 55_3
+  - first:
+      213: 8219592213283885517
+    second: 55_4
+  - first:
+      213: 2835319047234038635
+    second: 55_5
+  - first:
+      213: -3524681617038923543
+    second: 55_6
+  - first:
+      213: 4021232684713200302
+    second: 55_7
+  - first:
+      213: 8907665970529089685
+    second: 55_8
+  - first:
+      213: 899060129568026761
+    second: 55_9
+  - first:
+      213: -6467378209063082718
+    second: 55_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MTC_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 387
+        width: 130
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694bb2712741a4258b5cee81bc3b6fb4
+      internalID: -768279873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 383
+        width: 131
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509902d4cc2be4e879761653c65291d3
+      internalID: -272057654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_2
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 381
+        width: 137
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5391828, y: 0.00000020011527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a9a2ecbfe26426b8d9f4dd37664055
+      internalID: 1184911357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_3
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 381
+        width: 131
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671d32945a41941ef9c9a42c15630b1c
+      internalID: 1017699537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_4
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 383
+        width: 131
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9f21d41a2234d01bad11fdc30d5fd2
+      internalID: -1111437227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_5
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 134
+        width: 435
+        height: 456
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c06765ddd618451792ef3da7626e9d8
+      internalID: 2038150982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 31
+        width: 135
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc0773fa441d40809b5942a8ef3ef3e
+      internalID: 1069360373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 17
+        width: 184
+        height: 311
+      alignment: 9
+      pivot: {x: 0.3541316, y: -0.000000073595444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac7f9dda576e433cb970a6ed467c918
+      internalID: -1555234477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_8
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 28
+        width: 135
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5397633, y: -0.00000005646756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a88ed6bc38f24405b2d2524c062c771
+      internalID: 642640777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_9
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 28
+        width: 132
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5406675, y: -0.00000005760449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d858681949d7f48ae9123e29d783c8b8
+      internalID: -1867027546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_10
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 28
+        width: 131
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ef8e11a3039438c8a49734bd4f8893
+      internalID: 1430562310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MTC_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 31
+        width: 135
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350a9a1bb085d4f7bbdffdae5a947c96
+      internalID: 171289326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dd2fe1f85a97f4dd290df577ce1b7c1b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MTC_0: -768279873
+      MTC_1: -272057654
+      MTC_10: 1430562310
+      MTC_11: 171289326
+      MTC_2: 1184911357
+      MTC_3: 1017699537
+      MTC_4: -1111437227
+      MTC_5: 2038150982
+      MTC_6: 1069360373
+      MTC_7: -1555234477
+      MTC_8: 642640777
+      MTC_9: -1867027546
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
