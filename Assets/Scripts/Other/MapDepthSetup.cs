@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MapDepthSetup : MonoBehaviour
 {
-    [Header("Thông số Depth Map này")]
+    [Header("Depth Map config")]
     public float mapBottomY;
     public float mapTopY;
     public float scaleAtBottom = 1.2f;
