@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4ed2fea8920cb41855bf2c00dcb234, type: 3}
+  m_Name: NT_CatchMinigameSO
+  m_EditorClassIdentifier: Assembly-CSharp::CatchMinigameSO
+  MinigameID: NT
+  MinigameName: "Coi ch\u1EEBng r\u1EDBt m\u1EA1ng!!!"
+  SceneName: CatchMinigameScene
+  TutorialText: "Ch\u1EA1y qua l\u1EA1i h\u1EE9ng m\u1EA1ng \u0111i, \u0111\u1EEBng
+    \u0111\u1EC3 n\xF3 r"
+  targetScore: 800
+  timeLimit: 90
+  spawnInterval: 1
+  minItemsPerSpawn: 1
+  maxItemsPerSpawn: 3
+  normalItems:
+  - itemSprite: {fileID: 8663066804660122589, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
+    score: 10
+    fallSpeed: 5
+    spawnWeight: 100
+  - itemSprite: {fileID: -2709868870709321704, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
+    score: 5
+    fallSpeed: 4
+    spawnWeight: 90
+  - itemSprite: {fileID: 6027694507697025991, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
+    score: 15
+    fallSpeed: 5.5
+    spawnWeight: 90
+  - itemSprite: {fileID: 2155719218081870429, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
+    score: 30
+    fallSpeed: 6
+    spawnWeight: 15
+  - itemSprite: {fileID: -3989047921548970741, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
+    score: -10
+    fallSpeed: 6
+    spawnWeight: 20
+  effectItems:
+  - itemSprite: {fileID: -6265315654817224219, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
+    effectSO: {fileID: 11400000, guid: b27ac889f5f2dc847b936255b5a71cc5, type: 2}
+    fallSpeed: 5
+    spawnWeight: 5
+  - itemSprite: {fileID: -3658477454665956889, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
+    effectSO: {fileID: 11400000, guid: 2f4f0cbac87897e4e9fd1437a8b48284, type: 2}
+    fallSpeed: 5
+    spawnWeight: 10
+  - itemSprite: {fileID: -1680345234, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
+    effectSO: {fileID: 11400000, guid: 3bce9516570b12a43a526a779c542e83, type: 2}
+    fallSpeed: 5
+    spawnWeight: 10
