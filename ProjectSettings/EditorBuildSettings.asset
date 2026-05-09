@@ -32,9 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigame/ClickerMinigameScene.unity
     guid: c7e3954ee0c8f924bb4dfab7cc453835
-  - enabled: 1
-    path: Assets/Scenes/Minigame/CatchMinigameScene.unity
-    guid: 695ca8711112abc4eb337fd390eaa494
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
