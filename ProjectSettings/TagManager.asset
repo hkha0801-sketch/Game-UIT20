@@ -67,5 +67,11 @@ TagManager:
   - name: UI
     uniqueID: 3512375843
     locked: 0
+  - name: Sky
+    uniqueID: 25270889
+    locked: 0
+  - name: Unii
+    uniqueID: 1629983603
+    locked: 0
   m_RenderingLayers:
   - Default

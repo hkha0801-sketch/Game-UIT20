@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: 165a0bae1b81d46cebfe6aa519d46878
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8634062864987399133
+    second: CE 1_0
+  - first:
+      213: 5842514666818189855
+    second: CE 1_1
+  - first:
+      213: 9103976420767212410
+    second: CE 1_2
+  - first:
+      213: 1514307984288503790
+    second: CE 1_3
+  - first:
+      213: 809817315029729647
+    second: CE 1_4
+  - first:
+      213: 6267249436414134308
+    second: CE 1_5
+  - first:
+      213: 7336234606128989877
+    second: CE 1_6
+  - first:
+      213: 5002722114763896987
+    second: CE 1_7
+  - first:
+      213: -1857801774300252530
+    second: CE 1_8
+  - first:
+      213: 6370972444868955200
+    second: CE 1_9
+  - first:
+      213: -2521744833907194889
+    second: CE 1_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 10
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CE 1_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 363
+        width: 127
+        height: 322
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cd80cc195ad2880800000000000000
+      internalID: -8634062864987399133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CE 1_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 363
+        width: 131
+        height: 321
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a35be6228c41150800000000000000
+      internalID: 5842514666818189855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CE 1_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 364
+        width: 127
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73ac5bd152d75e70800000000000000
+      internalID: 9103976420767212410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CE 1_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 363
+        width: 123
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7dd0ca617e30510800000000000000
+      internalID: 1514307984288503790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CE 1_4
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 358
+        width: 155
+        height: 325
+      alignment: 9
+      pivot: {x: 0.4307369, y: -0.0041289814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61ce43be8c0d3b00800000000000000
+      internalID: 809817315029729647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CE 1_5
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 130
+        width: 483
+        height: 458
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4284b38382eb9f650800000000000000
+      internalID: 6267249436414134308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CE 1_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 21
+        width: 149
+        height: 320
+      alignment: 9
+      pivot: {x: 0.4099335, y: -0.00000004172325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b60f37518a8fc560800000000000000
+      internalID: 7336234606128989877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CE 1_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 22
+        width: 154
+        height: 321
+      alignment: 9
+      pivot: {x: 0.4564292, y: 0.000000029709481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b983e70024d3d6540800000000000000
+      internalID: 5002722114763896987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CE 1_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 24
+        width: 161
+        height: 319
+      alignment: 9
+      pivot: {x: 0.4249823, y: -0.00000008370809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e863ebb1123c736e0800000000000000
+      internalID: -1857801774300252530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CE 1_9
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 25
+        width: 133
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c473a0fad3a6850800000000000000
+      internalID: 6370972444868955200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CE 1_10
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 26
+        width: 133
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f309c03f66f00dd0800000000000000
+      internalID: -2521744833907194889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 569b3b6854baa4863a73cb5ec4c9f51b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      CE 1_0: -8634062864987399133
+      CE 1_1: 5842514666818189855
+      CE 1_10: -2521744833907194889
+      CE 1_2: 9103976420767212410
+      CE 1_3: 1514307984288503790
+      CE 1_4: 809817315029729647
+      CE 1_5: 6267249436414134308
+      CE 1_6: 7336234606128989877
+      CE 1_7: 5002722114763896987
+      CE 1_8: -1857801774300252530
+      CE 1_9: 6370972444868955200
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
