@@ -22,9 +22,9 @@ public class SceneController : MonoBehaviour
     }
 
     public void ChangeScene(string sceneName, string spawnPointID = "")
-    {
+    {   
         targetSpawnPointID = spawnPointID;
-        SceneTransition.Instance.PlayTransition(() => {SceneManager.LoadScene(sceneName);});
+        SceneTransition.Instance.PlayTransition(() => { SceneManager.LoadScene(sceneName); });
     }
 
     public void PlayGame()

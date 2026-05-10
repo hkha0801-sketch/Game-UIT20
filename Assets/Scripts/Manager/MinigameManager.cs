@@ -59,6 +59,8 @@ public class MinigameManager : MonoBehaviour
         minigameResults[CurrentData.MinigameID] = isWin ? 1 : -1;
         shouldAutoTrigger = isWin; 
 
+        if (SaveManager.Instance != null) SaveManager.Instance.SaveGame();
+
         SceneController.Instance.ChangeScene(mapSceneName);
     }
 
@@ -102,4 +104,28 @@ public class MinigameManager : MonoBehaviour
             }
         }
     }
+
+    public void GetMinigameDataForSave(out System.Collections.Generic.List<string> keys, out System.Collections.Generic.List<int> values)
+    {
+        keys = new System.Collections.Generic.List<string>();
+        values = new System.Collections.Generic.List<int>();
+        foreach (var kvp in minigameResults)
+        {
+            keys.Add(kvp.Key);
+            values.Add(kvp.Value);
+        }
+    }
+
+    public void LoadMinigameData(System.Collections.Generic.List<string> keys, System.Collections.Generic.List<int> values)
+    {
+        minigameResults.Clear();
+        for (int i = 0; i < keys.Count; i++)
+        {
+            minigameResults.Add(keys[i], values[i]);
+        }
+    }
+
+    public string GetMapSceneName() => mapSceneName;
+    public Vector3 GetPlayerReturnPosition() => playerReturnPosition;
+    public Vector2 GetPlayerReturnDirection() => playerReturnDirection;
 }

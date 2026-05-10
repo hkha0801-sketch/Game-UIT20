@@ -4596,6 +4596,7 @@ GameObject:
   - component: {fileID: 769313878}
   - component: {fileID: 769313879}
   - component: {fileID: 769313880}
+  - component: {fileID: 769313881}
   m_Layer: 0
   m_Name: GlobalManagers
   m_TagString: Untagged
@@ -4643,6 +4644,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e96e6e144d75b14b82cd6d8cda6f475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MedalManager
+  DatabaseMedals:
+  - {fileID: 11400000, guid: 19dcee9221fa6a74da5763440db6807a, type: 2}
+  - {fileID: 11400000, guid: 933315226822ccb44a95c31849b9d325, type: 2}
+  - {fileID: 11400000, guid: b0abdd66ffa674d4496ae9c3b37e8374, type: 2}
+  - {fileID: 11400000, guid: 0fc02b9399697234b8da7d4c6c7eb5a7, type: 2}
+  - {fileID: 11400000, guid: 3653f80703766ae4296c3fcf99c7e1be, type: 2}
+  - {fileID: 11400000, guid: f4b24667a45688441984a668910ecf3c, type: 2}
+  - {fileID: 11400000, guid: 61074179636f64b478489ea61af29617, type: 2}
+  - {fileID: 11400000, guid: f2ddadd3f12417b44aed35dff7d3f47f, type: 2}
+  - {fileID: 11400000, guid: 340db7215009d164fae710fd72669693, type: 2}
+  - {fileID: 11400000, guid: e14eb01d3c27b7f49bb493dd046a30e8, type: 2}
+  - {fileID: 11400000, guid: f5157808e360125478114e3d20c73656, type: 2}
+  - {fileID: 11400000, guid: bb8573399f5535349910f4c2e421233f, type: 2}
+  - {fileID: 11400000, guid: c3def453cf1e4cf43804183f6ae6fcfe, type: 2}
+  - {fileID: 11400000, guid: d1c2f4d8ca99da44eb566ab1c39d90b3, type: 2}
+  - {fileID: 11400000, guid: 295f5e0d98f836e4b8a2a3dddda094b4, type: 2}
+  - {fileID: 11400000, guid: bcc8f63a3bc68f444bc4f88f457d12ac, type: 2}
+  - {fileID: 11400000, guid: 2078541c4533df04e911d7767f2bdde3, type: 2}
   ownedMedals: []
 --- !u!114 &769313878
 MonoBehaviour:
@@ -4656,6 +4675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6edab6493705e7d45bdf8fd452923ce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCManager
+  LastInteractedNPCID: 
 --- !u!114 &769313879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4680,6 +4700,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b67c584c76a222343a3ac8c3f5668422, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPoolManager
+--- !u!114 &769313881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769313874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7318b2c9d06f9a46855a7b20b5f3a2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaveManager
 --- !u!1 &807128840
 GameObject:
   m_ObjectHideFlags: 0

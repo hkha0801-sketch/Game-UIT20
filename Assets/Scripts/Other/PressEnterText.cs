@@ -1,33 +1,35 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PressEnter : MonoBehaviour
 {
     public CanvasGroup textGroup;
-    public BackGroundMove bgMove; // kéo background vào đây
+    public BackGroundMove bgMove;
 
     void Start()
     {
-        // ẩn text lúc đầu
         if (textGroup != null)
             textGroup.alpha = 0;
     }
 
     void Update()
     {
-        // chỉ chạy khi background xong
         if (bgMove != null && bgMove.IsFinished())
         {
-            // nhấp nháy
             if (textGroup != null)
             {
                 textGroup.alpha = Mathf.Abs(Mathf.Sin(Time.time * 2));
             }
 
-            // bấm Enter
             if (Input.GetKeyDown(KeyCode.E))
             {
-                SceneController.Instance.PlayGame();
+                if (SaveManager.Instance != null)
+                {
+                    SaveManager.Instance.ContinueSavedGame();
+                }
+                else
+                {
+                    SceneController.Instance.PlayGame();
+                }
             }
         }
     }

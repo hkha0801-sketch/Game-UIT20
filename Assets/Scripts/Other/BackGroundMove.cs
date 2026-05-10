@@ -12,6 +12,10 @@ public class BackGroundMove : MonoBehaviour
 
     void Start()
     {
+        if (SaveManager.Instance != null) 
+        {
+            SaveManager.Instance.LoadData();
+        }
         StartCoroutine(StartMove());
     }
 
@@ -29,21 +33,12 @@ public class BackGroundMove : MonoBehaviour
 
             if (transform.position.y >= targetY)
             {
-                transform.position = new Vector3(
-                    transform.position.x,
-                    targetY,
-                    transform.position.z
-                );
-
+                transform.position = new Vector3(transform.position.x, targetY, transform.position.z);
                 canMove = false;
                 finished = true; 
             }
         }
     }
 
-
-    public bool IsFinished()
-    {
-        return finished;
-    }
+    public bool IsFinished() => finished;
 }

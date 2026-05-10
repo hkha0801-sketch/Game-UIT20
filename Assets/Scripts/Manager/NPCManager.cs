@@ -1,12 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DialogueEditor;
+using System.Linq;
 
 public class NPCManager : MonoBehaviour
 {
     public static NPCManager Instance;
 
     private HashSet<string> metNPCIDs = new HashSet<string>();
+    public string LastInteractedNPCID;
 
     private void Awake()
     {
@@ -16,11 +18,8 @@ public class NPCManager : MonoBehaviour
 
     public void MarkAsMet(string id)
     {
-        if (!metNPCIDs.Contains(id))
-        {
-            metNPCIDs.Add(id);
-            Debug.Log($"Đã lưu vào danh bạ: Đã gặp NPC [{id}]");
-        }
+        if (!metNPCIDs.Contains(id)) metNPCIDs.Add(id);
+        if (SaveManager.Instance != null) SaveManager.Instance.SaveGame();
     }
 
     public bool HasMet(string id)
@@ -30,7 +29,16 @@ public class NPCManager : MonoBehaviour
 
     public void SyncNPCState(string id)
     {
-        bool met = HasMet(id);
-        ConversationManager.Instance.SetBool("is_met", met);
+        ConversationManager.Instance.SetBool("is_met", HasMet(id));
+    }
+
+    public List<string> GetMetNPCs()
+    {
+        return metNPCIDs.ToList();
+    }
+
+    public void LoadMetNPCs(List<string> ids)
+    {
+        metNPCIDs = new HashSet<string>(ids);
     }
 }

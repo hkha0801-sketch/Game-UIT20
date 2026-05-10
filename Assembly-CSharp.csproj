@@ -95,9 +95,11 @@
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
     <Compile Include="Assets\ScriptableObject\Minigame\CatchGame\CatchMinigameSO.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
+    <Compile Include="Assets\Scripts\Manager\SaveManager.cs" />
     <Compile Include="Assets\Scripts\Manager\NPCManager.cs" />
     <Compile Include="Assets\ScriptableObject\Minigame\CatchGame\CatchEffectSO.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
+    <Compile Include="Assets\Scripts\Save\SaveData.cs" />
     <Compile Include="Assets\Scripts\Other\MapDepthSetup.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
     <Compile Include="Assets\Scripts\UI\MedalSlotUI.cs" />

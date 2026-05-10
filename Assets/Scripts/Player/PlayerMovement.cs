@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 direction;
     private Animator ani;
 
-    void Start()
+    void Awake()
     {
         ani = GetComponent<Animator>();
     }
@@ -18,8 +18,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
         {
-            direction = Vector2.zero; 
-            UpdateAnimation(false); 
+            UpdateAnimation(false);
             return;
         }
 
@@ -38,28 +37,24 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-          float currentScale = Mathf.Abs(transform.localScale.y);
-        
+        float currentScale = Mathf.Abs(transform.localScale.y);
         Vector2 inputDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
-
         float velocityX = inputDir.x * speedX;
         float velocityY = inputDir.y * speedY;
-
         Vector3 movement = new Vector3(velocityX, velocityY, 0);
-
         transform.Translate(movement * currentScale * speedMultiplier * Time.deltaTime);
     }
 
     void UpdateAnimation(bool isRunning)
     {
-        if (direction != Vector2.zero) {
+        if (direction != Vector2.zero) 
+        {
             ani.SetFloat("x", direction.x);
             ani.SetFloat("y", direction.y);
         }
         ani.SetBool("isRun", isRunning);
     }
 
-    // Khôi phục hướng nhìn từ MinigameManager
     public void SetFacingDirection(Vector2 dir)
     {
         direction = dir;
@@ -67,5 +62,6 @@ public class PlayerMovement : MonoBehaviour
         ani.SetFloat("x", dir.x);
         ani.SetFloat("y", dir.y);
         ani.SetBool("isRun", false);
+        ani.Update(0f); 
     }
 }

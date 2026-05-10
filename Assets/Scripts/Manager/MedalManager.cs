@@ -5,6 +5,8 @@ using DialogueEditor;
 public class MedalManager : MonoBehaviour
 {
     public static MedalManager Instance;
+
+    public List<MedalSO> DatabaseMedals = new List<MedalSO>();
     public List<MedalSO> ownedMedals = new List<MedalSO>();
 
     private void Awake()
@@ -18,22 +20,46 @@ public class MedalManager : MonoBehaviour
         if (!ownedMedals.Contains(newMedal))
         {
             ownedMedals.Add(newMedal);
-            string flagName = "has_" + newMedal.MedalID;
+            ConversationManager.Instance.SetBool("has_" + newMedal.MedalID, true);
 
-            Debug.Log("add new medal: " + flagName);
-            ConversationManager.Instance.SetBool(flagName, true);
+            if (SaveManager.Instance != null) SaveManager.Instance.SaveGame();
+        }
+    }
+
+    public void RemoveMedal(MedalSO medal)
+    {
+        if (ownedMedals.Contains(medal))
+        {
+            ownedMedals.Remove(medal);
+            ConversationManager.Instance.SetBool("has_" + medal.MedalID, false);
+            
+            if (SaveManager.Instance != null) SaveManager.Instance.SaveGame();
         }
     }
 
     public void SyncMedalsToDialogue()
     {
-        if (MedalManager.Instance == null) return;
-
-        foreach (MedalSO medal in MedalManager.Instance.ownedMedals)
+        foreach (MedalSO medal in ownedMedals)
         {
-            string flagName = "has_" + medal.MedalID;
-            //Debug.Log(flagName);
-            ConversationManager.Instance.SetBool(flagName, true);
+            if (string.IsNullOrEmpty(medal.MedalID)) continue;
+            ConversationManager.Instance.SetBool("has_" + medal.MedalID, true);
+        }
+    }
+
+    public List<string> GetOwnedMedalIDs()
+    {
+        List<string> ids = new List<string>();
+        foreach (var m in ownedMedals) ids.Add(m.MedalID);
+        return ids;
+    }
+
+    public void LoadOwnedMedals(List<string> ids)
+    {
+        ownedMedals.Clear();
+        foreach (string id in ids)
+        {
+            MedalSO foundMedal = DatabaseMedals.Find(x => x.MedalID == id);
+            if (foundMedal != null) ownedMedals.Add(foundMedal);
         }
     }
 }
