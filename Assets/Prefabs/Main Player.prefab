@@ -182,7 +182,7 @@ SpriteRenderer:
   m_SortingLayerID: 1550804335
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8102358098348255977, guid: 3486abd5213e842868628aae56368e53, type: 3}
+  m_Sprite: {fileID: -8495328360006860072, guid: 6138d298c368847e4bed4b36d5cee352, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -317,6 +317,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteSorter
   sortingPrecision: 100
+  sortingOffset: 0
+  customSortTarget: {fileID: 0}
 --- !u!114 &636408022117798750
 MonoBehaviour:
   m_ObjectHideFlags: 0

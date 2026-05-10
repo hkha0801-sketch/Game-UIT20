@@ -455,6 +455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2303404077615415974}
   - component: {fileID: 6488173156856538810}
+  - component: {fileID: 27930833017398593}
   m_Layer: 0
   m_Name: BackGround
   m_TagString: Untagged
@@ -471,7 +472,7 @@ Transform:
   m_GameObject: {fileID: 6561651124484142466}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.2, y: -1.2, z: -13.7}
+  m_LocalPosition: {x: 8.63, y: -1.2, z: -13.7}
   m_LocalScale: {x: 0.89247555, y: 0.96458375, z: 1.4102203}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -521,8 +522,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1629983603
-  m_SortingLayer: 9
+  m_SortingLayerID: 1550804335
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 6267249436414134308, guid: 165a0bae1b81d46cebfe6aa519d46878, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -535,6 +536,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &27930833017398593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561651124484142466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c09ae2c78a8f74786b036ed76d70f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteSorter
+  sortingPrecision: 100
+  sortingOffset: 1
+  customSortTarget: {fileID: 2408022807888581483}
 --- !u!1 &9165719523795474544
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,6 +763,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteSorter
   sortingPrecision: 100
+  sortingOffset: 0
+  customSortTarget: {fileID: 0}
 --- !u!95 &5471110592662420641
 Animator:
   serializedVersion: 7

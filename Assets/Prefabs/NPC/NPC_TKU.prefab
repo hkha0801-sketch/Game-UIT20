@@ -358,6 +358,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteSorter
   sortingPrecision: 100
+  sortingOffset: 0
+  customSortTarget: {fileID: 0}
 --- !u!95 &5006979841341143416
 Animator:
   serializedVersion: 7
@@ -701,6 +703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2008679476137614506}
   - component: {fileID: 2133001042257177957}
+  - component: {fileID: 2073535316578802407}
   m_Layer: 0
   m_Name: BackGround
   m_TagString: Untagged
@@ -781,3 +784,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2073535316578802407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661759340197609515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c09ae2c78a8f74786b036ed76d70f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteSorter
+  sortingPrecision: 100
+  sortingOffset: -1
+  customSortTarget: {fileID: 194414787804778687}

@@ -4,7 +4,10 @@ public class SpriteSorter : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
 
+    [Header("Setting")]
     [SerializeField] private int sortingPrecision = 100;
+    [SerializeField] private int sortingOffset = 0;
+    [SerializeField] private Transform customSortTarget;
 
     void Awake()
     {
@@ -13,8 +16,12 @@ public class SpriteSorter : MonoBehaviour
 
     void LateUpdate()
     {
+        // Lấy tọa độ Y để tính toán (Ưu tiên lấy theo target nếu có)
+        float targetY = (customSortTarget != null) ? customSortTarget.position.y : transform.position.y;
 
-        float rawOrder = transform.position.y * -sortingPrecision;
-        spriteRenderer.sortingOrder = Mathf.RoundToInt(rawOrder);
+        float rawOrder = targetY * -sortingPrecision;
+        
+        // Công thức: (Y * -100) + Offset
+        spriteRenderer.sortingOrder = Mathf.RoundToInt(rawOrder) + sortingOffset;
     }
 }

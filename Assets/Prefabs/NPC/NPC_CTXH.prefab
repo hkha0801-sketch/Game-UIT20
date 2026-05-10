@@ -33,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.9021, y: -1.8, z: -0.03}
-  m_LocalScale: {x: 0.27287215, y: 0.22732244, z: 0.14521684}
+  m_LocalScale: {x: 0.27287215, y: 0.22732246, z: 0.14521684}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6423467953740229884}
@@ -212,6 +212,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteSorter
   sortingPrecision: 100
+  sortingOffset: 0
+  customSortTarget: {fileID: 0}
 --- !u!95 &8557615045216691788
 Animator:
   serializedVersion: 7
@@ -244,6 +246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6423467953740229884}
   - component: {fileID: 428042601512676115}
+  - component: {fileID: 7913277681919193947}
   m_Layer: 0
   m_Name: BackGround
   m_TagString: Untagged
@@ -324,6 +327,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7913277681919193947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447678683669790241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c09ae2c78a8f74786b036ed76d70f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteSorter
+  sortingPrecision: 100
+  sortingOffset: -1
+  customSortTarget: {fileID: 6551559912797537401}
 --- !u!1 &1679099749419826954
 GameObject:
   m_ObjectHideFlags: 0
