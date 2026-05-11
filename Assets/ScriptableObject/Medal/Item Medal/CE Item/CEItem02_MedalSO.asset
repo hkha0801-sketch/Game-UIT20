@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CEItem02_MedalSO
   m_EditorClassIdentifier: Assembly-CSharp::MedalSO
   MedalID: CEItem02
-  MedalName: "\u1ED4 \u0111\u0129a"
+  MedalName: "Chu\u1ED9t m\xE1y t\xEDnh"
   MedalIcon: {fileID: -1394670054, guid: eee90204776f44312b5600d0b182d543, type: 3}
   Description: "\u0110\xE2y l\xE0 item c\u1EA7n \u0111\u1EC3 l\u1EA5y sticker cho
     khoa CE"

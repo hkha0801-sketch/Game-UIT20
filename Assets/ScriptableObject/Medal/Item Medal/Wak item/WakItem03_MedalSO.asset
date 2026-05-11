@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ef044585b595a4448b2ceb308c5885a, type: 3}
   m_Name: WakItem03_MedalSO
   m_EditorClassIdentifier: Assembly-CSharp::MedalSO
-  MedalID: WakIitem03
+  MedalID: WakItem03
   MedalName: Dorayaki
   MedalIcon: {fileID: 1282515475, guid: 26401c6ae69904e61b11f03088e6d987, type: 3}
   Description: "\u0110\xE2y l\xE0 item c\u1EA7n \u0111\u1EC3 l\u1EA5y sticker cho

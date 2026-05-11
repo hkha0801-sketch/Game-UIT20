@@ -296,7 +296,7 @@ MonoBehaviour:
   minMedals: 0
   maxMedals: 999
   mustHaveMedals:
-  - {fileID: 11400000, guid: 2078541c4533df04e911d7767f2bdde3, type: 2}
+  - {fileID: 11400000, guid: 0f497d5ee497a43269564697feaff59c, type: 2}
   mustNotHaveMedals: []
 --- !u!61 &170483370
 BoxCollider2D:
@@ -24934,7 +24934,7 @@ MonoBehaviour:
         m_CallState: 2
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 1282515475, guid: 26401c6ae69904e61b11f03088e6d987, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &956754143
 Transform:
@@ -25278,7 +25278,7 @@ MonoBehaviour:
   minMedals: 0
   maxMedals: 999
   mustHaveMedals:
-  - {fileID: 11400000, guid: 2078541c4533df04e911d7767f2bdde3, type: 2}
+  - {fileID: 11400000, guid: 3e3c536af9f254674a4407ddbbfc2c16, type: 2}
   mustNotHaveMedals: []
 --- !u!61 &1179685478
 BoxCollider2D:
@@ -25421,8 +25421,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 1
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":713,\"yPos\":21},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
-    \u0111\xE3 nh\u1EB7t \u0111\u01B0\u1EE3c \\\"S\xE1ch M\u01A1\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":471,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
+    \u0111\xE3 nh\u1EB7t \u0111\u01B0\u1EE3c \\\"Dorayaki\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -25859,7 +25859,7 @@ MonoBehaviour:
         m_CallState: 2
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 1760535205, guid: 39e6e13df6454405fa6a89963e9f9a45, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &1700687572
 Transform:
@@ -25937,8 +25937,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -236266293
-  m_SortingLayer: 4
+  m_SortingLayerID: 774069393
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 4d5f7ff85421b424a90cd62f4d3858ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -26422,8 +26422,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 1
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":713,\"yPos\":21},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
-    \u0111\xE3 nh\u1EB7t \u0111\u01B0\u1EE3c \\\"S\xE1ch M\u01A1\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":473,\"yPos\":21},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
+    \u0111\xE3 nh\u1EB7t \u0111\u01B0\u1EE3c \\\"S\xE1ch N\xE2u\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}

@@ -543,7 +543,7 @@ MonoBehaviour:
         m_CallState: 2
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: -672763904, guid: 26401c6ae69904e61b11f03088e6d987, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &297387356
 Transform:
@@ -971,8 +971,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 1
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":713,\"yPos\":21},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
-    \u0111\xE3 nh\u1EB7t \u0111\u01B0\u1EE3c \\\"S\xE1ch M\u01A1\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":476.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
+    \u0111\xE3 nh\u1EB7t \u0111\u01B0\u1EE3c \\\"M\u1EB7t n\u1EA1 c\xE1o\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -983,19 +983,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1324801848}
-        m_TargetAssemblyTypeName: CollectibleItem, Assembly-CSharp
-        m_MethodName: Collect
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &537733888
 Transform:
   m_ObjectHideFlags: 0
@@ -2134,7 +2122,7 @@ MonoBehaviour:
   minMedals: 0
   maxMedals: 999
   mustHaveMedals:
-  - {fileID: 11400000, guid: 2078541c4533df04e911d7767f2bdde3, type: 2}
+  - {fileID: 11400000, guid: c928d1e4f0a52459e957499540583be5, type: 2}
   mustNotHaveMedals: []
 --- !u!61 &1033345484
 BoxCollider2D:
@@ -15811,7 +15799,7 @@ MonoBehaviour:
   minMedals: 0
   maxMedals: 999
   mustHaveMedals:
-  - {fileID: 11400000, guid: 2078541c4533df04e911d7767f2bdde3, type: 2}
+  - {fileID: 11400000, guid: aa124bdd944aa4aa0b5d75e7ec6af444, type: 2}
   mustNotHaveMedals: []
 --- !u!61 &1324801847
 BoxCollider2D:
@@ -16207,7 +16195,7 @@ MonoBehaviour:
         m_CallState: 2
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: -1394670054, guid: eee90204776f44312b5600d0b182d543, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &1523350115
 Transform:
@@ -20114,8 +20102,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 1
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":713,\"yPos\":21},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
-    \u0111\xE3 nh\u1EB7t \u0111\u01B0\u1EE3c \\\"S\xE1ch M\u01A1\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":476.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"B\u1EA1n
+    \u0111\xE3 nh\u1EB7t \u0111\u01B0\u1EE3c \\\"\u1ED4 \u0111\u0129a\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
