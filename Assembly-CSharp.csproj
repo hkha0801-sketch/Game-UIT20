@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\UI\Icon.cs" />
     <Compile Include="Assets\Scripts\UI\MinimapPoint.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\Conversation.cs" />
+    <Compile Include="Assets\Scripts\Other\SystemNotification.cs" />
     <Compile Include="Assets\Scripts\Minigame\MemoryGame\MemoryGameController.cs" />
     <Compile Include="Assets\Scripts\Minigame\Catch\CatchGameController.cs" />
     <Compile Include="Assets\Scripts\Other\ElevationZone.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
     <Compile Include="Assets\Scripts\Minigame\Quiz\QuizController.cs" />
     <Compile Include="Assets\ScriptableObject\Medal\MedalSO.cs" />
+    <Compile Include="Assets\Scripts\Scene\IntroSequence.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\Connection.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />

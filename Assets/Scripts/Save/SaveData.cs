@@ -12,4 +12,5 @@ public class SaveData
     public bool IsSavedInMinigame; 
     public Vector3 ReturnPosition;
     public Vector2 ReturnDirection;
+    public int LastNotifiedMilestone; 
 }

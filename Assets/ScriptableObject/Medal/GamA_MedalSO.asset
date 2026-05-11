@@ -16,3 +16,4 @@ MonoBehaviour:
   MedalName: Gamapp Sticker
   MedalIcon: {fileID: 3451516681516775675, guid: 20f982b537000264ba1fdd2a8bb82547, type: 3}
   Description: It's Gam(app) time baby!
+  IsActualMedal: 1

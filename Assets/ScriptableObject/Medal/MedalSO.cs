@@ -7,4 +7,5 @@ public class MedalSO : ScriptableObject {
     public Sprite MedalIcon;
     [TextArea(3, 5)] 
     public string Description;
+    public bool IsActualMedal;
 }

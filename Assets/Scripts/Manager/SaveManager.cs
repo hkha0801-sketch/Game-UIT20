@@ -11,12 +11,22 @@ public class SaveManager : MonoBehaviour
     private float autoSaveTimer = 0f;
     private float autoSaveInterval = 60f;
 
+    public bool DeleteSaveOnPlay = false;
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+
+            #if UNITY_EDITOR
+            if (DeleteSaveOnPlay)
+            {
+                DeleteSave();
+            }
+            #endif
+
             SceneManager.sceneLoaded += OnSceneLoadedAfterSave;
             SceneManager.sceneLoaded += OnSceneLoadedGeneral; 
         }
@@ -78,6 +88,8 @@ public class SaveManager : MonoBehaviour
             }
         }
 
+         data.LastNotifiedMilestone = MedalManager.Instance.lastNotifiedMilestone;
+
         string json = JsonUtility.ToJson(data);
         PlayerPrefs.SetString(SAVE_KEY, json);
         PlayerPrefs.Save();
@@ -98,6 +110,9 @@ public class SaveManager : MonoBehaviour
         if (MedalManager.Instance != null) MedalManager.Instance.LoadOwnedMedals(data.OwnedMedalIDs);
         if (NPCManager.Instance != null) NPCManager.Instance.LoadMetNPCs(data.MetNPCIDs);
         if (MinigameManager.Instance != null) MinigameManager.Instance.LoadMinigameData(data.MinigameIDs, data.MinigameResults);
+
+        if (MedalManager.Instance != null)
+            MedalManager.Instance.lastNotifiedMilestone = data.LastNotifiedMilestone;
 
         targetLoadData = data;
     }
@@ -127,6 +142,12 @@ public class SaveManager : MonoBehaviour
                 PlayerMovement pMove = player.GetComponent<PlayerMovement>();
                 if (pMove != null) pMove.SetFacingDirection(targetLoadData.ReturnDirection);
             }
+            
+            if (MedalManager.Instance != null)
+            {
+                MedalManager.Instance.CheckAndNotifyMilestone();
+            }
+
             targetLoadData = null;
         }
     }

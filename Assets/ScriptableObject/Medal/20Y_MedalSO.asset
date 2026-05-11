@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef044585b595a4448b2ceb308c5885a, type: 3}
+  m_Name: 20Y_MedalSO
+  m_EditorClassIdentifier: Assembly-CSharp::MedalSO
+  MedalID: 20Y
+  MedalName: 20Years UIT Sticker
+  MedalIcon: {fileID: 3451516681516775675, guid: 20f982b537000264ba1fdd2a8bb82547, type: 3}
+  Description: "Sticker k\u1EF7 ni\u1EC7m 20 n\u0103m th\xE0nh l\u1EADp UIT"
+  IsActualMedal: 1
