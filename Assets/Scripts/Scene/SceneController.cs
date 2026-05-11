@@ -29,7 +29,7 @@ public class SceneController : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneTransition.Instance.PlayTransition(() => {SceneManager.LoadScene("Map B");});
+        SceneTransition.Instance.PlayTransition(() => {SceneManager.LoadScene("Map E");});
     }
 
     public void QuitGame()
