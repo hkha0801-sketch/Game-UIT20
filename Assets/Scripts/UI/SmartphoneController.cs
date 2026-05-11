@@ -7,6 +7,7 @@ public class SmartphoneController : MonoBehaviour
     public static SmartphoneController Instance;
 
     private enum ConfirmType { None, QuitGame, GoToMenu }
+
     [Header("Main UI")]
     public GameObject phoneContainer;
     public GameObject homeScreen;
@@ -14,10 +15,14 @@ public class SmartphoneController : MonoBehaviour
     [Header("Popup UI")]
     public GameObject confirmPopupPanel;
     public TextMeshProUGUI confirmText;
+
     private ConfirmType currentConfirmType = ConfirmType.None;
 
     [Header("Alls App")]
     public List<GameObject> objectsToHideWhenOpen;
+
+    [Header("Music UI")]
+    public TextMeshProUGUI musicNameText;
 
     public bool IsPhoneActive => phoneContainer.activeSelf;
 
@@ -37,6 +42,8 @@ public class SmartphoneController : MonoBehaviour
     {
         GoHome();
         homeScreen.SetActive(false);
+
+        UpdateMusicName();
     }
 
     public void TurnOffPhone()
@@ -81,7 +88,7 @@ public class SmartphoneController : MonoBehaviour
         }
         else if (currentConfirmType == ConfirmType.GoToMenu)
         {
-            TurnOffPhone(); 
+            TurnOffPhone();
             SceneController.Instance.ChangeScene("Login");
         }
     }
@@ -96,7 +103,8 @@ public class SmartphoneController : MonoBehaviour
     {
         if (DialogueEditor.ConversationManager.Instance != null)
         {
-            if (DialogueEditor.ConversationManager.Instance.IsConversationActive) return;
+            if (DialogueEditor.ConversationManager.Instance.IsConversationActive)
+                return;
         }
 
         bool isActive = !phoneContainer.activeSelf;
@@ -105,11 +113,11 @@ public class SmartphoneController : MonoBehaviour
         if (isActive)
         {
             GoHome();
-            ToggleHiddenObjects(false); 
+            ToggleHiddenObjects(false);
         }
         else
         {
-            ToggleHiddenObjects(true);  
+            ToggleHiddenObjects(true);
         }
     }
 
@@ -117,10 +125,44 @@ public class SmartphoneController : MonoBehaviour
     {
         foreach (GameObject obj in objectsToHideWhenOpen)
         {
-            if (obj != null) 
+            if (obj != null)
             {
                 obj.SetActive(isVisible);
             }
+        }
+    }
+
+    public void ChangeMusic()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.NextMusic();
+            UpdateMusicName();
+        }
+    }
+
+    private void UpdateMusicName()
+    {
+        if (musicNameText != null && AudioManager.Instance != null)
+        {
+            musicNameText.text =
+                "Music: " + AudioManager.Instance.GetCurrentMusicName();
+        }
+    }
+
+    public void IncreaseVolume()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioListener.volume = Mathf.Clamp(AudioListener.volume + 0.1f, 0f, 1f);
+        }
+    }
+        
+    public void DecreaseVolume()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioListener.volume = Mathf.Clamp(AudioListener.volume - 0.1f, 0f, 1f);
         }
     }
 }
