@@ -16,25 +16,49 @@ MonoBehaviour:
   MinigameName: Quiz WD
   SceneName: QuizMinigameScene
   TutorialText: "Tr\u1EA3 l\u1EDDi c\xE1c c\xE2u h\u1ECFi si\xEAu \u0111\u01A1n gi\u1EA3n
-    \u0111\u1EC3 v\u01B0\u1EE3t qua m\xE0n ch\u01A1i (sai 1 c\xE2u = c\xFAt)"
+    \u0111\u1EC3 v\u01B0\u1EE3t qua m\xE0n ch\u01A1i"
   TimeLimit: 60
+  MaxLives: 3
   Questions:
-  - QuestionText: 1 + 1 = ?
+  - QuestionText: "C\xC2U 1: C\xC2U L\u1EA0C B\u1ED8 WEBDEV UIT L\xC0 C\xC2U L\u1EA0C
+      B\u1ED8 TR\u1EF0C THU\u1ED8C?"
     Answers:
-    - 2
-    - 3
-    - 4
-    - "T\u1EA5t c\u1EA3 \u0111\u1EC1u \u0111\xFAng :)?"
+    - "A. Khoa C\xF4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m"
+    - "B. Khoa Khoa h\u1ECDc & K\u1EF9 thu\u1EADt th\xF4ng tin"
+    - "C. H\u1ED9i sinh vi\xEAn tr\u01B0\u1EDDng UIT"
+    - "D. \u0110o\xE0n khoa tr\u01B0\u1EDDng UIT"
+    CorrectAnswerIndex: 2
+  - QuestionText: "C\xC2U 2: HTML L\xC0 T\u1EEA VI\u1EBET C\u1EE6A G\xCC?"
+    Answers:
+    - A. HyperText Markup Language
+    - B. Hyperlinks and Text Markup Language
+    - C. Home Tool Markup Language
+    - D. Hyperlinking Text Management Language
     CorrectAnswerIndex: 0
-  - QuestionText: 2 + 1 = ?
+  - QuestionText: "C\xC2U 3: TRONG CU\u1ED8C THI WEBDEV ADVENTURE, TH\xCD SINH KH\xD4NG
+      \u0110\u01AF\u1EE2C S\u1EEC D\u1EE4NG N\u1EC0N T\u1EA2NG N\xC0O \u0110\u1EC2
+      L\xC0M S\u1EA2N PH\u1EA8M?"
     Answers:
-    - 2
-    - 3
-    - 4
-    - "T\u1EA5t c\u1EA3 \u0111\u1EC1u \u0111\xFAng :)?"
+    - A. ReactJS
+    - "B. Flutter ho\u1EB7c React Native"
+    - "C. WordPress v\xE0 c\xE1c c\xF4ng c\u1EE5 no-code."
+    - D. Node.js
+    CorrectAnswerIndex: 2
+  - QuestionText: "C\xC2U 4 : TRONG GIAO TH\u1EE8C HTTP, M\xC3 TR\u1EA0NG TH\xC1I
+      (STATUS CODE) N\xC0O B\xC1O HI\u1EC6U R\u1EB0NG SERVER \u0110\xC3 NH\u1EACN
+      \u0110\u01AF\u1EE2C Y\xCAU C\u1EA6U NH\u01AFNG KH\xD4NG T\xCCM TH\u1EA4Y T\xC0I
+      NGUY\xCAN (TRANG WEB) \u0110\u01AF\u1EE2C Y\xCAU C\u1EA6U?"
+    Answers:
+    - A. 200
+    - B. 403
+    - C. 404
+    - D. 500
+    CorrectAnswerIndex: 2
+  - QuestionText: "C\xC2U 5: T\xCAN G\u1ECCI \u0110\u1ED8I H\xCCNH XU\xC2N T\xCCNH
+      NGUY\u1EC6N DO C\xC2U L\u1EA0C B\u1ED8 WEBDEV CH\u1EE6 TR\xCC L\xC0 G\xCC?"
+    Answers:
+    - "A. Xu\xE2n l\u1EADp tr\xECnh"
+    - "B. L\u1EADp tr\xECnh Web"
+    - "C. Xu\xE2n Web"
+    - "D. Gu Xu\xE2n"
     CorrectAnswerIndex: 1
-  - QuestionText: "B\u1EA1n th\u1EA5y game n\xE0y hay kh\xF4ng?"
-    Answers:
-    - "C\xF3 (\u0111\xE2y l\xE0 \u0111\xE1p \xE1n \u0111\xFAng)"
-    - "Kh\xF4ng (\u0111\u1EEBng c\xF3 ch\u1ECDn c\xE1i n\xE0y)"
-    CorrectAnswerIndex: 0

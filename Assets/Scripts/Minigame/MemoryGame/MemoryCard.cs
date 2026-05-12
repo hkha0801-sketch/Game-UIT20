@@ -4,21 +4,26 @@ using DG.Tweening;
 
 public class MemoryCard : MonoBehaviour
 {
-    public Image frontImage;
-    public GameObject coverObj;
-    public Button cardButton;[HideInInspector] public int pairID; 
+    public Image frontBgImage;   
+    public Image contentImage;   
+    public Image coverImage;     
+    public Button cardButton;
+    [HideInInspector] public int pairID; 
     private MemoryGameController controller;
 
-    public void SetupCard(int id, Sprite frontSprite, MemoryGameController ctrl)
+   public void SetupCard(int id, Sprite contentSprite, Sprite frontBgSprite, Sprite backSprite, MemoryGameController ctrl)
     {
         pairID = id;
-        frontImage.sprite = frontSprite;
         controller = ctrl;
+
+        frontBgImage.sprite = frontBgSprite;
+        contentImage.sprite = contentSprite;
+        coverImage.sprite = backSprite;
         
         transform.rotation = Quaternion.Euler(Vector3.zero);
         transform.localScale = Vector3.one;
 
-        coverObj.SetActive(true);
+        coverImage.gameObject.SetActive(true);
         cardButton.interactable = true;
         
         cardButton.onClick.RemoveAllListeners();
@@ -36,7 +41,7 @@ public class MemoryCard : MonoBehaviour
 
         Sequence seq = DOTween.Sequence();
         seq.Append(transform.DORotate(new Vector3(0, 90, 0), 0.15f));
-        seq.AppendCallback(() => coverObj.SetActive(false));
+        seq.AppendCallback(() => coverImage.gameObject.SetActive(false));
         seq.Append(transform.DORotate(new Vector3(0, 0, 0), 0.15f));
     }
 
@@ -44,7 +49,7 @@ public class MemoryCard : MonoBehaviour
     {
         Sequence seq = DOTween.Sequence();
         seq.Append(transform.DORotate(new Vector3(0, 90, 0), 0.15f));
-        seq.AppendCallback(() => coverObj.SetActive(true));
+        seq.AppendCallback(() => coverImage.gameObject.SetActive(true));
         seq.Append(transform.DORotate(new Vector3(0, 0, 0), 0.15f)).OnComplete(() =>
         {
             cardButton.interactable = true;

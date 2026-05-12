@@ -1,0 +1,538 @@
+fileFormatVersion: 2
+guid: 4433c67a2f5714241a670ba6506083e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -278618419710411940
+    second: CTXH_minigame_0
+  - first:
+      213: -4431158329070710409
+    second: CTXH_minigame_1
+  - first:
+      213: -6380944869837932697
+    second: CTXH_minigame_2
+  - first:
+      213: 246199347699380375
+    second: CTXH_minigame_3
+  - first:
+      213: 8324482805944360549
+    second: CTXH_minigame_4
+  - first:
+      213: 9110938770794505181
+    second: CTXH_minigame_5
+  - first:
+      213: 1654706295261491904
+    second: CTXH_minigame_6
+  - first:
+      213: 8617951646926291676
+    second: CTXH_minigame_7
+  - first:
+      213: -7273724093905894456
+    second: CTXH_minigame_8
+  - first:
+      213: -721103086468159709
+    second: CTXH_minigame_9
+  - first:
+      213: -1581812318888684381
+    second: CTXH_minigame_10
+  - first:
+      213: -5055666696453033089
+    second: CTXH_minigame_11
+  - first:
+      213: -8150360994949120892
+    second: CTXH_minigame_12
+  - first:
+      213: -3256264245035701770
+    second: CTXH_minigame_13
+  - first:
+      213: -6420203445302922909
+    second: CTXH_minigame_14
+  - first:
+      213: -1070367322721047723
+    second: CTXH_minigame_15
+  - first:
+      213: -3474616315939138326
+    second: CTXH_minigame_16
+  - first:
+      213: -732065866612215928
+    second: CTXH_minigame_17
+  - first:
+      213: 7616903213273862215
+    second: CTXH_minigame_18
+  - first:
+      213: -5208079927153180264
+    second: CTXH_minigame_19
+  - first:
+      213: -8943483299944497116
+    second: CTXH_minigame_20
+  - first:
+      213: 4857507738114307526
+    second: CTXH_minigame_21
+  - first:
+      213: 2438051276220277891
+    second: CTXH_minigame_22
+  - first:
+      213: -2035795006315380463
+    second: CTXH_minigame_23
+  - first:
+      213: 765880464710207370
+    second: CTXH_minigame_24
+  - first:
+      213: -559150140188596893
+    second: CTXH_minigame_25
+  - first:
+      213: -905665619342160182
+    second: CTXH_minigame_26
+  - first:
+      213: -969286975530426668
+    second: CTXH_minigame_27
+  - first:
+      213: 3446934582866102727
+    second: CTXH_minigame_28
+  - first:
+      213: 5713017521143337912
+    second: CTXH_minigame_29
+  - first:
+      213: -6102940332248782750
+    second: CTXH_minigame_30
+  - first:
+      213: 1788405455228873134
+    second: CTXH_minigame_31
+  - first:
+      213: 1841474743795380044
+    second: CTXH_minigame_32
+  - first:
+      213: -1958777369860082474
+    second: CTXH_minigame_33
+  - first:
+      213: -3376867297118279057
+    second: CTXH_minigame_34
+  - first:
+      213: 3509421258271576193
+    second: CTXH_minigame_35
+  - first:
+      213: 5422263348428227599
+    second: CTXH_minigame_36
+  - first:
+      213: 528764149110307905
+    second: CTXH_minigame_37
+  - first:
+      213: -8934264171010468470
+    second: CTXH_minigame_38
+  - first:
+      213: 4192530754507723467
+    second: CTXH_minigame_39
+  - first:
+      213: -500321593355913765
+    second: CTXH_minigame_40
+  - first:
+      213: 3527900996082448618
+    second: CTXH_minigame_41
+  - first:
+      213: 1170253529002941311
+    second: CTXH_minigame_42
+  - first:
+      213: 7081407249885292659
+    second: CTXH_minigame_43
+  - first:
+      213: -2609799813659144529
+    second: CTXH_minigame_44
+  - first:
+      213: 8319886089243738850
+    second: CTXH_minigame_45
+  - first:
+      213: -4698896426822930196
+    second: CTXH_minigame_46
+  - first:
+      213: 5746265253566498356
+    second: CTXH_minigame_47
+  - first:
+      213: 8850889240160824945
+    second: CTXH_minigame_48
+  - first:
+      213: 797820455981657486
+    second: CTXH_minigame_49
+  - first:
+      213: 1348172071175519859
+    second: CTXH_minigame_50
+  - first:
+      213: 5649551802991141717
+    second: CTXH_minigame_51
+  - first:
+      213: 8166360417763899914
+    second: CTXH_minigame_52
+  - first:
+      213: 9014117652742900096
+    second: CTXH_minigame_53
+  - first:
+      213: 8364259283736064752
+    second: CTXH_minigame_54
+  - first:
+      213: 6079982266927379575
+    second: CTXH_minigame_55
+  - first:
+      213: -7284697308002548513
+    second: CTXH_minigame_56
+  - first:
+      213: -619993871082530707
+    second: CTXH_minigame_57
+  - first:
+      213: -2769112295763184799
+    second: CTXH_minigame_58
+  - first:
+      213: -5609943970832794005
+    second: CTXH_minigame_59
+  - first:
+      213: -2110165817011543436
+    second: CTXH_minigame_60
+  - first:
+      213: -6568942813124626461
+    second: CTXH_minigame_61
+  - first:
+      213: -6231531220073033159
+    second: CTXH_minigame_62
+  - first:
+      213: 7531805217153048704
+    second: CTXH_minigame_63
+  - first:
+      213: 2304431437125113255
+    second: CTXH_minigame_64
+  - first:
+      213: 4619941262440494578
+    second: CTXH_minigame_65
+  - first:
+      213: -318474852081368145
+    second: CTXH_minigame_66
+  - first:
+      213: 3034101570795893637
+    second: CTXH_minigame_67
+  - first:
+      213: -3565182906190258321
+    second: CTXH_minigame_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CTXH_minigame_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 357
+        width: 333
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bb7410606222cf0800000000000000
+      internalID: -278618419710411940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTXH_minigame_1
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 489
+        width: 277
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7711a3c1afc5182c0800000000000000
+      internalID: -4431158329070710409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTXH_minigame_2
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 448
+        width: 306
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76775f5d2745277a0800000000000000
+      internalID: -6380944869837932697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTXH_minigame_3
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 151
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790fd87900daa6300800000000000000
+      internalID: 246199347699380375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTXH_minigame_4
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 170
+        width: 293
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e192bc101868370800000000000000
+      internalID: 8324482805944360549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTXH_minigame_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3
+        width: 339
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f044fa979cfbf3b40800000000000000
+      internalID: 5422263348428227599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: df1fc4ed67dda294ebb64a93070a2aeb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CTXH_minigame_0: -278618419710411940
+      CTXH_minigame_1: -4431158329070710409
+      CTXH_minigame_10: -1581812318888684381
+      CTXH_minigame_11: -5055666696453033089
+      CTXH_minigame_12: -8150360994949120892
+      CTXH_minigame_13: -3256264245035701770
+      CTXH_minigame_14: -6420203445302922909
+      CTXH_minigame_15: -1070367322721047723
+      CTXH_minigame_16: -3474616315939138326
+      CTXH_minigame_17: -732065866612215928
+      CTXH_minigame_18: 7616903213273862215
+      CTXH_minigame_19: -5208079927153180264
+      CTXH_minigame_2: -6380944869837932697
+      CTXH_minigame_20: -8943483299944497116
+      CTXH_minigame_21: 4857507738114307526
+      CTXH_minigame_22: 2438051276220277891
+      CTXH_minigame_23: -2035795006315380463
+      CTXH_minigame_24: 765880464710207370
+      CTXH_minigame_25: -559150140188596893
+      CTXH_minigame_26: -905665619342160182
+      CTXH_minigame_27: -969286975530426668
+      CTXH_minigame_28: 3446934582866102727
+      CTXH_minigame_29: 5713017521143337912
+      CTXH_minigame_3: 246199347699380375
+      CTXH_minigame_30: -6102940332248782750
+      CTXH_minigame_31: 1788405455228873134
+      CTXH_minigame_32: 1841474743795380044
+      CTXH_minigame_33: -1958777369860082474
+      CTXH_minigame_34: -3376867297118279057
+      CTXH_minigame_35: 3509421258271576193
+      CTXH_minigame_36: 5422263348428227599
+      CTXH_minigame_37: 528764149110307905
+      CTXH_minigame_38: -8934264171010468470
+      CTXH_minigame_39: 4192530754507723467
+      CTXH_minigame_4: 8324482805944360549
+      CTXH_minigame_40: -500321593355913765
+      CTXH_minigame_41: 3527900996082448618
+      CTXH_minigame_42: 1170253529002941311
+      CTXH_minigame_43: 7081407249885292659
+      CTXH_minigame_44: -2609799813659144529
+      CTXH_minigame_45: 8319886089243738850
+      CTXH_minigame_46: -4698896426822930196
+      CTXH_minigame_47: 5746265253566498356
+      CTXH_minigame_48: 8850889240160824945
+      CTXH_minigame_49: 797820455981657486
+      CTXH_minigame_5: 9110938770794505181
+      CTXH_minigame_50: 1348172071175519859
+      CTXH_minigame_51: 5649551802991141717
+      CTXH_minigame_52: 8166360417763899914
+      CTXH_minigame_53: 9014117652742900096
+      CTXH_minigame_54: 8364259283736064752
+      CTXH_minigame_55: 6079982266927379575
+      CTXH_minigame_56: -7284697308002548513
+      CTXH_minigame_57: -619993871082530707
+      CTXH_minigame_58: -2769112295763184799
+      CTXH_minigame_59: -5609943970832794005
+      CTXH_minigame_6: 1654706295261491904
+      CTXH_minigame_60: -2110165817011543436
+      CTXH_minigame_61: -6568942813124626461
+      CTXH_minigame_62: -6231531220073033159
+      CTXH_minigame_63: 7531805217153048704
+      CTXH_minigame_64: 2304431437125113255
+      CTXH_minigame_65: 4619941262440494578
+      CTXH_minigame_66: -318474852081368145
+      CTXH_minigame_67: 3034101570795893637
+      CTXH_minigame_68: -3565182906190258321
+      CTXH_minigame_7: 8617951646926291676
+      CTXH_minigame_8: -7273724093905894456
+      CTXH_minigame_9: -721103086468159709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,7 +12,8 @@ public struct QuizQuestion
 [CreateAssetMenu(fileName = "_QuizzMinigameSO", menuName = "UITGAME/Minigame/Quiz", order = 1)]
 public class QuizMinigameSO : MinigameSO
 {
-    [Header("Quiz Infor")]
+    [Header("Quiz Info")]
     public float TimeLimit = 60f;
+    public int MaxLives = 3; 
     public List<QuizQuestion> Questions;
 }

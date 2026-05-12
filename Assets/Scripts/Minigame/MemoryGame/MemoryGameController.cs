@@ -69,11 +69,11 @@ public class MemoryGameController : MinigameController
             CardPair pair = gameData.CardPairs[i];
 
             MemoryCard cardA = Instantiate(cardPrefab, gridParent);
-            cardA.SetupCard(i, pair.imageA, this);
+            cardA.SetupCard(i, pair.imageA, gameData.CardFrontBgImage, gameData.CardBackImage, this);
             cards.Add(cardA);
 
             MemoryCard cardB = Instantiate(cardPrefab, gridParent);
-            cardB.SetupCard(i, pair.imageB, this);
+            cardB.SetupCard(i, pair.imageB, gameData.CardFrontBgImage, gameData.CardBackImage, this);
             cards.Add(cardB);
         }
 

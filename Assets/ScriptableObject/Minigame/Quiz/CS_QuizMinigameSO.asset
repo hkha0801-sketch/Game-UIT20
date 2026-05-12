@@ -16,25 +16,51 @@ MonoBehaviour:
   MinigameName: Quiz CS
   SceneName: QuizMinigameScene
   TutorialText: "Tr\u1EA3 l\u1EDDi c\xE1c c\xE2u h\u1ECFi si\xEAu \u0111\u01A1n gi\u1EA3n
-    \u0111\u1EC3 v\u01B0\u1EE3t qua m\xE0n ch\u01A1i (sai 1 c\xE2u = c\xFAt)"
+    \u0111\u1EC3 v\u01B0\u1EE3t qua m\xE0n ch\u01A1i"
   TimeLimit: 60
+  MaxLives: 3
   Questions:
-  - QuestionText: 1 + 1 = ?
+  - QuestionText: "C\xC2U 1: T\xCAN TI\u1EBENG ANH \u0110\u1EA6Y \u0110\u1EE6 C\u1EE6A
+      KHOA CS L\xC0 G\xCC?\r\n"
     Answers:
-    - 2
-    - 3
-    - 4
-    - "T\u1EA5t c\u1EA3 \u0111\u1EC1u \u0111\xFAng :)?"
-    CorrectAnswerIndex: 0
-  - QuestionText: 2 + 1 = ?
+    - A. Computer System
+    - B. C-Sharp
+    - C. Customer service
+    - D. Computer Science
+    CorrectAnswerIndex: 3
+  - QuestionText: "C\xC2U 2: TRONG L\u0128NH V\u1EF0C AI, THU\u1EACT NG\u1EEE SOTA
+      TH\u01AF\u1EDCNG C\xD3 \xDD NGH\u0128A G\xCC?"
     Answers:
-    - 2
-    - 3
-    - 4
-    - "T\u1EA5t c\u1EA3 \u0111\u1EC1u \u0111\xFAng :)?"
+    - A. Self Organizing Tree Algorithm
+    - B. State-of-the-Art
+    - C. Sum of the Angles
+    - D. Summits on the Air
     CorrectAnswerIndex: 1
-  - QuestionText: "B\u1EA1n th\u1EA5y game n\xE0y hay kh\xF4ng?"
+  - QuestionText: "C\xC2U 3: TR\u01AF\u1EDENG KHOA HI\u1EC6N T\u1EA0I C\u1EE6A KHOA
+      CS L\xC0 AI?"
     Answers:
-    - "C\xF3 (\u0111\xE2y l\xE0 \u0111\xE1p \xE1n \u0111\xFAng)"
-    - "Kh\xF4ng (\u0111\u1EEBng c\xF3 ch\u1ECDn c\xE1i n\xE0y)"
-    CorrectAnswerIndex: 0
+    - "A. Th\u1EA7y Mai Ti\u1EBFn D\u0169ng"
+    - "B. C\xF4 Hu\u1EF3nh Th\u1ECB Thanh Th\u01B0\u01A1ng"
+    - "C. Th\u1EA7y Ng\xF4 \u0110\u1EE9c Th\xE0nh"
+    - "D. C\xF4 D\u01B0\u01A1ng Vi\u1EC7t H\u1EB1ng"
+    CorrectAnswerIndex: 2
+  - QuestionText: "C\xC2U 4: TRONG M\xD4N H\u1ECCC DSA, T\xCAN C\u1EE6A THU\u1EACT
+      TO\xC1N TO\xC1N H\u1ECCC N\u1ED4I TI\u1EBENG NH\u1EA4T \u0110\u1EC2 GI\u1EA2I
+      QUY\u1EBET B\xC0I TO\xC1N T\xCCM \u0110\u01AF\u1EDCNG \u0110I NG\u1EAEN NH\u1EA4T? "
+    Answers:
+    - A. Binary Search
+    - B. Dijkstra
+    - C. Dinic
+    - D. LCS
+    CorrectAnswerIndex: 1
+  - QuestionText: "C\xC2U 5: SINH VI\xCAN UIT S\u1EEC D\u1EE4NG LO\u1EA0I T\xC0I
+      KHO\u1EA2N N\xC0O \u0110\u1EC2 \u0110\u0102NG NH\u1EACP V\xC0O H\u1EC6 TH\u1ED0NG
+      WECODE?"
+    Answers:
+    - "A. T\xE0i kho\u1EA3n Google c\xE1 nh\xE2n"
+    - "B. T\xE0i kho\u1EA3n Github"
+    - "C. T\xE0i kho\u1EA3n ch\u1EE9ng th\u1EF1c trung t\xE2m (MSSV v\xE0 m\u1EADt
+      kh\u1EA9u t\u01B0\u01A1ng \u1EE9ng)"
+    - "D. \u0110\u0103ng k\xFD t\xE0i kho\u1EA3n m\u1EDBi tr\u1EF1c ti\u1EBFp tr\xEAn
+      website WeCode"
+    CorrectAnswerIndex: 2

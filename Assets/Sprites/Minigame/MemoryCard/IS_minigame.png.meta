@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: ce70b4b06e41b454ba61db2a8e03256e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2523616968436833858
+    second: IS_minigame_0
+  - first:
+      213: -545272312305696220
+    second: IS_minigame_1
+  - first:
+      213: 1895250468911634123
+    second: IS_minigame_2
+  - first:
+      213: 4740351384360896410
+    second: IS_minigame_3
+  - first:
+      213: 7966000811666776159
+    second: IS_minigame_4
+  - first:
+      213: -2190359716255402058
+    second: IS_minigame_5
+  - first:
+      213: -5828880637590888221
+    second: IS_minigame_6
+  - first:
+      213: -6649432023873758235
+    second: IS_minigame_7
+  - first:
+      213: 7454055287282286515
+    second: IS_minigame_8
+  - first:
+      213: -8914571724721462487
+    second: IS_minigame_9
+  - first:
+      213: 977129605523469624
+    second: IS_minigame_10
+  - first:
+      213: -6545679645744668295
+    second: IS_minigame_11
+  - first:
+      213: -1973591095149878004
+    second: IS_minigame_12
+  - first:
+      213: 2175124097983177812
+    second: IS_minigame_13
+  - first:
+      213: -6221700783833759906
+    second: IS_minigame_14
+  - first:
+      213: -731051421876239920
+    second: IS_minigame_15
+  - first:
+      213: 5343236622179872036
+    second: IS_minigame_16
+  - first:
+      213: -576593914160044557
+    second: IS_minigame_17
+  - first:
+      213: 6183951563747108155
+    second: IS_minigame_18
+  - first:
+      213: 3638979437542160171
+    second: IS_minigame_19
+  - first:
+      213: 6636753368397864084
+    second: IS_minigame_20
+  - first:
+      213: 4253742702377166678
+    second: IS_minigame_21
+  - first:
+      213: -6964500659453131352
+    second: IS_minigame_22
+  - first:
+      213: 7234998114868960452
+    second: IS_minigame_23
+  - first:
+      213: -1259698663144749524
+    second: IS_minigame_24
+  - first:
+      213: -2400276314801184472
+    second: IS_minigame_25
+  - first:
+      213: 6934771145618412990
+    second: IS_minigame_26
+  - first:
+      213: 7608678032935097845
+    second: IS_minigame_27
+  - first:
+      213: 3942241425315176463
+    second: IS_minigame_28
+  - first:
+      213: -5547937364981892505
+    second: IS_minigame_29
+  - first:
+      213: 7218355946836773712
+    second: IS_minigame_30
+  - first:
+      213: -2328220313303887980
+    second: IS_minigame_31
+  - first:
+      213: -4855075229409261217
+    second: IS_minigame_32
+  - first:
+      213: -961078381784040533
+    second: IS_minigame_33
+  - first:
+      213: -4458711836732425986
+    second: IS_minigame_34
+  - first:
+      213: 8391943763023019217
+    second: IS_minigame_35
+  - first:
+      213: -5075752419882271565
+    second: IS_minigame_36
+  - first:
+      213: -1456601479513649273
+    second: IS_minigame_37
+  - first:
+      213: 6398225012327577307
+    second: IS_minigame_38
+  - first:
+      213: 5958144606466795965
+    second: IS_minigame_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IS_minigame_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 336
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e53d81340b50320800000000000000
+      internalID: 2523616968436833858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IS_minigame_13
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 506
+        width: 281
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454eda2c7d79f2e10800000000000000
+      internalID: 2175124097983177812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IS_minigame_14
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 508
+        width: 283
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fb1d0e91418a9a0800000000000000
+      internalID: -6221700783833759906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IS_minigame_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 337
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1c586ea98cad5f0800000000000000
+      internalID: -731051421876239920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IS_minigame_28
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 189
+        width: 283
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00adbe70b7a5b630800000000000000
+      internalID: 3942241425315176463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IS_minigame_29
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 196
+        width: 286
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a332c5c54c103b0800000000000000
+      internalID: -5547937364981892505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f82b7cfc2828ea44bb2c5d2a34b32b21
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IS_minigame_0: 2523616968436833858
+      IS_minigame_1: -545272312305696220
+      IS_minigame_10: 977129605523469624
+      IS_minigame_11: -6545679645744668295
+      IS_minigame_12: -1973591095149878004
+      IS_minigame_13: 2175124097983177812
+      IS_minigame_14: -6221700783833759906
+      IS_minigame_15: -731051421876239920
+      IS_minigame_16: 5343236622179872036
+      IS_minigame_17: -576593914160044557
+      IS_minigame_18: 6183951563747108155
+      IS_minigame_19: 3638979437542160171
+      IS_minigame_2: 1895250468911634123
+      IS_minigame_20: 6636753368397864084
+      IS_minigame_21: 4253742702377166678
+      IS_minigame_22: -6964500659453131352
+      IS_minigame_23: 7234998114868960452
+      IS_minigame_24: -1259698663144749524
+      IS_minigame_25: -2400276314801184472
+      IS_minigame_26: 6934771145618412990
+      IS_minigame_27: 7608678032935097845
+      IS_minigame_28: 3942241425315176463
+      IS_minigame_29: -5547937364981892505
+      IS_minigame_3: 4740351384360896410
+      IS_minigame_30: 7218355946836773712
+      IS_minigame_31: -2328220313303887980
+      IS_minigame_32: -4855075229409261217
+      IS_minigame_33: -961078381784040533
+      IS_minigame_34: -4458711836732425986
+      IS_minigame_35: 8391943763023019217
+      IS_minigame_36: -5075752419882271565
+      IS_minigame_37: -1456601479513649273
+      IS_minigame_38: 6398225012327577307
+      IS_minigame_39: 5958144606466795965
+      IS_minigame_4: 7966000811666776159
+      IS_minigame_5: -2190359716255402058
+      IS_minigame_6: -5828880637590888221
+      IS_minigame_7: -6649432023873758235
+      IS_minigame_8: 7454055287282286515
+      IS_minigame_9: -8914571724721462487
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

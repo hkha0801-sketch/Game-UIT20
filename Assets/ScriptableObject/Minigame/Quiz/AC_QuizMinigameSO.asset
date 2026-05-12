@@ -16,25 +16,52 @@ MonoBehaviour:
   MinigameName: Quiz AC
   SceneName: QuizMinigameScene
   TutorialText: "Tr\u1EA3 l\u1EDDi c\xE1c c\xE2u h\u1ECFi si\xEAu \u0111\u01A1n gi\u1EA3n
-    \u0111\u1EC3 v\u01B0\u1EE3t qua m\xE0n ch\u01A1i (sai 1 c\xE2u = c\xFAt)"
+    \u0111\u1EC3 v\u01B0\u1EE3t qua m\xE0n ch\u01A1i"
   TimeLimit: 60
+  MaxLives: 3
   Questions:
-  - QuestionText: 1 + 1 = ?
+  - QuestionText: "C\xC2U 1: PH\xD2NG TH\u01AF\u1EDCNG TR\u1EF0C C\u1EE6A C\xC2U
+      L\u1EA0C B\u1ED8 AI L\xC0 \u1EDE \u0110\xC2U?"
     Answers:
-    - 2
-    - 3
-    - 4
-    - "T\u1EA5t c\u1EA3 \u0111\u1EC1u \u0111\xFAng :)?"
+    - A. B6.02
+    - B. C302
+    - C. A302
+    - D. B8.02
+    CorrectAnswerIndex: 3
+  - QuestionText: "C\xC2U 2: M\u1ED8T S\u1ED0 C\xD4NG TR\xCCNH TI\xCAU BI\u1EC2U
+      C\u1EE6A C\xC2U L\u1EA0C B\u1ED8 AI L\xC0 G\xCC?"
+    Answers:
+    - A. Two-Stage Refinement Framework for Robust Vehicle Detection in Traffic Surveillance
+    - B. Multi-Modal Fusion Framework for Robust Vehicle Detection in Adverse Weather
+      Conditions.
+    - C. An Adaptive Luminance Restoration and Detection Network for Low-Light Traffic
+      Surveillance.
+    - D. Vehicle Detection in Dense Fog and Heavy Rain based on Dehazing Generative
+      Adversarial Networks.
     CorrectAnswerIndex: 0
-  - QuestionText: 2 + 1 = ?
+  - QuestionText: "C\xC2U 3: TH\u1EA6Y L\xCA \u0110\xCCNH DUY GI\u1EEE VAI TR\xD2
+      G\xCC TRONG C\xC2U L\u1EA0C B\u1ED8 AI?"
     Answers:
-    - 2
-    - 3
-    - 4
-    - "T\u1EA5t c\u1EA3 \u0111\u1EC1u \u0111\xFAng :)?"
+    - "A. Th\xE0nh vi\xEAn ban ch\u1EE7 nhi\u1EC7m"
+    - "B. C\u1ED1 v\u1EA5n"
+    - "C. Ch\u1EE7 nhi\u1EC7m hi\u1EC7n t\u1EA1i"
+    - "D. Ph\xF3 ch\u1EE7 nhi\u1EC7m hi\u1EC7n t\u1EA1i"
     CorrectAnswerIndex: 1
-  - QuestionText: "B\u1EA1n th\u1EA5y game n\xE0y hay kh\xF4ng?"
+  - QuestionText: "C\xC2U 4 : H\u1ECCC M\xC1Y (MACHINE LEARNING) L\xC0 G\xCC?"
     Answers:
-    - "C\xF3 (\u0111\xE2y l\xE0 \u0111\xE1p \xE1n \u0111\xFAng)"
-    - "Kh\xF4ng (\u0111\u1EEBng c\xF3 ch\u1ECDn c\xE1i n\xE0y)"
+    - "A. Kh\u1EA3 n\u0103ng m\xE1y t\xEDnh t\u1EF1 h\u1ECDc t\u1EEB d\u1EEF li\u1EC7u
+      m\xE0 kh\xF4ng c\u1EA7n l\u1EADp tr\xECnh c\u1EE5 th\u1EC3 cho t\u1EEBng b\u01B0\u1EDBc"
+    - "B. M\u1ED9t lo\u1EA1i ph\u1EA7n c\u1EE9ng m\xE1y t\xEDnh"
+    - "C. M\u1ED9t ph\u1EA7n m\u1EC1m di\u1EC7t virus"
+    - "D. Vi\u1EC7c d\u1EA1y robot c\xE1ch di chuy\u1EC3n c\u01A1 h\u1ECDc"
     CorrectAnswerIndex: 0
+  - QuestionText: "C\xC2U 5: TRONG H\u1ED8I THI TH\u1EEC TH\xC1CH TR\xCD TU\u1EC6
+      NH\xC2N T\u1EA0O (AI CHALLENGE) TP.HCM, UIT \u0110\xC3 \u0110\u1EA0T K\u1EF6
+      L\u1EE4C BAO NHI\xCAU L\u1EA6N V\xD4 \u0110\u1ECACH (T\xCDNH \u0110\u1EBEN
+      N\u0102M 2025)?"
+    Answers:
+    - A. 1
+    - B. 2
+    - C. 3
+    - D. 4
+    CorrectAnswerIndex: 3

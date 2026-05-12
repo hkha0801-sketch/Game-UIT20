@@ -15,5 +15,7 @@ public class MemoryGameSO : MinigameSO
     public float TimeLimit = 60f;
     public int Rows = 3;
     public int Columns = 4;
+    public Sprite CardBackImage;       
+    public Sprite CardFrontBgImage;
     public List<CardPair> CardPairs;
 }

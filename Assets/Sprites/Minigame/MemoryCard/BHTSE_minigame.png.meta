@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 02e032575f2c3ed4caf9995071a4d8f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1279541780946238550
+    second: BHTSE_minigame_0
+  - first:
+      213: -9047596750403445450
+    second: BHTSE_minigame_1
+  - first:
+      213: -8009110822278948316
+    second: BHTSE_minigame_2
+  - first:
+      213: 5662225245270666915
+    second: BHTSE_minigame_3
+  - first:
+      213: -3051349524012926893
+    second: BHTSE_minigame_4
+  - first:
+      213: 169474926083293008
+    second: BHTSE_minigame_5
+  - first:
+      213: 2812073134302404454
+    second: BHTSE_minigame_6
+  - first:
+      213: -2845292068726538578
+    second: BHTSE_minigame_7
+  - first:
+      213: -6776419901939083993
+    second: BHTSE_minigame_8
+  - first:
+      213: 8034899714595698275
+    second: BHTSE_minigame_9
+  - first:
+      213: 8838072818758147523
+    second: BHTSE_minigame_10
+  - first:
+      213: -4736509898606928756
+    second: BHTSE_minigame_11
+  - first:
+      213: 788515627833678455
+    second: BHTSE_minigame_12
+  - first:
+      213: -8819797239097404101
+    second: BHTSE_minigame_13
+  - first:
+      213: -7473286860258407093
+    second: BHTSE_minigame_14
+  - first:
+      213: -6960563484806790359
+    second: BHTSE_minigame_15
+  - first:
+      213: -8686898019635451222
+    second: BHTSE_minigame_16
+  - first:
+      213: -1292526847556334616
+    second: BHTSE_minigame_17
+  - first:
+      213: 2677047230922181826
+    second: BHTSE_minigame_18
+  - first:
+      213: -2657073386273038643
+    second: BHTSE_minigame_19
+  - first:
+      213: -6853371785083685111
+    second: BHTSE_minigame_20
+  - first:
+      213: -5659700408090126857
+    second: BHTSE_minigame_21
+  - first:
+      213: 499937661463462276
+    second: BHTSE_minigame_22
+  - first:
+      213: 9108267105070067236
+    second: BHTSE_minigame_23
+  - first:
+      213: 4758432717762267996
+    second: BHTSE_minigame_24
+  - first:
+      213: -8247526271576404303
+    second: BHTSE_minigame_25
+  - first:
+      213: -7073752436427078200
+    second: BHTSE_minigame_26
+  - first:
+      213: 8348454916955349622
+    second: BHTSE_minigame_27
+  - first:
+      213: 7080345508638782572
+    second: BHTSE_minigame_28
+  - first:
+      213: 1780414070753984056
+    second: BHTSE_minigame_29
+  - first:
+      213: 1053827495100877334
+    second: BHTSE_minigame_30
+  - first:
+      213: -8922942007377693351
+    second: BHTSE_minigame_31
+  - first:
+      213: 4044109326228623521
+    second: BHTSE_minigame_32
+  - first:
+      213: 60841506379647902
+    second: BHTSE_minigame_33
+  - first:
+      213: -1252912448154456075
+    second: BHTSE_minigame_34
+  - first:
+      213: 1501842267210135203
+    second: BHTSE_minigame_35
+  - first:
+      213: -261203558020999692
+    second: BHTSE_minigame_36
+  - first:
+      213: 8708535419688105991
+    second: BHTSE_minigame_37
+  - first:
+      213: 4801980372990785451
+    second: BHTSE_minigame_38
+  - first:
+      213: 4504712591853103782
+    second: BHTSE_minigame_39
+  - first:
+      213: -7491908958837929055
+    second: BHTSE_minigame_40
+  - first:
+      213: -8449694130820037042
+    second: BHTSE_minigame_41
+  - first:
+      213: 1837949863537428324
+    second: BHTSE_minigame_42
+  - first:
+      213: -401611150708076541
+    second: BHTSE_minigame_43
+  - first:
+      213: 2228576712512652386
+    second: BHTSE_minigame_44
+  - first:
+      213: -4754029146104533834
+    second: BHTSE_minigame_45
+  - first:
+      213: 3109339821405404564
+    second: BHTSE_minigame_46
+  - first:
+      213: 3921017247681219407
+    second: BHTSE_minigame_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BHTSE_minigame_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 379
+        width: 326
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c32907878d1c110800000000000000
+      internalID: 1279541780946238550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BHTSE_minigame_1
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 536
+        width: 294
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d593511ba707280800000000000000
+      internalID: -9047596750403445450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BHTSE_minigame_15
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 573
+        width: 274
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9234983a36c176f90800000000000000
+      internalID: -6960563484806790359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BHTSE_minigame_22
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 3
+        width: 337
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4818e5187a220f600800000000000000
+      internalID: 499937661463462276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BHTSE_minigame_25
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 252
+        width: 267
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be8cf2ad86ea8d80800000000000000
+      internalID: -8247526271576404303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BHTSE_minigame_26
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 243
+        width: 230
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5c5bd23abf4dd90800000000000000
+      internalID: -7073752436427078200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: edfb605feef5183478ba2a3dbde83a80
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BHTSE_minigame_0: 1279541780946238550
+      BHTSE_minigame_1: -9047596750403445450
+      BHTSE_minigame_10: 8838072818758147523
+      BHTSE_minigame_11: -4736509898606928756
+      BHTSE_minigame_12: 788515627833678455
+      BHTSE_minigame_13: -8819797239097404101
+      BHTSE_minigame_14: -7473286860258407093
+      BHTSE_minigame_15: -6960563484806790359
+      BHTSE_minigame_16: -8686898019635451222
+      BHTSE_minigame_17: -1292526847556334616
+      BHTSE_minigame_18: 2677047230922181826
+      BHTSE_minigame_19: -2657073386273038643
+      BHTSE_minigame_2: -8009110822278948316
+      BHTSE_minigame_20: -6853371785083685111
+      BHTSE_minigame_21: -5659700408090126857
+      BHTSE_minigame_22: 499937661463462276
+      BHTSE_minigame_23: 9108267105070067236
+      BHTSE_minigame_24: 4758432717762267996
+      BHTSE_minigame_25: -8247526271576404303
+      BHTSE_minigame_26: -7073752436427078200
+      BHTSE_minigame_27: 8348454916955349622
+      BHTSE_minigame_28: 7080345508638782572
+      BHTSE_minigame_29: 1780414070753984056
+      BHTSE_minigame_3: 5662225245270666915
+      BHTSE_minigame_30: 1053827495100877334
+      BHTSE_minigame_31: -8922942007377693351
+      BHTSE_minigame_32: 4044109326228623521
+      BHTSE_minigame_33: 60841506379647902
+      BHTSE_minigame_34: -1252912448154456075
+      BHTSE_minigame_35: 1501842267210135203
+      BHTSE_minigame_36: -261203558020999692
+      BHTSE_minigame_37: 8708535419688105991
+      BHTSE_minigame_38: 4801980372990785451
+      BHTSE_minigame_39: 4504712591853103782
+      BHTSE_minigame_4: -3051349524012926893
+      BHTSE_minigame_40: -7491908958837929055
+      BHTSE_minigame_41: -8449694130820037042
+      BHTSE_minigame_42: 1837949863537428324
+      BHTSE_minigame_43: -401611150708076541
+      BHTSE_minigame_44: 2228576712512652386
+      BHTSE_minigame_45: -4754029146104533834
+      BHTSE_minigame_46: 3109339821405404564
+      BHTSE_minigame_47: 3921017247681219407
+      BHTSE_minigame_5: 169474926083293008
+      BHTSE_minigame_6: 2812073134302404454
+      BHTSE_minigame_7: -2845292068726538578
+      BHTSE_minigame_8: -6776419901939083993
+      BHTSE_minigame_9: 8034899714595698275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

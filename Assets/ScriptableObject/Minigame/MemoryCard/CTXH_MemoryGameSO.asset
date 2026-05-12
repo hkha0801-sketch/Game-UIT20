@@ -18,18 +18,16 @@ MonoBehaviour:
   TutorialText: "L\u1EADt c\xE1c h\u1EBFt c\xE1c th\u1EBB b\xE0i c\xF9ng h\xECnh
     \u0111\u1EC3 chi\u1EBFn th\u1EAFng"
   TimeLimit: 30
-  Rows: 3
+  Rows: 2
   Columns: 4
+  CardBackImage: {fileID: 5422263348428227599, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
+  CardFrontBgImage: {fileID: -278618419710411940, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
   CardPairs:
-  - imageA: {fileID: 21300000, guid: 471b9a6409cd94983bec6362a0d1d3e2, type: 3}
-    imageB: {fileID: 21300000, guid: 471b9a6409cd94983bec6362a0d1d3e2, type: 3}
-  - imageA: {fileID: 21300000, guid: 3b45dcb32661049528ff95d9d0343fc1, type: 3}
-    imageB: {fileID: 21300000, guid: 3b45dcb32661049528ff95d9d0343fc1, type: 3}
-  - imageA: {fileID: 21300000, guid: 5ae1368ecb3674472b9ddf6aed0de4b8, type: 3}
-    imageB: {fileID: 21300000, guid: 5ae1368ecb3674472b9ddf6aed0de4b8, type: 3}
-  - imageA: {fileID: 21300000, guid: 28ce21f01388a43d0abaa047253473db, type: 3}
-    imageB: {fileID: 21300000, guid: 28ce21f01388a43d0abaa047253473db, type: 3}
-  - imageA: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
-    imageB: {fileID: 21300000, guid: 2c2a5be59b4a36648a911535c6e46ab8, type: 3}
-  - imageA: {fileID: 21300000, guid: f71c0dc03d067a342aa16a51674f6507, type: 3}
-    imageB: {fileID: 21300000, guid: f71c0dc03d067a342aa16a51674f6507, type: 3}
+  - imageA: {fileID: -4431158329070710409, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
+    imageB: {fileID: -4431158329070710409, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
+  - imageA: {fileID: -6380944869837932697, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
+    imageB: {fileID: -6380944869837932697, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
+  - imageA: {fileID: 246199347699380375, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
+    imageB: {fileID: 246199347699380375, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
+  - imageA: {fileID: 8324482805944360549, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
+    imageB: {fileID: 8324482805944360549, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}

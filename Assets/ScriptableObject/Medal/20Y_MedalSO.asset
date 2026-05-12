@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MedalSO
   MedalID: 20Y
   MedalName: 20Years UIT Sticker
-  MedalIcon: {fileID: 3451516681516775675, guid: 20f982b537000264ba1fdd2a8bb82547, type: 3}
+  MedalIcon: {fileID: 6604983566620067269, guid: 54a96431d0f24b546a915a34a9ba831f, type: 3}
   Description: "Sticker k\u1EF7 ni\u1EC7m 20 n\u0103m th\xE0nh l\u1EADp UIT"
   IsActualMedal: 1
