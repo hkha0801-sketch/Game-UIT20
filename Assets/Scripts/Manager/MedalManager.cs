@@ -88,27 +88,6 @@ public class MedalManager : MonoBehaviour
 
     public void CheckAndNotifyMilestone()
     {
-        // if (SceneManager.GetActiveScene().name.ToLower().Contains("minigame") || SceneManager.GetActiveScene().name.ToLower() == "login") return;
-
-        // int currentCount = GetActualMedalCount();
-
-        // foreach (MilestoneData ms in Milestones)
-        // {
-        //     if (currentCount >= ms.RequiredMedals && ms.RequiredMedals > lastNotifiedMilestone)
-        //     {
-        //         lastNotifiedMilestone = ms.RequiredMedals;
-                
-        //         if (SystemNotification.Instance != null)
-        //         {
-        //             string msg = $"Lan đã xuất hiện tại {ms.MapName}, hãy đi gặp cô ấy nhé!";
-        //             SystemNotification.Instance.ShowMessage(msg);
-        //         }
-                
-        //         if (SaveManager.Instance != null) SaveManager.Instance.SaveGame();
-        //         break; 
-        //     }
-        // }
-
         string sceneName = SceneManager.GetActiveScene().name.ToLower();
         
         Debug.Log($"<color=white>Check Milestone:</color> Tổng sticker hiện có: {GetActualMedalCount()} | Mốc thông báo cuối: {lastNotifiedMilestone}");
@@ -157,5 +136,10 @@ public class MedalManager : MonoBehaviour
         int count = 0;
         foreach(var m in ownedMedals) if(m.IsActualMedal) count++;
         return count;
+    }
+
+    public bool HasMedal(string id)
+    {
+        return ownedMedals.Exists(m => m.MedalID == id);
     }
 }

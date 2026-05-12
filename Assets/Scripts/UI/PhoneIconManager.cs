@@ -5,8 +5,6 @@ public class PhoneIconManager : MonoBehaviour
 {
     public GameObject phoneIconObject;
 
-    private bool isMinigameScene = false;
-
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -29,14 +27,18 @@ public class PhoneIconManager : MonoBehaviour
 
     private void CheckScene(string sceneName)
     {
-        isMinigameScene = sceneName.ToLower().Contains("minigame");
+        string nameLower = sceneName.ToLower();
+        bool isMinigame = nameLower.Contains("minigame");
+        bool isEnding = nameLower == "endingscene";
+
+        bool isForbidden = isMinigame || isEnding;
 
         if (phoneIconObject != null)
         {
-            phoneIconObject.SetActive(!isMinigameScene);
+            phoneIconObject.SetActive(!isForbidden);
         }
 
-        if (isMinigameScene && SmartphoneController.Instance != null && SmartphoneController.Instance.IsPhoneActive)
+        if (isForbidden && SmartphoneController.Instance != null && SmartphoneController.Instance.IsPhoneActive)
         {
             SmartphoneController.Instance.TurnOffPhone();
         }
@@ -45,7 +47,10 @@ public class PhoneIconManager : MonoBehaviour
 
     void Update()
     {
-        if (!isMinigameScene && Input.GetKeyDown(KeyCode.Tab))
+        string nameLower = SceneManager.GetActiveScene().name.ToLower();
+        bool isForbidden = nameLower.Contains("minigame") || nameLower == "endingscene";
+
+        if (!isForbidden && Input.GetKeyDown(KeyCode.Tab))
         {
             if (SmartphoneController.Instance != null)
             {

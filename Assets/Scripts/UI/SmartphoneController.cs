@@ -6,11 +6,12 @@ public class SmartphoneController : MonoBehaviour
 {
     public static SmartphoneController Instance;
 
-    private enum ConfirmType { None, QuitGame, GoToMenu }
+    private enum ConfirmType { None, QuitGame, GoToMenu, EndGame }
 
     [Header("Main UI")]
     public GameObject phoneContainer;
     public GameObject homeScreen;
+    public GameObject medalAppPanel;
 
     [Header("Popup UI")]
     public GameObject confirmPopupPanel;
@@ -88,8 +89,13 @@ public class SmartphoneController : MonoBehaviour
         }
         else if (currentConfirmType == ConfirmType.GoToMenu)
         {
-            TurnOffPhone();
+            TurnOffPhone(); 
             SceneController.Instance.ChangeScene("Login");
+        }
+        else if (currentConfirmType == ConfirmType.EndGame)
+        {
+            TurnOffPhone();
+            SceneController.Instance.ChangeScene("EndingScene");
         }
     }
 
@@ -163,6 +169,32 @@ public class SmartphoneController : MonoBehaviour
         if (AudioManager.Instance != null)
         {
             AudioListener.volume = Mathf.Clamp(AudioListener.volume - 0.1f, 0f, 1f);
+        }
+    }
+
+    public void ShowConfirmEndGame()
+    {
+        currentConfirmType = ConfirmType.EndGame;
+        confirmText.text = "Bạn có muốn kết thúc chuyến hành trình ở đây không?";
+        confirmPopupPanel.SetActive(true);
+    }
+
+
+    public void TriggerEndingSequence()
+    {
+        StartCoroutine(WaitUntilDialogueClosed());
+    }
+
+    private System.Collections.IEnumerator WaitUntilDialogueClosed()
+    {
+        yield return new WaitUntil(() => DialogueEditor.ConversationManager.Instance.IsConversationActive == false);
+        
+        yield return new WaitForSeconds(0.1f);
+
+        if (!phoneContainer.activeSelf)
+        {
+            TogglePhone(); 
+            OpenApp(medalAppPanel);
         }
     }
 }

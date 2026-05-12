@@ -37,8 +37,15 @@ public class NPCDialogue : MonoBehaviour
     {
         if (MinigameManager.Instance != null)
         {
-            // Truyền thêm NPCID để quay về tự động kích hoạt thoại
             MinigameManager.Instance.StartMinigame(minigameData, currentData.NPCID);
+        }
+    }
+
+    public void StartEndingSequence()
+    {
+        if (SmartphoneController.Instance != null)
+        {
+            SmartphoneController.Instance.TriggerEndingSequence();
         }
     }
 }

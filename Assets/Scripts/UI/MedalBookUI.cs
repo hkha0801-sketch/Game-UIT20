@@ -38,6 +38,11 @@ public class MedalBookUI : MonoBehaviour
         detailIcon.sprite = medal.MedalIcon;
         detailNameText.text = medal.MedalName;
         detailDescText.text = "<b>Mô tả: </b>" + medal.Description;
+
+        if (medal.MedalID == "20Y")
+        {
+            SmartphoneController.Instance.ShowConfirmEndGame();
+        }
     }
 
     public void HideMedalDetails()

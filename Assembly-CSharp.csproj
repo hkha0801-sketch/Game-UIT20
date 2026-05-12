@@ -51,6 +51,7 @@
     <Compile Include="Assets\Scripts\Other\AppearanceCondition.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCDialogue.cs" />
     <Compile Include="Assets\Scripts\Minigame\Catch\CatchPlayer.cs" />
+    <Compile Include="Assets\Scripts\Manager\EndingManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInteraction.cs" />
     <Compile Include="Assets\ScriptableObject\Minigame\CatchGame\ScoreMultiplierEffectSO.cs" />
     <Compile Include="Assets\Scripts\UI\Icon.cs" />
