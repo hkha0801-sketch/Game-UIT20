@@ -19,16 +19,20 @@ MonoBehaviour:
     \u0111\u1EC3 chi\u1EBFn th\u1EAFng"
   RewardMedal: {fileID: 11400000, guid: bb8573399f5535349910f4c2e421233f, type: 2}
   TimeLimit: 30
-  Rows: 2
+  Rows: 3
   Columns: 4
-  CardBackImage: {fileID: -801877018155381679, guid: 2ab78c071d014134cbe75e50e8d273b9, type: 3}
-  CardFrontBgImage: {fileID: -2553040721248700676, guid: 2ab78c071d014134cbe75e50e8d273b9, type: 3}
+  CardBackImage: {fileID: -3253658834586420297, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
+  CardFrontBgImage: {fileID: 5757751276978669553, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
   CardPairs:
-  - imageA: {fileID: 5480641030931905723, guid: 2ab78c071d014134cbe75e50e8d273b9, type: 3}
-    imageB: {fileID: 5480641030931905723, guid: 2ab78c071d014134cbe75e50e8d273b9, type: 3}
-  - imageA: {fileID: 6807391787178491041, guid: 2ab78c071d014134cbe75e50e8d273b9, type: 3}
-    imageB: {fileID: 6807391787178491041, guid: 2ab78c071d014134cbe75e50e8d273b9, type: 3}
-  - imageA: {fileID: 846433631711989735, guid: 2ab78c071d014134cbe75e50e8d273b9, type: 3}
-    imageB: {fileID: 846433631711989735, guid: 2ab78c071d014134cbe75e50e8d273b9, type: 3}
+  - imageA: {fileID: -1429321974944691455, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
+    imageB: {fileID: -1429321974944691455, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
+  - imageA: {fileID: 1321026497728151231, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
+    imageB: {fileID: 1321026497728151231, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
+  - imageA: {fileID: 5020577149995725013, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
+    imageB: {fileID: 5020577149995725013, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
+  - imageA: {fileID: 4162368704858373632, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
+    imageB: {fileID: 4162368704858373632, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
   - imageA: {fileID: 8907775642999467151, guid: 2ab78c071d014134cbe75e50e8d273b9, type: 3}
     imageB: {fileID: 8907775642999467151, guid: 2ab78c071d014134cbe75e50e8d273b9, type: 3}
+  - imageA: {fileID: -5541763917198402553, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}
+    imageB: {fileID: -5541763917198402553, guid: 9f49fab06e7254182b566d670705a1f8, type: 3}

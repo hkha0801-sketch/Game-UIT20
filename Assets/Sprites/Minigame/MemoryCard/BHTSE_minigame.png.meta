@@ -1,151 +1,70 @@
 fileFormatVersion: 2
-guid: 02e032575f2c3ed4caf9995071a4d8f7
+guid: 04378a6665ecc44cea57f0915bbb33d6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1279541780946238550
-    second: BHTSE_minigame_0
+      213: 5223280560187763028
+    second: 79_0
   - first:
-      213: -9047596750403445450
-    second: BHTSE_minigame_1
+      213: 6217211017854072781
+    second: 79_1
   - first:
-      213: -8009110822278948316
-    second: BHTSE_minigame_2
+      213: -4619722293702008733
+    second: 79_2
   - first:
-      213: 5662225245270666915
-    second: BHTSE_minigame_3
+      213: 8207129903531242811
+    second: 79_3
   - first:
-      213: -3051349524012926893
-    second: BHTSE_minigame_4
+      213: -8056806472686193927
+    second: 79_4
   - first:
-      213: 169474926083293008
-    second: BHTSE_minigame_5
+      213: -3907147464632933647
+    second: 79_5
   - first:
-      213: 2812073134302404454
-    second: BHTSE_minigame_6
+      213: 1660889943818698881
+    second: 79_6
   - first:
-      213: -2845292068726538578
-    second: BHTSE_minigame_7
+      213: 2943546723293354465
+    second: 79_7
   - first:
-      213: -6776419901939083993
-    second: BHTSE_minigame_8
+      213: 1012328300917222671
+    second: 79_8
   - first:
-      213: 8034899714595698275
-    second: BHTSE_minigame_9
+      213: 5598804885551446468
+    second: 79_9
   - first:
-      213: 8838072818758147523
-    second: BHTSE_minigame_10
+      213: -169976574263963075
+    second: 79_10
   - first:
-      213: -4736509898606928756
-    second: BHTSE_minigame_11
+      213: 8842147021223648709
+    second: 79_11
   - first:
-      213: 788515627833678455
-    second: BHTSE_minigame_12
+      213: 2307930773349184991
+    second: 79_12
   - first:
-      213: -8819797239097404101
-    second: BHTSE_minigame_13
+      213: -5533237974152055137
+    second: 79_13
   - first:
-      213: -7473286860258407093
-    second: BHTSE_minigame_14
+      213: -4382556715786865889
+    second: 79_14
   - first:
-      213: -6960563484806790359
-    second: BHTSE_minigame_15
+      213: -6601088216757757600
+    second: 79_15
   - first:
-      213: -8686898019635451222
-    second: BHTSE_minigame_16
+      213: -5053047344055937055
+    second: 79_16
   - first:
-      213: -1292526847556334616
-    second: BHTSE_minigame_17
+      213: -1902919813743200799
+    second: 79_17
   - first:
-      213: 2677047230922181826
-    second: BHTSE_minigame_18
+      213: -7672440639735789046
+    second: 79_18
   - first:
-      213: -2657073386273038643
-    second: BHTSE_minigame_19
+      213: 462174532755209201
+    second: 79_19
   - first:
-      213: -6853371785083685111
-    second: BHTSE_minigame_20
-  - first:
-      213: -5659700408090126857
-    second: BHTSE_minigame_21
-  - first:
-      213: 499937661463462276
-    second: BHTSE_minigame_22
-  - first:
-      213: 9108267105070067236
-    second: BHTSE_minigame_23
-  - first:
-      213: 4758432717762267996
-    second: BHTSE_minigame_24
-  - first:
-      213: -8247526271576404303
-    second: BHTSE_minigame_25
-  - first:
-      213: -7073752436427078200
-    second: BHTSE_minigame_26
-  - first:
-      213: 8348454916955349622
-    second: BHTSE_minigame_27
-  - first:
-      213: 7080345508638782572
-    second: BHTSE_minigame_28
-  - first:
-      213: 1780414070753984056
-    second: BHTSE_minigame_29
-  - first:
-      213: 1053827495100877334
-    second: BHTSE_minigame_30
-  - first:
-      213: -8922942007377693351
-    second: BHTSE_minigame_31
-  - first:
-      213: 4044109326228623521
-    second: BHTSE_minigame_32
-  - first:
-      213: 60841506379647902
-    second: BHTSE_minigame_33
-  - first:
-      213: -1252912448154456075
-    second: BHTSE_minigame_34
-  - first:
-      213: 1501842267210135203
-    second: BHTSE_minigame_35
-  - first:
-      213: -261203558020999692
-    second: BHTSE_minigame_36
-  - first:
-      213: 8708535419688105991
-    second: BHTSE_minigame_37
-  - first:
-      213: 4801980372990785451
-    second: BHTSE_minigame_38
-  - first:
-      213: 4504712591853103782
-    second: BHTSE_minigame_39
-  - first:
-      213: -7491908958837929055
-    second: BHTSE_minigame_40
-  - first:
-      213: -8449694130820037042
-    second: BHTSE_minigame_41
-  - first:
-      213: 1837949863537428324
-    second: BHTSE_minigame_42
-  - first:
-      213: -401611150708076541
-    second: BHTSE_minigame_43
-  - first:
-      213: 2228576712512652386
-    second: BHTSE_minigame_44
-  - first:
-      213: -4754029146104533834
-    second: BHTSE_minigame_45
-  - first:
-      213: 3109339821405404564
-    second: BHTSE_minigame_46
-  - first:
-      213: 3921017247681219407
-    second: BHTSE_minigame_47
+      213: 2215207862567436992
+    second: 79_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,7 +97,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -216,7 +135,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -254,78 +173,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BHTSE_minigame_0
+      name: 79_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 379
-        width: 326
-        height: 337
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65c32907878d1c110800000000000000
-      internalID: 1279541780946238550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BHTSE_minigame_1
-      rect:
-        serializedVersion: 2
-        x: 834
-        y: 536
-        width: 294
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63d593511ba707280800000000000000
-      internalID: -9047596750403445450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BHTSE_minigame_15
-      rect:
-        serializedVersion: 2
-        x: 1195
-        y: 573
-        width: 274
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9234983a36c176f90800000000000000
-      internalID: -6960563484806790359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BHTSE_minigame_22
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 3
-        width: 337
+        x: 25
+        y: 374
+        width: 345
         height: 342
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -335,20 +188,130 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4818e5187a220f600800000000000000
-      internalID: 499937661463462276
+      spriteID: 459e130def1dc7840800000000000000
+      internalID: 5223280560187763028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BHTSE_minigame_25
+      name: 79_4
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 544
+        width: 279
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2b87b2339703090800000000000000
+      internalID: -8056806472686193927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 79_6
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 573
+        width: 273
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1800558aa9aac0710800000000000000
+      internalID: 1660889943818698881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 79_7
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 541
+        width: 269
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e95aa5362499d820800000000000000
+      internalID: 2943546723293354465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 79_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 345
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13758303e70e23c0800000000000000
+      internalID: -4382556715786865889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 79_17
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 248
+        width: 267
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5b8c1f2887795e0800000000000000
+      internalID: -1902919813743200799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 79_18
       rect:
         serializedVersion: 2
         x: 861
         y: 252
-        width: 267
-        height: 93
+        width: 269
+        height: 99
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,20 +320,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1be8cf2ad86ea8d80800000000000000
-      internalID: -8247526271576404303
+      spriteID: a0a074473e3068590800000000000000
+      internalID: -7672440639735789046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BHTSE_minigame_26
+      name: 79_19
       rect:
         serializedVersion: 2
-        x: 1215
-        y: 243
-        width: 230
-        height: 111
+        x: 1214
+        y: 239
+        width: 235
+        height: 114
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,8 +342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c5c5bd23abf4dd90800000000000000
-      internalID: -7073752436427078200
+      spriteID: 1fb3b11f949f96600800000000000000
+      internalID: 462174532755209201
       vertices: []
       indices: 
       edges: []
@@ -389,7 +352,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: edfb605feef5183478ba2a3dbde83a80
+    spriteID: 2d90111309f5e4bed98f303e6a455008
     internalID: 0
     vertices: []
     indices: 
@@ -399,54 +362,27 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BHTSE_minigame_0: 1279541780946238550
-      BHTSE_minigame_1: -9047596750403445450
-      BHTSE_minigame_10: 8838072818758147523
-      BHTSE_minigame_11: -4736509898606928756
-      BHTSE_minigame_12: 788515627833678455
-      BHTSE_minigame_13: -8819797239097404101
-      BHTSE_minigame_14: -7473286860258407093
-      BHTSE_minigame_15: -6960563484806790359
-      BHTSE_minigame_16: -8686898019635451222
-      BHTSE_minigame_17: -1292526847556334616
-      BHTSE_minigame_18: 2677047230922181826
-      BHTSE_minigame_19: -2657073386273038643
-      BHTSE_minigame_2: -8009110822278948316
-      BHTSE_minigame_20: -6853371785083685111
-      BHTSE_minigame_21: -5659700408090126857
-      BHTSE_minigame_22: 499937661463462276
-      BHTSE_minigame_23: 9108267105070067236
-      BHTSE_minigame_24: 4758432717762267996
-      BHTSE_minigame_25: -8247526271576404303
-      BHTSE_minigame_26: -7073752436427078200
-      BHTSE_minigame_27: 8348454916955349622
-      BHTSE_minigame_28: 7080345508638782572
-      BHTSE_minigame_29: 1780414070753984056
-      BHTSE_minigame_3: 5662225245270666915
-      BHTSE_minigame_30: 1053827495100877334
-      BHTSE_minigame_31: -8922942007377693351
-      BHTSE_minigame_32: 4044109326228623521
-      BHTSE_minigame_33: 60841506379647902
-      BHTSE_minigame_34: -1252912448154456075
-      BHTSE_minigame_35: 1501842267210135203
-      BHTSE_minigame_36: -261203558020999692
-      BHTSE_minigame_37: 8708535419688105991
-      BHTSE_minigame_38: 4801980372990785451
-      BHTSE_minigame_39: 4504712591853103782
-      BHTSE_minigame_4: -3051349524012926893
-      BHTSE_minigame_40: -7491908958837929055
-      BHTSE_minigame_41: -8449694130820037042
-      BHTSE_minigame_42: 1837949863537428324
-      BHTSE_minigame_43: -401611150708076541
-      BHTSE_minigame_44: 2228576712512652386
-      BHTSE_minigame_45: -4754029146104533834
-      BHTSE_minigame_46: 3109339821405404564
-      BHTSE_minigame_47: 3921017247681219407
-      BHTSE_minigame_5: 169474926083293008
-      BHTSE_minigame_6: 2812073134302404454
-      BHTSE_minigame_7: -2845292068726538578
-      BHTSE_minigame_8: -6776419901939083993
-      BHTSE_minigame_9: 8034899714595698275
+      79_0: 5223280560187763028
+      79_1: 6217211017854072781
+      79_10: -169976574263963075
+      79_11: 8842147021223648709
+      79_12: 2307930773349184991
+      79_13: -5533237974152055137
+      79_14: -4382556715786865889
+      79_15: -6601088216757757600
+      79_16: -5053047344055937055
+      79_17: -1902919813743200799
+      79_18: -7672440639735789046
+      79_19: 462174532755209201
+      79_2: -4619722293702008733
+      79_20: 2215207862567436992
+      79_3: 8207129903531242811
+      79_4: -8056806472686193927
+      79_5: -3907147464632933647
+      79_6: 1660889943818698881
+      79_7: 2943546723293354465
+      79_8: 1012328300917222671
+      79_9: 5598804885551446468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

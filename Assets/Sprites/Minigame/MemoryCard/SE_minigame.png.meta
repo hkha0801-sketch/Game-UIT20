@@ -1,136 +1,55 @@
 fileFormatVersion: 2
-guid: 2ab78c071d014134cbe75e50e8d273b9
+guid: 9f49fab06e7254182b566d670705a1f8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2553040721248700676
-    second: SE_minigame_0
+      213: 5757751276978669553
+    second: 81_0
   - first:
-      213: 677256216532318583
-    second: SE_minigame_1
+      213: 4999856313280305300
+    second: 81_1
   - first:
-      213: 2383068428955074847
-    second: SE_minigame_2
+      213: -1671646404842436008
+    second: 81_2
   - first:
-      213: -4474295277196793606
-    second: SE_minigame_3
+      213: -5541763917198402553
+    second: 81_3
   - first:
-      213: -5465119289066891222
-    second: SE_minigame_4
+      213: 5550215225004059
+    second: 81_4
   - first:
-      213: 5446957375355639943
-    second: SE_minigame_5
+      213: -5878610745389876494
+    second: 81_5
   - first:
-      213: -2950763535323292012
-    second: SE_minigame_6
+      213: -2473328649093546328
+    second: 81_6
   - first:
-      213: 4726109667991273848
-    second: SE_minigame_7
+      213: -6134898841041585141
+    second: 81_7
   - first:
-      213: -5946747717807436965
-    second: SE_minigame_8
+      213: -2396815040624856154
+    second: 81_8
   - first:
-      213: -2168328962103289268
-    second: SE_minigame_9
+      213: 4162368704858373632
+    second: 81_9
   - first:
-      213: 7546627267825424212
-    second: SE_minigame_10
+      213: -3253658834586420297
+    second: 81_10
   - first:
-      213: -9122977861776963097
-    second: SE_minigame_11
+      213: 7877315545838669135
+    second: 81_11
   - first:
-      213: 4172645433997635078
-    second: SE_minigame_12
+      213: 8088251565754596866
+    second: 81_12
   - first:
-      213: -9172975023927164153
-    second: SE_minigame_13
+      213: 5020577149995725013
+    second: 81_13
   - first:
-      213: 6807391787178491041
-    second: SE_minigame_14
+      213: 1321026497728151231
+    second: 81_14
   - first:
-      213: 5480641030931905723
-    second: SE_minigame_15
-  - first:
-      213: 4829696163789435922
-    second: SE_minigame_16
-  - first:
-      213: -325222795162472122
-    second: SE_minigame_17
-  - first:
-      213: -801877018155381679
-    second: SE_minigame_18
-  - first:
-      213: 44122438642211935
-    second: SE_minigame_19
-  - first:
-      213: -9034440648266877067
-    second: SE_minigame_20
-  - first:
-      213: 685093010625820575
-    second: SE_minigame_21
-  - first:
-      213: -8405840272944043561
-    second: SE_minigame_22
-  - first:
-      213: 6181842276566799975
-    second: SE_minigame_23
-  - first:
-      213: -7333134874588483658
-    second: SE_minigame_24
-  - first:
-      213: 6886141817948922888
-    second: SE_minigame_25
-  - first:
-      213: -3773206369784156417
-    second: SE_minigame_26
-  - first:
-      213: -3739255035527422409
-    second: SE_minigame_27
-  - first:
-      213: -1605526696217281648
-    second: SE_minigame_28
-  - first:
-      213: -8525986947297184242
-    second: SE_minigame_29
-  - first:
-      213: -7258781584567180167
-    second: SE_minigame_30
-  - first:
-      213: 846433631711989735
-    second: SE_minigame_31
-  - first:
-      213: 8907775642999467151
-    second: SE_minigame_32
-  - first:
-      213: -3626586175192726037
-    second: SE_minigame_33
-  - first:
-      213: 848243816676633906
-    second: SE_minigame_34
-  - first:
-      213: 864636159246220227
-    second: SE_minigame_35
-  - first:
-      213: 3049121396131177913
-    second: SE_minigame_36
-  - first:
-      213: 7882328283232662077
-    second: SE_minigame_37
-  - first:
-      213: -5120353884157451305
-    second: SE_minigame_38
-  - first:
-      213: 7890678381604139945
-    second: SE_minigame_39
-  - first:
-      213: -1278800729921530230
-    second: SE_minigame_40
-  - first:
-      213: 3804382692256894609
-    second: SE_minigame_41
-  - first:
-      213: 8327893812889653969
-    second: SE_minigame_42
+      213: -1429321974944691455
+    second: 81_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -163,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -201,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -239,13 +158,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SE_minigame_0
+      name: 81_0
       rect:
         serializedVersion: 2
         x: 0
         y: 376
-        width: 336
-        height: 339
+        width: 321
+        height: 336
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf63dd89df6c19cd0800000000000000
-      internalID: -2553040721248700676
+      spriteID: 1f78d51d744a7ef40800000000000000
+      internalID: 5757751276978669553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SE_minigame_14
+      name: 81_3
       rect:
         serializedVersion: 2
-        x: 898
-        y: 451
-        width: 233
-        height: 213
+        x: 891
+        y: 452
+        width: 220
+        height: 215
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,20 +195,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ac7fa963c6b87e50800000000000000
-      internalID: 6807391787178491041
+      spriteID: 70cdf4e2413b713b0800000000000000
+      internalID: -5541763917198402553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SE_minigame_15
+      name: 81_8
       rect:
         serializedVersion: 2
-        x: 1217
-        y: 436
+        x: 493
+        y: 485
+        width: 287
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3fd3f5b6dccbed0800000000000000
+      internalID: -2396815040624856154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81_9
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 439
         width: 230
-        height: 257
+        height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbc702edaf52f0c40800000000000000
-      internalID: 5480641030931905723
+      spriteID: 00e394da844b3c930800000000000000
+      internalID: 4162368704858373632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SE_minigame_18
+      name: 81_10
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 336
-        height: 340
+        width: 321
+        height: 330
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,20 +261,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15c8c4bb9192fd4f0800000000000000
-      internalID: -801877018155381679
+      spriteID: 7bb3a20578ea8d2d0800000000000000
+      internalID: -3253658834586420297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SE_minigame_31
+      name: 81_13
       rect:
         serializedVersion: 2
-        x: 863
+        x: 493
+        y: 198
+        width: 283
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d030f8515caca540800000000000000
+      internalID: 5020577149995725013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81_14
+      rect:
+        serializedVersion: 2
+        x: 855
         y: 222
-        width: 290
-        height: 55
+        width: 293
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ef032847e22fbb00800000000000000
-      internalID: 846433631711989735
+      spriteID: fbef6ffb99a355210800000000000000
+      internalID: 1321026497728151231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SE_minigame_32
+      name: 81_15
       rect:
         serializedVersion: 2
-        x: 1212
-        y: 202
-        width: 263
-        height: 98
+        x: 1208
+        y: 200
+        width: 267
+        height: 100
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,8 +327,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8c2cdb70c6ce9b70800000000000000
-      internalID: 8907775642999467151
+      spriteID: 10b03c59c370a2ce0800000000000000
+      internalID: -1429321974944691455
       vertices: []
       indices: 
       edges: []
@@ -374,7 +337,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d3799458edc0c71428fec67ee41edc49
+    spriteID: e8503a40606704da9b739f5742938601
     internalID: 0
     vertices: []
     indices: 
@@ -384,49 +347,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SE_minigame_0: -2553040721248700676
-      SE_minigame_1: 677256216532318583
-      SE_minigame_10: 7546627267825424212
-      SE_minigame_11: -9122977861776963097
-      SE_minigame_12: 4172645433997635078
-      SE_minigame_13: -9172975023927164153
-      SE_minigame_14: 6807391787178491041
-      SE_minigame_15: 5480641030931905723
-      SE_minigame_16: 4829696163789435922
-      SE_minigame_17: -325222795162472122
-      SE_minigame_18: -801877018155381679
-      SE_minigame_19: 44122438642211935
-      SE_minigame_2: 2383068428955074847
-      SE_minigame_20: -9034440648266877067
-      SE_minigame_21: 685093010625820575
-      SE_minigame_22: -8405840272944043561
-      SE_minigame_23: 6181842276566799975
-      SE_minigame_24: -7333134874588483658
-      SE_minigame_25: 6886141817948922888
-      SE_minigame_26: -3773206369784156417
-      SE_minigame_27: -3739255035527422409
-      SE_minigame_28: -1605526696217281648
-      SE_minigame_29: -8525986947297184242
-      SE_minigame_3: -4474295277196793606
-      SE_minigame_30: -7258781584567180167
-      SE_minigame_31: 846433631711989735
-      SE_minigame_32: 8907775642999467151
-      SE_minigame_33: -3626586175192726037
-      SE_minigame_34: 848243816676633906
-      SE_minigame_35: 864636159246220227
-      SE_minigame_36: 3049121396131177913
-      SE_minigame_37: 7882328283232662077
-      SE_minigame_38: -5120353884157451305
-      SE_minigame_39: 7890678381604139945
-      SE_minigame_4: -5465119289066891222
-      SE_minigame_40: -1278800729921530230
-      SE_minigame_41: 3804382692256894609
-      SE_minigame_42: 8327893812889653969
-      SE_minigame_5: 5446957375355639943
-      SE_minigame_6: -2950763535323292012
-      SE_minigame_7: 4726109667991273848
-      SE_minigame_8: -5946747717807436965
-      SE_minigame_9: -2168328962103289268
+      81_0: 5757751276978669553
+      81_1: 4999856313280305300
+      81_10: -3253658834586420297
+      81_11: 7877315545838669135
+      81_12: 8088251565754596866
+      81_13: 5020577149995725013
+      81_14: 1321026497728151231
+      81_15: -1429321974944691455
+      81_2: -1671646404842436008
+      81_3: -5541763917198402553
+      81_4: 5550215225004059
+      81_5: -5878610745389876494
+      81_6: -2473328649093546328
+      81_7: -6134898841041585141
+      81_8: -2396815040624856154
+      81_9: 4162368704858373632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
