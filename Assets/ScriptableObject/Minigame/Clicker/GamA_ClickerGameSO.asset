@@ -16,7 +16,7 @@ MonoBehaviour:
   MinigameName: "Vi\u1EBFt b\xE0i game design ch\u01B0a em?"
   SceneName: ClickerMinigameScene
   TutorialText: "Click chu\u1ED9t li\xEAn t\u1EE5c v\xE0o m\xE0n h\xECnh \u0111\u1EC3
-    ho\xE0n th\xE0nh b\xE0i game design tr\u01B0\u1EDBc deadline c\u1EE7a anh L\u01B0\u01A1ng"
+    ho\xE0n th\xE0nh b\xE0i game design tr\u01B0\u1EDBc deadline!"
   RewardMedal: {fileID: 11400000, guid: 61074179636f64b478489ea61af29617, type: 2}
   TargetText: "I. Gi\u1EDBi thi\u1EC7u\r\nKhi l\u1EADp tr\xECnh game, vi\u1EC7c x\xE2y
     d\u1EF1ng m\u1ED9t c\u1ED1t truy\u1EC7n h\u1EA5p d\u1EABn r\u1EA5t quan tr\u1ECDng.
@@ -102,22 +102,22 @@ MonoBehaviour:
   TimeLimit: 60
   LevelConfigs:
   - ForceThreshold: 0
-    DecayRatePerSecond: 0.03
-    ForceAddedPerClick: 0.035
-    CharsRevealedPerClick: 1
-  - ForceThreshold: 0.2
-    DecayRatePerSecond: 0.15
-    ForceAddedPerClick: 0.03
-    CharsRevealedPerClick: 2
-  - ForceThreshold: 0.4
-    DecayRatePerSecond: 0.25
+    DecayRatePerSecond: 0.08
     ForceAddedPerClick: 0.05
+    CharsRevealedPerClick: 1
+  - ForceThreshold: 0.25
+    DecayRatePerSecond: 0.15
+    ForceAddedPerClick: 0.04
+    CharsRevealedPerClick: 2
+  - ForceThreshold: 0.5
+    DecayRatePerSecond: 0.22
+    ForceAddedPerClick: 0.04
     CharsRevealedPerClick: 4
-  - ForceThreshold: 0.6
-    DecayRatePerSecond: 0.3
-    ForceAddedPerClick: 0.07
-    CharsRevealedPerClick: 7
-  - ForceThreshold: 0.8
-    DecayRatePerSecond: 0.85
-    ForceAddedPerClick: 0.09
+  - ForceThreshold: 0.75
+    DecayRatePerSecond: 0.23
+    ForceAddedPerClick: 0.03
+    CharsRevealedPerClick: 8
+  - ForceThreshold: 0.9
+    DecayRatePerSecond: 0.225
+    ForceAddedPerClick: 0.025
     CharsRevealedPerClick: 12
