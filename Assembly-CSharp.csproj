@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\UI\SmartphoneController.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
     <Compile Include="Assets\Scripts\Minigame\Quiz\QuizController.cs" />
+    <Compile Include="Assets\Scripts\Sound\SoundFeedback.cs" />
     <Compile Include="Assets\ScriptableObject\Medal\MedalSO.cs" />
     <Compile Include="Assets\Scripts\Scene\IntroSequence.cs" />
     <Compile Include="Assets\ThirdParty\DialogueEditor\Assets\Scripts\Connection.cs" />
