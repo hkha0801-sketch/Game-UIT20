@@ -12,9 +12,9 @@ public class AudioManager : MonoBehaviour
 
     private const string BGM_VOLUME_KEY = "BGM_Volume_Save";
     private float currentBgmVolume = 1f;
+    private float currentSfxVolume = 1f; 
 
-    [Header("SFX Pooling")]
-    [SerializeField] private GameObject sfxPrefab;
+    private GameObject sfxPrefab;
 
     private void Awake()
     {
@@ -118,7 +118,7 @@ public class AudioManager : MonoBehaviour
         AudioSource source = sfxObj.GetComponent<AudioSource>();
 
         source.clip = clip;
-        source.volume = volume;
+        source.volume = volume * currentSfxVolume; 
         source.pitch = pitch;
         source.spatialBlend = 0f; 
 
