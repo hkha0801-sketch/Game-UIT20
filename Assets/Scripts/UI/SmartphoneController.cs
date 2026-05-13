@@ -24,6 +24,7 @@ public class SmartphoneController : MonoBehaviour
 
     [Header("Music UI")]
     public TextMeshProUGUI musicNameText;
+    public SoundFeedback clickSound;
 
     public bool IsPhoneActive => phoneContainer.activeSelf;
 
@@ -49,24 +50,32 @@ public class SmartphoneController : MonoBehaviour
 
     public void TurnOffPhone()
     {
+        if (clickSound != null) clickSound.PlaySound();
+        
         phoneContainer.SetActive(false);
         ToggleHiddenObjects(false);
     }
 
     public void GoHome()
     {
+        if (clickSound != null) clickSound.PlaySound();
+
         ToggleHiddenObjects(false);
         homeScreen.SetActive(true);
     }
 
     public void OpenApp(GameObject appPanel)
     {
+        if (clickSound != null) clickSound.PlaySound();
+
         homeScreen.SetActive(false);
         appPanel.SetActive(true);
     }
 
     public void ShowConfirmQuitGame()
     {
+        if (clickSound != null) clickSound.PlaySound();
+
         currentConfirmType = ConfirmType.QuitGame;
         confirmText.text = "Bạn có chắc chắn muốn thoát game?";
         confirmPopupPanel.SetActive(true);
@@ -74,6 +83,8 @@ public class SmartphoneController : MonoBehaviour
 
     public void ShowConfirmGoToMenu()
     {
+        if (clickSound != null) clickSound.PlaySound();
+
         currentConfirmType = ConfirmType.GoToMenu;
         confirmText.text = "Bạn có muốn quay lại Menu chính?";
         confirmPopupPanel.SetActive(true);
@@ -81,6 +92,8 @@ public class SmartphoneController : MonoBehaviour
 
     public void OnConfirmYes()
     {
+        if (clickSound != null) clickSound.PlaySound();
+
         confirmPopupPanel.SetActive(false);
 
         if (currentConfirmType == ConfirmType.QuitGame)
@@ -101,12 +114,16 @@ public class SmartphoneController : MonoBehaviour
 
     public void OnConfirmNo()
     {
+        if (clickSound != null) clickSound.PlaySound();
+
         currentConfirmType = ConfirmType.None;
         confirmPopupPanel.SetActive(false);
     }
 
     public void TogglePhone()
     {
+        if (clickSound != null) clickSound.PlaySound();
+
         if (DialogueEditor.ConversationManager.Instance != null)
         {
             if (DialogueEditor.ConversationManager.Instance.IsConversationActive)
@@ -174,6 +191,8 @@ public class SmartphoneController : MonoBehaviour
 
     public void ShowConfirmEndGame()
     {
+        if (clickSound != null) clickSound.PlaySound();
+        
         currentConfirmType = ConfirmType.EndGame;
         confirmText.text = "Bạn có muốn kết thúc chuyến hành trình ở đây không?";
         confirmPopupPanel.SetActive(true);

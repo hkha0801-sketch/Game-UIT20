@@ -22,6 +22,11 @@ public abstract class MinigameController : MonoBehaviour
     public TextMeshProUGUI clickToContinueText;
     public UnityEngine.UI.Button fullScreenButton;
 
+    [Header("Audio Feedbacks")]
+    public SoundFeedback winSound;
+    public SoundFeedback loseSound;
+    public SoundFeedback clickSound;
+
     protected float currentTime;
     protected bool isPlaying = false;
     protected bool isPaused = false;
@@ -69,6 +74,7 @@ public abstract class MinigameController : MonoBehaviour
 
     public void Btn_StartGame()
     {
+        if (clickSound != null) clickSound.PlaySound();
         startPanel.SetActive(false);
         currentTime = GetBaseTimeLimit();
         isPlaying = true;
@@ -77,6 +83,7 @@ public abstract class MinigameController : MonoBehaviour
 
     public void Btn_TogglePause()
     {
+        if (clickSound != null) clickSound.PlaySound();
         isPaused = !isPaused;
         pausePanel.SetActive(isPaused);
         Time.timeScale = isPaused ? 0f : 1f; 
@@ -84,11 +91,13 @@ public abstract class MinigameController : MonoBehaviour
 
     public void Btn_Resume()
     {
+        if (clickSound != null) clickSound.PlaySound();
         if (isPaused) Btn_TogglePause();
     }
 
     public void Btn_Retry()
     {
+        if (clickSound != null) clickSound.PlaySound();
         Time.timeScale = 1f;
         startPanel.SetActive(false);
         gameOverPanel.SetActive(false);
@@ -101,18 +110,22 @@ public abstract class MinigameController : MonoBehaviour
 
     public void Btn_FinishMinigame()
     {
+        if (clickSound != null) clickSound.PlaySound();
         Time.timeScale = 1f;
         MinigameManager.Instance.CompleteMinigame(true);
     }
 
     public void Btn_Quit()
     {
+        if (clickSound != null) clickSound.PlaySound();
         Time.timeScale = 1f;
         MinigameManager.Instance.CompleteMinigame(false);
     }
 
     protected void WinGame()
     {
+        if (winSound != null) winSound.PlaySound();
+
         isPlaying = false;
         victoryPanel.SetActive(true);
 
@@ -155,6 +168,8 @@ public abstract class MinigameController : MonoBehaviour
 
     protected void LoseGame()
     {
+        if (loseSound != null) loseSound.PlaySound();
+
         isPlaying = false;
         gameOverPanel.SetActive(true);
     }

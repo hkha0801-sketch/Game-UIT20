@@ -4,6 +4,7 @@ public class PressEnter : MonoBehaviour
 {
     public CanvasGroup textGroup;
     public BackGroundMove bgMove;
+    public SoundFeedback pressSound;
 
     void Start()
     {
@@ -22,6 +23,8 @@ public class PressEnter : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.E))
             {
+                if (pressSound != null) pressSound.PlaySound();
+
                 if (SaveManager.Instance != null)
                 {
                     SaveManager.Instance.ContinueSavedGame();
