@@ -4582,7 +4582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7318b2c9d06f9a46855a7b20b5f3a2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaveManager
-  DeleteSaveOnPlay: 0
+  DeleteSaveOnPlay: 1
 --- !u!114 &769313882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9541,7 +9541,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8.417053, y: 0.9199829}
+  m_AnchoredPosition: {x: -8.417114, y: 0.9199829}
   m_SizeDelta: {x: 137.4519, y: 78.652954}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1733809857
