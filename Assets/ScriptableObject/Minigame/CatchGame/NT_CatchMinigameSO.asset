@@ -27,7 +27,7 @@ MonoBehaviour:
   - itemSprite: {fileID: 8663066804660122589, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
     score: 10
     fallSpeed: 5
-    spawnWeight: 100
+    spawnWeight: 90
   - itemSprite: {fileID: -2709868870709321704, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
     score: 5
     fallSpeed: 4
@@ -48,12 +48,12 @@ MonoBehaviour:
   - itemSprite: {fileID: -6265315654817224219, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
     effectSO: {fileID: 11400000, guid: b27ac889f5f2dc847b936255b5a71cc5, type: 2}
     fallSpeed: 5
-    spawnWeight: 5
-  - itemSprite: {fileID: -3658477454665956889, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
-    effectSO: {fileID: 11400000, guid: 2f4f0cbac87897e4e9fd1437a8b48284, type: 2}
-    fallSpeed: 5
     spawnWeight: 10
-  - itemSprite: {fileID: -1680345234, guid: 91a3cbf6ffa25b74f9e990bf4a3fd39f, type: 3}
+  - itemSprite: {fileID: -6341326915756673837, guid: 6d967c39d2385994f9b4b4df4adc4449, type: 3}
+    effectSO: {fileID: 11400000, guid: 966ee073984b5084593ff6c500a21b7f, type: 2}
+    fallSpeed: 5
+    spawnWeight: 15
+  - itemSprite: {fileID: 1738988352296312530, guid: 2ba72c72dec33d746aa44c027e1cf707, type: 3}
     effectSO: {fileID: 11400000, guid: 3bce9516570b12a43a526a779c542e83, type: 2}
     fallSpeed: 5
     spawnWeight: 10
