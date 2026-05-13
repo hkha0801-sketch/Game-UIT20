@@ -59,7 +59,7 @@ public class SaveManager : MonoBehaviour
 
     public void SaveGame()
     {
-        if (SceneManager.GetActiveScene().name.ToLower() == "login") return;
+        if (SceneManager.GetActiveScene().name.ToLower() == "login" || SceneManager.GetActiveScene().name.ToLower() == "endingscene") return;
 
         SaveData data = new SaveData();
 
