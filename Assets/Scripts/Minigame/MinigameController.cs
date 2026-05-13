@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using DG.Tweening;
+
 
 public abstract class MinigameController : MonoBehaviour
 {
@@ -13,6 +15,12 @@ public abstract class MinigameController : MonoBehaviour
     public GameObject pausePanel;
     public GameObject gameOverPanel;
     public GameObject victoryPanel;
+
+    [Header("Victory Panel Setup")]
+    public UnityEngine.UI.Image stickerImage;
+    public TextMeshProUGUI congratulationText;
+    public TextMeshProUGUI clickToContinueText;
+    public UnityEngine.UI.Button fullScreenButton;
 
     protected float currentTime;
     protected bool isPlaying = false;
@@ -107,6 +115,42 @@ public abstract class MinigameController : MonoBehaviour
     {
         isPlaying = false;
         victoryPanel.SetActive(true);
+
+        if (fullScreenButton != null) fullScreenButton.interactable = false;
+        if (clickToContinueText != null) clickToContinueText.gameObject.SetActive(false);
+
+        if (baseGameData != null && baseGameData.RewardMedal != null)
+        {
+            if (stickerImage != null) stickerImage.sprite = baseGameData.RewardMedal.MedalIcon;
+            if (congratulationText != null) congratulationText.text = "Chúc mừng bạn đã nhận được " + baseGameData.RewardMedal.MedalName + "!";
+        }
+        else
+        {
+            if (congratulationText != null) congratulationText.text = "Thử thách hoàn tất!";
+        }
+
+        if (stickerImage != null)
+        {
+            stickerImage.transform.localScale = Vector3.zero;
+            
+            Sequence winSeq = DOTween.Sequence();
+            winSeq.Append(stickerImage.transform.DOScale(Vector3.one * 1.3f, 0.3f).SetEase(Ease.OutQuad));
+            winSeq.Append(stickerImage.transform.DOScale(Vector3.one, 0.2f).SetEase(Ease.InQuad));
+            winSeq.OnComplete(() =>
+            {
+                if (clickToContinueText != null) 
+                {
+                    clickToContinueText.text = "Nhấn vào màn hình để tiếp tục hành trình UIT";
+                    clickToContinueText.gameObject.SetActive(true);
+                }
+                if (fullScreenButton != null) fullScreenButton.interactable = true;
+            });
+        }
+        else
+        {
+            if (clickToContinueText != null) clickToContinueText.gameObject.SetActive(true);
+            if (fullScreenButton != null) fullScreenButton.interactable = true;
+        }
     }
 
     protected void LoseGame()

@@ -17,6 +17,7 @@ MonoBehaviour:
   SceneName: MemoryCardMinigameScene
   TutorialText: "L\u1EADt c\xE1c h\u1EBFt c\xE1c th\u1EBB b\xE0i c\xF9ng h\xECnh
     \u0111\u1EC3 chi\u1EBFn th\u1EAFng"
+  RewardMedal: {fileID: 11400000, guid: f4b24667a45688441984a668910ecf3c, type: 2}
   TimeLimit: 30
   Rows: 2
   Columns: 4

@@ -10,4 +10,7 @@ public class MinigameSO : ScriptableObject
 
     [TextArea(3, 10)] 
     public string TutorialText;
+
+    [Header("Reward")]
+    public MedalSO RewardMedal;
 }

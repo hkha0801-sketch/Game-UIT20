@@ -17,6 +17,7 @@ MonoBehaviour:
   SceneName: QuizMinigameScene
   TutorialText: "Tr\u1EA3 l\u1EDDi c\xE1c c\xE2u h\u1ECFi si\xEAu \u0111\u01A1n gi\u1EA3n
     \u0111\u1EC3 v\u01B0\u1EE3t qua m\xE0n ch\u01A1i"
+  RewardMedal: {fileID: 11400000, guid: 3653f80703766ae4296c3fcf99c7e1be, type: 2}
   TimeLimit: 60
   MaxLives: 3
   Questions:

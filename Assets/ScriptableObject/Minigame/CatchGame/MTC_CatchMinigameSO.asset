@@ -17,9 +17,12 @@ MonoBehaviour:
   SceneName: CatchMinigameScene
   TutorialText: "Nh\u1EB7t t\xE0y l\u1ED9c t\u1EEB tr\u1EDDi r\u01A1i xu\u1ED1ng
     (A/D \u0111\u1EC3 di chuy\u1EC3n)"
+  RewardMedal: {fileID: 11400000, guid: e14eb01d3c27b7f49bb493dd046a30e8, type: 2}
   targetScore: 100
   timeLimit: 90
   spawnInterval: 1
+  minItemsPerSpawn: 1
+  maxItemsPerSpawn: 1
   normalItems:
   - itemSprite: {fileID: 0}
     score: 0
