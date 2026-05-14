@@ -14,7 +14,7 @@ public class AppearanceCondition : MonoBehaviour
     public List<MedalSO> mustHaveMedals;
     public List<MedalSO> mustNotHaveMedals;
 
-    private void Awake()
+    private void Start()
     {
         EvaluateAndApply();
     }
@@ -27,7 +27,7 @@ public class AppearanceCondition : MonoBehaviour
 
         if (useCountCondition)
         {
-            int currentTotal = MedalManager.Instance.ownedMedals.Count;
+            int currentTotal = MedalManager.Instance.GetActualMedalCount();
             if (currentTotal < minMedals || currentTotal >= maxMedals)
             {
                 conditionsMet = false;

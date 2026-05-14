@@ -11763,18 +11763,6 @@ PrefabInstance:
       value: NPC_Lan12
       objectReference: {fileID: 0}
     - target: {fileID: 8814471289986093549, guid: 63cc3b8408376594498e677ff04edcb2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.23006949
-      objectReference: {fileID: 0}
-    - target: {fileID: 8814471289986093549, guid: 63cc3b8408376594498e677ff04edcb2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.20362456
-      objectReference: {fileID: 0}
-    - target: {fileID: 8814471289986093549, guid: 63cc3b8408376594498e677ff04edcb2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.13007829
-      objectReference: {fileID: 0}
-    - target: {fileID: 8814471289986093549, guid: 63cc3b8408376594498e677ff04edcb2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.82097
       objectReference: {fileID: 0}

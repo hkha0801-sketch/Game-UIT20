@@ -131,12 +131,16 @@ public class MedalManager : MonoBehaviour
         }
     }
 
-    int GetActualMedalCount()
+    public int GetActualMedalCount()
     {
         int count = 0;
-        foreach(var m in ownedMedals) if(m.IsActualMedal) count++;
+        foreach (var m in ownedMedals)
+        {
+            if (m.IsActualMedal) count++;
+        }
         return count;
     }
+
 
     public bool HasMedal(string id)
     {
