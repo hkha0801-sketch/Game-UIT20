@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 1dcd842c37a964030a7e5ebcb061a91f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6565180400434762989
+    second: "Asset Game 20 na\u0306m (69)_0"
+  - first:
+      213: -2729418097848289568
+    second: "Asset Game 20 na\u0306m (69)_1"
+  - first:
+      213: 1451991286354985857
+    second: "Asset Game 20 na\u0306m (69)_2"
+  - first:
+      213: -1907816068621380920
+    second: "Asset Game 20 na\u0306m (69)_3"
+  - first:
+      213: -3526549887186401742
+    second: "Asset Game 20 na\u0306m (69)_4"
+  - first:
+      213: 6426332888792141773
+    second: "Asset Game 20 na\u0306m (69)_5"
+  - first:
+      213: -7138246464681659454
+    second: "Asset Game 20 na\u0306m (69)_6"
+  - first:
+      213: -5135105324940649006
+    second: "Asset Game 20 na\u0306m (69)_7"
+  - first:
+      213: 4016386643522926557
+    second: "Asset Game 20 na\u0306m (69)_8"
+  - first:
+      213: -5063989609893813983
+    second: "Asset Game 20 na\u0306m (69)_9"
+  - first:
+      213: -601428241911465634
+    second: "Asset Game 20 na\u0306m (69)_10"
+  - first:
+      213: 4025059781041019959
+    second: "Asset Game 20 na\u0306m (69)_11"
+  - first:
+      213: -1042807642789950028
+    second: "Asset Game 20 na\u0306m (69)_12"
+  - first:
+      213: -1073503857759784606
+    second: "Asset Game 20 na\u0306m (69)_13"
+  - first:
+      213: 9221006550047630052
+    second: "Asset Game 20 na\u0306m (69)_14"
+  - first:
+      213: 6523610586366289145
+    second: "Asset Game 20 na\u0306m (69)_15"
+  - first:
+      213: -128090064713783441
+    second: "Asset Game 20 na\u0306m (69)_16"
+  - first:
+      213: -7858979370943025489
+    second: "Asset Game 20 na\u0306m (69)_17"
+  - first:
+      213: -3065724898611455333
+    second: "Asset Game 20 na\u0306m (69)_18"
+  - first:
+      213: -3789138606510253518
+    second: "Asset Game 20 na\u0306m (69)_19"
+  - first:
+      213: -5030266589939111304
+    second: "Asset Game 20 na\u0306m (69)_20"
+  - first:
+      213: 3567894924987757884
+    second: "Asset Game 20 na\u0306m (69)_21"
+  - first:
+      213: -3796166296784167409
+    second: "Asset Game 20 na\u0306m (69)_22"
+  - first:
+      213: -3170048767687771099
+    second: "Asset Game 20 na\u0306m (69)_23"
+  - first:
+      213: -3510604338941067817
+    second: "Asset Game 20 na\u0306m (69)_24"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_0"
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 601
+        width: 61
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31baab9a53bc3e4a0800000000000000
+      internalID: -6565180400434762989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_1"
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 601
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6fa3a73b82f1ad0800000000000000
+      internalID: -2729418097848289568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_2"
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 601
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183c628c162862410800000000000000
+      internalID: 1451991286354985857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_3"
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 601
+        width: 106
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c25a05c4631685e0800000000000000
+      internalID: -1907816068621380920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_4"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 601
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2368f83ef8d2f0fc0800000000000000
+      internalID: -3526549887186401742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_5"
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 601
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf8dd4d6bbee2950800000000000000
+      internalID: 6426332888792141773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_6"
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 601
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3367119aadfec90800000000000000
+      internalID: -7138246464681659454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_7"
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 601
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd12b6f9e07cb8b0800000000000000
+      internalID: -5135105324940649006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_8"
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 601
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7becf5f521db730800000000000000
+      internalID: 4016386643522926557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_9"
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 601
+        width: 199
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121a20ca74819b9b0800000000000000
+      internalID: -5063989609893813983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_10"
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 601
+        width: 115
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59baf2533c47a7f0800000000000000
+      internalID: -601428241911465634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_11"
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 219
+        width: 329
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c59a09b82ebd730800000000000000
+      internalID: 4025059781041019959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_12"
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 182
+        width: 290
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd417259f33781f0800000000000000
+      internalID: -1042807642789950028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_13"
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 397
+        width: 414
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2617735dde52a11f0800000000000000
+      internalID: -1073503857759784606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_14"
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 346
+        width: 181
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2a32f2a9897ff70800000000000000
+      internalID: 9221006550047630052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_15"
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 242
+        width: 414
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f42755c345888a50800000000000000
+      internalID: 6523610586366289145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_16"
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 258
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f676a79c3cee83ef0800000000000000
+      internalID: -128090064713783441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_17"
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 125
+        width: 326
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae61d996eb4fe290800000000000000
+      internalID: -7858979370943025489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_18"
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 165
+        width: 413
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a9137927b5475d0800000000000000
+      internalID: -3065724898611455333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_19"
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 173
+        width: 106
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23adc3a53864a6bc0800000000000000
+      internalID: -3789138606510253518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_20"
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 27
+        width: 287
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ae92d1037e03ab0800000000000000
+      internalID: -5030266589939111304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_21"
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 105
+        width: 414
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3570dfd785b38130800000000000000
+      internalID: 3567894924987757884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_22"
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 43
+        width: 100
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e9ed3bdde415bc0800000000000000
+      internalID: -3796166296784167409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_23"
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 43
+        width: 326
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c3e410179b104d0800000000000000
+      internalID: -3170048767687771099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Asset Game 20 na\u0306m (69)_24"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 43
+        width: 412
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddf87624f3d74fc0800000000000000
+      internalID: -3510604338941067817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Asset Game 20 na\u0306m (69)_0": -6565180400434762989
+      "Asset Game 20 na\u0306m (69)_1": -2729418097848289568
+      "Asset Game 20 na\u0306m (69)_10": -601428241911465634
+      "Asset Game 20 na\u0306m (69)_11": 4025059781041019959
+      "Asset Game 20 na\u0306m (69)_12": -1042807642789950028
+      "Asset Game 20 na\u0306m (69)_13": -1073503857759784606
+      "Asset Game 20 na\u0306m (69)_14": 9221006550047630052
+      "Asset Game 20 na\u0306m (69)_15": 6523610586366289145
+      "Asset Game 20 na\u0306m (69)_16": -128090064713783441
+      "Asset Game 20 na\u0306m (69)_17": -7858979370943025489
+      "Asset Game 20 na\u0306m (69)_18": -3065724898611455333
+      "Asset Game 20 na\u0306m (69)_19": -3789138606510253518
+      "Asset Game 20 na\u0306m (69)_2": 1451991286354985857
+      "Asset Game 20 na\u0306m (69)_20": -5030266589939111304
+      "Asset Game 20 na\u0306m (69)_21": 3567894924987757884
+      "Asset Game 20 na\u0306m (69)_22": -3796166296784167409
+      "Asset Game 20 na\u0306m (69)_23": -3170048767687771099
+      "Asset Game 20 na\u0306m (69)_24": -3510604338941067817
+      "Asset Game 20 na\u0306m (69)_3": -1907816068621380920
+      "Asset Game 20 na\u0306m (69)_4": -3526549887186401742
+      "Asset Game 20 na\u0306m (69)_5": 6426332888792141773
+      "Asset Game 20 na\u0306m (69)_6": -7138246464681659454
+      "Asset Game 20 na\u0306m (69)_7": -5135105324940649006
+      "Asset Game 20 na\u0306m (69)_8": 4016386643522926557
+      "Asset Game 20 na\u0306m (69)_9": -5063989609893813983
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
