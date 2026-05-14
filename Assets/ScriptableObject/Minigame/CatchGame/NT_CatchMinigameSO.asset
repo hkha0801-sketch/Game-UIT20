@@ -16,7 +16,7 @@ MonoBehaviour:
   MinigameName: "Coi ch\u1EEBng r\u1EDBt m\u1EA1ng!!!"
   SceneName: CatchMinigameScene
   TutorialText: "Ch\u1EA1y qua l\u1EA1i h\u1EE9ng m\u1EA1ng \u0111i, \u0111\u1EEBng
-    \u0111\u1EC3 n\xF3 r"
+    \u0111\u1EC3 n\xF3 r\u01A1i"
   RewardMedal: {fileID: 11400000, guid: f5157808e360125478114e3d20c73656, type: 2}
   targetScore: 800
   timeLimit: 90
