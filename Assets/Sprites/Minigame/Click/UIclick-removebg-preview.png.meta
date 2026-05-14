@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 847d1533b794f544f9b64bef5c166642
+guid: 0310f2d24ed662744802767eec706068
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8966983385026003331
-    second: Scenes_1_0
-  - first:
-      213: -1158483949878448434
-    second: Scenes_1_1
-  - first:
-      213: 1532478529912622951
-    second: Scenes_1_2
+      213: 1964527278100148236
+    second: UIclick-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -52,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -119,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scenes_1_0
+      name: UIclick-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 273
-        y: 0
-        width: 632
-        height: 505
+        x: 193
+        y: 228
+        width: 339
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,52 +128,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3810e4b21ef117c70800000000000000
-      internalID: 8966983385026003331
+      spriteID: c0079b2a627634b10800000000000000
+      internalID: 1964527278100148236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scenes_1_1
+      name: UIclick-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 881
-        y: 171
-        width: 28
-        height: 20
+        x: 192
+        y: 285
+        width: 340
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ecee0894cfc3cefe0800000000000000
-      internalID: -1158483949878448434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scenes_1_2
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 327
-        height: 341
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76fca518a15744510800000000000000
-      internalID: 1532478529912622951
+      spriteID: 3a406121f99ed5549b37c0bdc77b630d
+      internalID: -1672272335
       vertices: []
       indices: 
       edges: []
@@ -188,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 933e9835aa2e21f4fbb92a889a3c50cf
     internalID: 0
     vertices: []
     indices: 
@@ -196,11 +168,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Scenes_1_0: 8966983385026003331
-      Scenes_1_1: -1158483949878448434
-      Scenes_1_2: 1532478529912622951
+      UIclick-removebg-preview_0: 1964527278100148236
+      UIclick-removebg-preview_1: -1672272335
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f4ed2fea8920cb41855bf2c00dcb234, type: 3}
-  m_Name: MTC_CatchMinigameSO
+  m_Name: ISE_CatchMinigameSO
   m_EditorClassIdentifier: Assembly-CSharp::CatchMinigameSO
-  MinigameID: MTC
-  MinigameName: "Linh ki\u1EC7n m\xE1y t\xEDnh r\u01A1i t\u1EEB tr\u1EDDi xu\u1ED1ng???"
+  MinigameID: ISE
+  MinigameName: "Th\xF4ng tin v\xF4 gi\xE1"
   SceneName: CatchMinigameScene
-  TutorialText: "Nh\u1EB7t t\xE0y l\u1ED9c t\u1EEB tr\u1EDDi r\u01A1i xu\u1ED1ng
-    (A/D \u0111\u1EC3 di chuy\u1EC3n)"
+  TutorialText: "Th\xF4ng tin c\xF3 gi\xE1 tr\u1ECB ch\u1EC9 \u0111\u1EBFn t\u1EEB
+    nh\u1EEFng n\u01A1i b\u1EA5t ng\u1EDD nh\u1EA5t!  (A/D \u0111\u1EC3 di chuy\u1EC3n)"
   RewardMedal: {fileID: 11400000, guid: e14eb01d3c27b7f49bb493dd046a30e8, type: 2}
   targetScore: 800
   timeLimit: 90
@@ -24,23 +24,23 @@ MonoBehaviour:
   minItemsPerSpawn: 1
   maxItemsPerSpawn: 3
   normalItems:
-  - itemSprite: {fileID: 8957864679925845806, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
+  - itemSprite: {fileID: 5462100162886239079, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
     score: 10
     fallSpeed: 5
     spawnWeight: 90
-  - itemSprite: {fileID: -3337366561522190465, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
+  - itemSprite: {fileID: -5212479403448424673, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
     score: 5
     fallSpeed: 4
     spawnWeight: 90
-  - itemSprite: {fileID: -8300635234532389411, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
+  - itemSprite: {fileID: -8662597922943274037, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
     score: 15
     fallSpeed: 5.5
     spawnWeight: 90
-  - itemSprite: {fileID: -3066539471293805850, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
+  - itemSprite: {fileID: 7644781208503684751, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
     score: 30
     fallSpeed: 6
     spawnWeight: 15
-  - itemSprite: {fileID: -6043506089820956113, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
+  - itemSprite: {fileID: 7315915769516933376, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
     score: -10
     fallSpeed: 6
     spawnWeight: 15

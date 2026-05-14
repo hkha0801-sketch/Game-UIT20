@@ -1,16 +1,43 @@
 fileFormatVersion: 2
-guid: 847d1533b794f544f9b64bef5c166642
+guid: 8ea014cb4bbc9e5429fef6578379ec8a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8966983385026003331
-    second: Scenes_1_0
+      213: -3204974255207185353
+    second: kick_0
   - first:
-      213: -1158483949878448434
-    second: Scenes_1_1
+      213: 2266301210975696020
+    second: kick_1
   - first:
-      213: 1532478529912622951
-    second: Scenes_1_2
+      213: -8812950129534627220
+    second: kick_2
+  - first:
+      213: -6683984964195569292
+    second: kick_3
+  - first:
+      213: -8251923299009400527
+    second: kick_4
+  - first:
+      213: -8740855890705092528
+    second: kick_5
+  - first:
+      213: 2914718607920423493
+    second: kick_6
+  - first:
+      213: -4328414726381077900
+    second: kick_7
+  - first:
+      213: 3770328198531147006
+    second: kick_8
+  - first:
+      213: -829533745590477442
+    second: kick_9
+  - first:
+      213: -6987267053007809332
+    second: kick_10
+  - first:
+      213: 453412106210583799
+    second: kick_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +79,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -119,67 +146,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scenes_1_0
+      name: kick_0
       rect:
         serializedVersion: 2
-        x: 273
-        y: 0
-        width: 632
-        height: 505
+        x: 0
+        y: 412
+        width: 222
+        height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3810e4b21ef117c70800000000000000
-      internalID: 8966983385026003331
+      spriteID: 7348a1445e4a583d0800000000000000
+      internalID: -3204974255207185353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scenes_1_1
+      name: kick_1
       rect:
         serializedVersion: 2
-        x: 881
-        y: 171
-        width: 28
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 238
+        y: 411
+        width: 228
+        height: 287
+      alignment: 9
+      pivot: {x: 0.46183738, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecee0894cfc3cefe0800000000000000
-      internalID: -1158483949878448434
+      spriteID: 4947e3aa1f4837f10800000000000000
+      internalID: 2266301210975696020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scenes_1_2
+      name: kick_2
       rect:
         serializedVersion: 2
-        x: 896
-        y: 0
-        width: 327
-        height: 341
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 484
+        y: 402
+        width: 245
+        height: 296
+      alignment: 9
+      pivot: {x: 0.48911655, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76fca518a15744510800000000000000
-      internalID: 1532478529912622951
+      spriteID: c621bd9dc8c12b580800000000000000
+      internalID: -8812950129534627220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kick_4
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 403
+        width: 248
+        height: 295
+      alignment: 9
+      pivot: {x: 0.48836198, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13176c8ea774b7d80800000000000000
+      internalID: -8251923299009400527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kick_10
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 0
+        width: 400
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4ddaaa2ad380f90800000000000000
+      internalID: -6987267053007809332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kick_11
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 12
+        width: 232
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f42b8788e7da4600800000000000000
+      internalID: 453412106210583799
       vertices: []
       indices: 
       edges: []
@@ -188,7 +281,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: a212fd99601537949830f6d7b9fcd416
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +291,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Scenes_1_0: 8966983385026003331
-      Scenes_1_1: -1158483949878448434
-      Scenes_1_2: 1532478529912622951
+      kick_0: -3204974255207185353
+      kick_1: 2266301210975696020
+      kick_10: -6987267053007809332
+      kick_11: 453412106210583799
+      kick_2: -8812950129534627220
+      kick_3: -6683984964195569292
+      kick_4: -8251923299009400527
+      kick_5: -8740855890705092528
+      kick_6: 2914718607920423493
+      kick_7: -4328414726381077900
+      kick_8: 3770328198531147006
+      kick_9: -829533745590477442
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

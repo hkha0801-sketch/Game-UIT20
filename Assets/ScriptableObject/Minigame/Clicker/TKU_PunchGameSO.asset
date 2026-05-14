@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983647038f5cd904e94fb9d29936a75a, type: 3}
+  m_Name: TKU_PunchGameSO
+  m_EditorClassIdentifier: Assembly-CSharp::PunchMinigameSO
+  MinigameID: TKU
+  MinigameName: "N\u1ED9 long c\u01B0\u1EDBc, haiyaaa"
+  SceneName: KickMinigameScene
+  TutorialText: "Click chu\u1ED9t \u0111\u1EC3 \u0111\xE1 :>"
+  RewardMedal: {fileID: 11400000, guid: c3def453cf1e4cf43804183f6ae6fcfe, type: 2}
+  TimeLimit: 60
+  LevelConfigs:
+  - ForceThreshold: 0
+    DecayRatePerSecond: 0
+    ForceAddedPerClick: 0.008
+    LevelSprite: {fileID: -3204974255207185353, guid: 8ea014cb4bbc9e5429fef6578379ec8a, type: 3}
+  - ForceThreshold: 0.33
+    DecayRatePerSecond: 0
+    ForceAddedPerClick: 0.005
+    LevelSprite: {fileID: 2266301210975696020, guid: 8ea014cb4bbc9e5429fef6578379ec8a, type: 3}
+  - ForceThreshold: 0.66
+    DecayRatePerSecond: 0
+    ForceAddedPerClick: 0.0025
+    LevelSprite: {fileID: -8812950129534627220, guid: 8ea014cb4bbc9e5429fef6578379ec8a, type: 3}
+  - ForceThreshold: 1
+    DecayRatePerSecond: 0
+    ForceAddedPerClick: 10
+    LevelSprite: {fileID: -8251923299009400527, guid: 8ea014cb4bbc9e5429fef6578379ec8a, type: 3}
+  ActionStanceSprite: {fileID: 453412106210583799, guid: 8ea014cb4bbc9e5429fef6578379ec8a, type: 3}
+  ActionPunchSprite: {fileID: -6987267053007809332, guid: 8ea014cb4bbc9e5429fef6578379ec8a, type: 3}
+  ActionPunchDuration: 0.05

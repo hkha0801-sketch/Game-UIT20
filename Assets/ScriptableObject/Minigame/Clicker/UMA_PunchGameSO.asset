@@ -20,30 +20,27 @@ MonoBehaviour:
     li\u1EC7u b\u1EA1n c\xF3 th\u1EC3 kh\xF4ng?"
   RewardMedal: {fileID: 11400000, guid: d1c2f4d8ca99da44eb566ab1c39d90b3, type: 2}
   TimeLimit: 60
-  FinalCameraBoom: 0.5
   LevelConfigs:
   - ForceThreshold: 0
     DecayRatePerSecond: 0.025
     ForceAddedPerClick: 0.0125
     LevelSprite: {fileID: 21300000, guid: 847d1533b794f544f9b64bef5c166642, type: 3}
-    CameraShakeIntensity: 0.05
   - ForceThreshold: 0.25
     DecayRatePerSecond: 0.03
     ForceAddedPerClick: 0.0083
     LevelSprite: {fileID: 21300000, guid: e944c00586a69c64ca51de0e61d9873d, type: 3}
-    CameraShakeIntensity: 0.1
   - ForceThreshold: 0.5
     DecayRatePerSecond: 0.015
     ForceAddedPerClick: 0.007
     LevelSprite: {fileID: 21300000, guid: 6bc0e2209e159d640a102090c29ef466, type: 3}
-    CameraShakeIntensity: 0.2
   - ForceThreshold: 0.75
     DecayRatePerSecond: 0.015
     ForceAddedPerClick: 0.005
     LevelSprite: {fileID: 21300000, guid: 3552b2df18155a240bf1980245d384e1, type: 3}
-    CameraShakeIntensity: 0.3
   - ForceThreshold: 1
     DecayRatePerSecond: 0
     ForceAddedPerClick: 10
     LevelSprite: {fileID: 21300000, guid: 66490930fd789e44997083db913d0ec3, type: 3}
-    CameraShakeIntensity: 0
+  ActionStanceSprite: {fileID: 0}
+  ActionPunchSprite: {fileID: 0}
+  ActionPunchDuration: 0.1
