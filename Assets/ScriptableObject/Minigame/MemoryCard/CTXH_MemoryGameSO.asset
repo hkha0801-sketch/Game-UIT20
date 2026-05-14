@@ -19,16 +19,20 @@ MonoBehaviour:
     \u0111\u1EC3 chi\u1EBFn th\u1EAFng"
   RewardMedal: {fileID: 11400000, guid: f4b24667a45688441984a668910ecf3c, type: 2}
   TimeLimit: 30
-  Rows: 2
+  Rows: 3
   Columns: 4
-  CardBackImage: {fileID: 5422263348428227599, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
-  CardFrontBgImage: {fileID: -278618419710411940, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
+  CardBackImage: {fileID: -3089071641951420383, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+  CardFrontBgImage: {fileID: 2789822572703388559, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
   CardPairs:
-  - imageA: {fileID: -4431158329070710409, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
-    imageB: {fileID: -4431158329070710409, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
-  - imageA: {fileID: -6380944869837932697, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
-    imageB: {fileID: -6380944869837932697, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
-  - imageA: {fileID: 246199347699380375, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
-    imageB: {fileID: 246199347699380375, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
-  - imageA: {fileID: 8324482805944360549, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
-    imageB: {fileID: 8324482805944360549, guid: 4433c67a2f5714241a670ba6506083e2, type: 3}
+  - imageA: {fileID: -2664783550769548753, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+    imageB: {fileID: -2664783550769548753, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+  - imageA: {fileID: -8411655064115392634, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+    imageB: {fileID: -8411655064115392634, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+  - imageA: {fileID: -15302473616090591, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+    imageB: {fileID: -15302473616090591, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+  - imageA: {fileID: -8255399796070993806, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+    imageB: {fileID: -8255399796070993806, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+  - imageA: {fileID: -2840563692901377946, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+    imageB: {fileID: -2840563692901377946, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+  - imageA: {fileID: 5217285090740200162, guid: 322bd82f813304209b356f008bb2cf09, type: 3}
+    imageB: {fileID: 5217285090740200162, guid: 322bd82f813304209b356f008bb2cf09, type: 3}

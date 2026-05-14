@@ -19,16 +19,20 @@ MonoBehaviour:
     \u0111\u1EC3 chi\u1EBFn th\u1EAFng"
   RewardMedal: {fileID: 11400000, guid: f2ddadd3f12417b44aed35dff7d3f47f, type: 2}
   TimeLimit: 30
-  Rows: 2
+  Rows: 3
   Columns: 4
-  CardBackImage: {fileID: -731051421876239920, guid: ce70b4b06e41b454ba61db2a8e03256e, type: 3}
-  CardFrontBgImage: {fileID: 2523616968436833858, guid: ce70b4b06e41b454ba61db2a8e03256e, type: 3}
+  CardBackImage: {fileID: 627638721552833664, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+  CardFrontBgImage: {fileID: -1635963809266141271, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
   CardPairs:
-  - imageA: {fileID: 2175124097983177812, guid: ce70b4b06e41b454ba61db2a8e03256e, type: 3}
-    imageB: {fileID: 2175124097983177812, guid: ce70b4b06e41b454ba61db2a8e03256e, type: 3}
-  - imageA: {fileID: -6221700783833759906, guid: ce70b4b06e41b454ba61db2a8e03256e, type: 3}
-    imageB: {fileID: -6221700783833759906, guid: ce70b4b06e41b454ba61db2a8e03256e, type: 3}
-  - imageA: {fileID: 3942241425315176463, guid: ce70b4b06e41b454ba61db2a8e03256e, type: 3}
-    imageB: {fileID: 3942241425315176463, guid: ce70b4b06e41b454ba61db2a8e03256e, type: 3}
-  - imageA: {fileID: -5547937364981892505, guid: ce70b4b06e41b454ba61db2a8e03256e, type: 3}
-    imageB: {fileID: -5547937364981892505, guid: ce70b4b06e41b454ba61db2a8e03256e, type: 3}
+  - imageA: {fileID: -6214247170288025549, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+    imageB: {fileID: -6214247170288025549, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+  - imageA: {fileID: -6649285387466341145, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+    imageB: {fileID: -6649285387466341145, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+  - imageA: {fileID: -9205691627648472009, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+    imageB: {fileID: -9205691627648472009, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+  - imageA: {fileID: -6171505254421152773, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+    imageB: {fileID: -6171505254421152773, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+  - imageA: {fileID: -6961025587122518497, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+    imageB: {fileID: -6961025587122518497, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+  - imageA: {fileID: -3148654638896058190, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}
+    imageB: {fileID: -3148654638896058190, guid: aab955f60067644deb91a89f2a55a9f0, type: 3}

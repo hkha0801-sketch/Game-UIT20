@@ -19,16 +19,20 @@ MonoBehaviour:
     \u0111\u1EC3 chi\u1EBFn th\u1EAFng"
   RewardMedal: {fileID: 11400000, guid: 933315226822ccb44a95c31849b9d325, type: 2}
   TimeLimit: 30
-  Rows: 2
+  Rows: 3
   Columns: 4
-  CardBackImage: {fileID: 499937661463462276, guid: 02e032575f2c3ed4caf9995071a4d8f7, type: 3}
-  CardFrontBgImage: {fileID: 1279541780946238550, guid: 02e032575f2c3ed4caf9995071a4d8f7, type: 3}
+  CardBackImage: {fileID: -4382556715786865889, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+  CardFrontBgImage: {fileID: 5223280560187763028, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
   CardPairs:
-  - imageA: {fileID: -9047596750403445450, guid: 02e032575f2c3ed4caf9995071a4d8f7, type: 3}
-    imageB: {fileID: -9047596750403445450, guid: 02e032575f2c3ed4caf9995071a4d8f7, type: 3}
-  - imageA: {fileID: -6960563484806790359, guid: 02e032575f2c3ed4caf9995071a4d8f7, type: 3}
-    imageB: {fileID: -6960563484806790359, guid: 02e032575f2c3ed4caf9995071a4d8f7, type: 3}
-  - imageA: {fileID: -8247526271576404303, guid: 02e032575f2c3ed4caf9995071a4d8f7, type: 3}
-    imageB: {fileID: -8247526271576404303, guid: 02e032575f2c3ed4caf9995071a4d8f7, type: 3}
-  - imageA: {fileID: -7073752436427078200, guid: 02e032575f2c3ed4caf9995071a4d8f7, type: 3}
-    imageB: {fileID: -7073752436427078200, guid: 02e032575f2c3ed4caf9995071a4d8f7, type: 3}
+  - imageA: {fileID: 2943546723293354465, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+    imageB: {fileID: 2943546723293354465, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+  - imageA: {fileID: 462174532755209201, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+    imageB: {fileID: 462174532755209201, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+  - imageA: {fileID: -7672440639735789046, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+    imageB: {fileID: -7672440639735789046, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+  - imageA: {fileID: -1902919813743200799, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+    imageB: {fileID: -1902919813743200799, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+  - imageA: {fileID: -8056806472686193927, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+    imageB: {fileID: -8056806472686193927, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+  - imageA: {fileID: 1660889943818698881, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}
+    imageB: {fileID: 1660889943818698881, guid: 04378a6665ecc44cea57f0915bbb33d6, type: 3}

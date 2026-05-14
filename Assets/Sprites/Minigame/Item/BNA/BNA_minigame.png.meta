@@ -123,9 +123,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 68
-        y: 170
-        width: 344
-        height: 398
+        y: 0
+        width: 339
+        height: 716
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,9 +145,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 552
-        y: 161
-        width: 360
-        height: 418
+        y: 0
+        width: 356
+        height: 716
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: BNA_minigame_2
       rect:
         serializedVersion: 2
-        x: 1011
-        y: 144
-        width: 386
-        height: 448
+        x: 1015
+        y: 0
+        width: 401
+        height: 716
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
