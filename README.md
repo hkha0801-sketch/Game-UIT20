@@ -2,8 +2,6 @@ UIT: 20 Years, One Journey
 
 UIT: 20 Years, One Journey là một trò chơi nhập vai (RPG) 2D Pixel Art được phát triển nhằm kỷ niệm 20 năm thành lập Trường Đại học Công nghệ Thông tin - ĐHQG HCM. Người chơi sẽ vào vai một sinh viên, khám phá khuôn viên trường, tham gia các hoạt động từ các Khoa/CLB và tìm hiểu về một câu chuyện bí ẩn đằng sau ánh hào quang của buổi lễ kỷ niệm.
 
-![alt text](https://img.shields.io/badge/Status-In--Development-yellow)
-
 ![alt text](https://img.shields.io/badge/Platform-WebGL-orange)
 
 ![alt text](https://img.shields.io/badge/Engine-Unity%206-blue)
