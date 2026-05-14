@@ -6,7 +6,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-WebGL-orange?style=for-the-badge)
 ![Engine](https://img.shields.io/badge/Engine-Unity%206-blue?style=for-the-badge)
-
+[![Play on Itch.io](https://img.shields.io/badge/Chơi_ngay_trên-Itch.io-fa5c5c?style=for-the-badge&logo=itch.io)](https://vpthanh.itch.io/uit-game-20-years)
 ---
 
 ## 🌟 Giới thiệu cốt truyện
@@ -45,7 +45,7 @@ Trong không khí náo nức của tuần lễ kỷ niệm 20 năm, bạn bắt 
 
 ---
 
-## 📥 Cài đặt và Phát triển
+## 📥 Cài đặt
 
 1. **Clone repository:**
    ```bash
