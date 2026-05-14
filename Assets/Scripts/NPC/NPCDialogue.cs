@@ -5,10 +5,10 @@ public class NPCDialogue : MonoBehaviour
 {
     private NPCSO currentData;
     public NPCConversation conversation;
-
     public void StartDialogue(NPCSO data)
     {
         currentData = data;
+
         ConversationManager.Instance.StartConversation(conversation);
 
         if (NPCManager.Instance != null)

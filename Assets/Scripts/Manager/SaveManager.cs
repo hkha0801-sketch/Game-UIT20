@@ -13,6 +13,9 @@ public class SaveManager : MonoBehaviour
 
     public bool DeleteSaveOnPlay = false;
 
+    [ContextMenu("Delete Save Data")]
+    public void DeleteSave() { PlayerPrefs.DeleteKey(SAVE_KEY); Debug.Log("Save Deleted"); }
+
     private void Awake()
     {
         if (Instance == null)
@@ -162,6 +165,27 @@ public class SaveManager : MonoBehaviour
         if (!hasFocus) SaveGame();
     }
 
-    [ContextMenu("Delete Save Data")]
-    public void DeleteSave() { PlayerPrefs.DeleteKey(SAVE_KEY); Debug.Log("Save Deleted"); }
+    public void DeleteSaveAndReset()
+    {
+        PlayerPrefs.DeleteKey(SAVE_KEY);
+        PlayerPrefs.Save();
+
+        if (MedalManager.Instance != null)
+        {
+            MedalManager.Instance.ownedMedals.Clear();
+            MedalManager.Instance.lastNotifiedMilestone = 0;
+        }
+
+        if (NPCManager.Instance != null)
+        {
+            NPCManager.Instance.ClearMetNPCs();
+        }
+
+        if (MinigameManager.Instance != null)
+        {
+            MinigameManager.Instance.ClearMinigameData();
+        }
+
+        targetLoadData = null;
+    }
 }

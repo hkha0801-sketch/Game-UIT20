@@ -75,6 +75,7 @@ namespace DialogueEditor
             if (Instance != null && Instance != this)
             {
                 GameObject.Destroy(this.gameObject);
+                return;
             }
             Instance = this;
             m_uiOptions = new List<UIConversationButton>();
@@ -85,7 +86,10 @@ namespace DialogueEditor
 
         private void OnDestroy()
         {
-            Instance = null;
+            if (Instance == this)
+            {
+                Instance = null;
+            }
         }
 
         private void Update()

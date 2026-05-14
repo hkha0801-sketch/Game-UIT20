@@ -41,4 +41,9 @@ public class NPCManager : MonoBehaviour
     {
         metNPCIDs = new HashSet<string>(ids);
     }
+
+    public void ClearMetNPCs()
+    {
+        metNPCIDs.Clear();
+    }
 }

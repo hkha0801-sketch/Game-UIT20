@@ -125,6 +125,18 @@ public class MinigameManager : MonoBehaviour
         }
     }
 
+    public void ClearMinigameData()
+    {
+        minigameResults.Clear();
+        
+        CurrentData = null;
+        mapSceneName = "";
+        playerReturnPosition = Vector3.zero;
+        playerReturnDirection = Vector2.up;
+        lastNPCID = "";
+        shouldAutoTrigger = false;
+    }
+
     public string GetMapSceneName() => mapSceneName;
     public Vector3 GetPlayerReturnPosition() => playerReturnPosition;
     public Vector2 GetPlayerReturnDirection() => playerReturnDirection;
