@@ -16,4 +16,9 @@ public class PunchMinigameSO : MinigameSO
     [Header("Game Settings")]
     public float TimeLimit = 30f;
     public List<PunchLevelConfig> LevelConfigs;
+
+    [Header("Action Animation Settings")]
+    public Sprite ActionStanceSprite;
+    public Sprite ActionPunchSprite;
+    public float ActionPunchDuration = 0.1f;
 }
