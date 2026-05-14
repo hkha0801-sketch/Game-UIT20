@@ -66,6 +66,10 @@ namespace DialogueEditor
         private List<UIConversationButton> m_uiOptions;
         private int m_currentSelectedIndex;
 
+        [Header("Global Audio Feedbacks")]
+        public AudioClip NextDialogueSound; 
+        public AudioClip ClickOptionSound;  
+        [Range(0f, 1f)] public float DialogueSfxVolume = 1f;
         private void Awake()
         {
             if (Instance != null && Instance != this)
@@ -114,17 +118,15 @@ namespace DialogueEditor
             if (OnConversationEnded != null) OnConversationEnded.Invoke();
         }
 
-        // --- MỚI: HÀM XỬ LÝ CLICK VÀO KHUNG CHAT ---
         public void PressBackground()
         {
             if (m_state != eState.Idle) return;
 
-            // Nếu không có lựa chọn (Option) nào đang hiện
             if (m_uiOptions.Count == 0)
             {
-                // Kiểm tra xem node hiện tại có nối với Speech tiếp theo không
                 if (m_currentSpeech.ConnectionType == Connection.eConnectionType.Speech)
                 {
+                    PlayNextDialogueSound();
                     SpeechNode next = GetValidSpeechOfNode(m_currentSpeech);
                     if (next != null)
                         SetupSpeech(next);
@@ -133,6 +135,7 @@ namespace DialogueEditor
                 }
                 else if (m_currentSpeech.ConnectionType == Connection.eConnectionType.None)
                 {
+                    PlayNextDialogueSound();
                     EndConversation();
                 }
             }
@@ -500,5 +503,25 @@ namespace DialogueEditor
         }
 
         private void LogWarning(string warning) { Debug.LogWarning("[Dialogue Editor]: " + warning); }
+
+        public void PlayNextDialogueSound()
+        {
+            if (NextDialogueSound != null && AudioManager.Instance != null)
+            {
+                float randomPitch = UnityEngine.Random.Range(0.95f, 1.05f);
+                AudioManager.Instance.PlaySFX(NextDialogueSound, DialogueSfxVolume, randomPitch);
+            }
+        }
+
+        public void PlayOptionSound()
+        {
+            if (ClickOptionSound != null && AudioManager.Instance != null)
+            {
+                float randomPitch = UnityEngine.Random.Range(0.95f, 1.05f);
+                AudioManager.Instance.PlaySFX(ClickOptionSound, DialogueSfxVolume, randomPitch);
+            }
+        }
     }
+
+    
 }

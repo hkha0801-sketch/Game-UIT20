@@ -2266,8 +2266,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Nh\u1EA5n v\xE0o m\xE0n h\xECnh \u0111\u1EC3 ti\u1EBFp t\u1EE5c h\xE0nh
-    tr\xECnh UIT"
+  m_text: "-Nh\u1EA5n v\xE0o m\xE0n h\xECnh \u0111\u1EC3 ti\u1EBFp t\u1EE5c h\xE0nh
+    tr\xECnh UIT-"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5380,7 +5380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7483a9c965282834bbb2cb865f9853ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundFeedback
-  AudioFile: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+  AudioFile: {fileID: 8300000, guid: 19f89c6e740e7447f9e12a8310d3e973, type: 3}
   Volume: 1
   MinPitch: 0.95
   MaxPitch: 1.05

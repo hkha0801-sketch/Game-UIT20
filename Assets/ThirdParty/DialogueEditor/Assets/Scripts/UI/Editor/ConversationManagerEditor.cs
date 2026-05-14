@@ -14,7 +14,6 @@ namespace DialogueEditor
         private const float OPTION_BUFFER = 5;
         private const float OPTION_TEXT_BUF_Y = 10;
 
-
         SerializedProperty BackgroundImageProperty;
         SerializedProperty BackgroundImageSlicedProperty;
         SerializedProperty OptionImageProperty;
@@ -22,6 +21,11 @@ namespace DialogueEditor
         SerializedProperty ScrollTextProperty;
         SerializedProperty ScrollTextSpeedProperty;
         SerializedProperty AllowMouseInteractionProperty;
+
+        // KHOAI BÁO 3 BIẾN AUDIO
+        SerializedProperty NextDialogueSoundProperty;
+        SerializedProperty ClickOptionSoundProperty;
+        SerializedProperty DialogueSfxVolumeProperty;
 
         private void OnEnable()
         {
@@ -32,17 +36,20 @@ namespace DialogueEditor
             ScrollTextProperty = serializedObject.FindProperty("ScrollText");
             ScrollTextSpeedProperty = serializedObject.FindProperty("ScrollSpeed");
             AllowMouseInteractionProperty = serializedObject.FindProperty("AllowMouseInteraction");
+
+            // TÌM 3 BIẾN AUDIO TỪ CODE CHÍNH
+            NextDialogueSoundProperty = serializedObject.FindProperty("NextDialogueSound");
+            ClickOptionSoundProperty = serializedObject.FindProperty("ClickOptionSound");
+            DialogueSfxVolumeProperty = serializedObject.FindProperty("DialogueSfxVolume");
         }
 
         public override void OnInspectorGUI()
         {
-            // Update the serializedProperty - always do this in the beginning of OnInspectorGUI.
             serializedObject.Update();
             ConversationManager t = (ConversationManager)target;
 
             RenderPreviewImage(t);
 
-            // Create a gap in EditorGuiLayout for the preview image to be rendered
             EditorGUILayout.BeginVertical();
             GUILayout.Space(BOX_HEIGHT + OPTION_BUFFER + OPTION_HEIGHT);
             EditorGUILayout.EndVertical();
@@ -54,7 +61,7 @@ namespace DialogueEditor
             EditorGUILayout.Space();
 
             // Option image
-            GUILayout.Label("Dialogue Image Options", EditorStyles.boldLabel);
+            GUILayout.Label("Option Image Options", EditorStyles.boldLabel);
             EditorGUILayout.PropertyField(OptionImageProperty);
             EditorGUILayout.PropertyField(OptionImageSlicedProperty);
             EditorGUILayout.Space();
@@ -69,8 +76,14 @@ namespace DialogueEditor
             // Interaction options
             GUILayout.Label("Interaction options", EditorStyles.boldLabel);
             EditorGUILayout.PropertyField(AllowMouseInteractionProperty);
+            EditorGUILayout.Space();
 
-            // Apply changes to the serializedProperty - always do this in the end of OnInspectorGUI.
+            // --- VẼ 3 Ô ÂM THANH RA MÀN HÌNH ---
+            GUILayout.Label("Global Audio Feedbacks", EditorStyles.boldLabel);
+            EditorGUILayout.PropertyField(NextDialogueSoundProperty);
+            EditorGUILayout.PropertyField(ClickOptionSoundProperty);
+            EditorGUILayout.PropertyField(DialogueSfxVolumeProperty);
+
             serializedObject.ApplyModifiedProperties();
         }
 
@@ -110,7 +123,6 @@ namespace DialogueEditor
                 }
             }
 
-
             // Draw icon
             float difference = BOX_HEIGHT - ICON_SIZE;
             Rect iconRect = new Rect(boxRect.x + BUFFER, boxRect.y + difference * 0.5f, ICON_SIZE, ICON_SIZE);
@@ -130,7 +142,6 @@ namespace DialogueEditor
             textStyle.wordWrap = true;
             textStyle.clipping = TextClipping.Clip;
             EditorGUI.LabelField(textRect, PREVIEW_TEXT, textStyle);
-
 
             // Option (left)
             float option_x, option_wid;
