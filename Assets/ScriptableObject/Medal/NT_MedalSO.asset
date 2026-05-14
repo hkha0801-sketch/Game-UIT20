@@ -15,6 +15,6 @@ MonoBehaviour:
   MedalID: NT
   MedalName: NT Sticker
   MedalIcon: {fileID: 6552528720699008841, guid: 20f982b537000264ba1fdd2a8bb82547, type: 3}
-  Description: "\u0110\xE2y l\xE0 m\u1ED9c l\u1EA5y \u0111\u01B0\u1EE3c sau khi ho\xE0n
-    th\xE0nh quiz c\u1EE7a NPC SE"
+  Description: "\u0110\xE2y l\xE0 sticker l\u1EA5y \u0111\u01B0\u1EE3c sau khi ho\xE0n
+    th\xE0nh th\u1EED th\xE1ch c\u1EE7a NT"
   IsActualMedal: 1

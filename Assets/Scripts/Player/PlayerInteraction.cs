@@ -24,24 +24,13 @@ public class PlayerInteraction : MonoBehaviour
         if (direction != Vector2.zero)
         {
             Vector2 basePosition = direction.normalized * detectDistance;
-
             float currentOffsetY = 0f;
 
-            if (Mathf.Abs(direction.x) > 0.1f) 
-            {
-                currentOffsetY = offsetY_Horizontal;
-            }
-            else if (direction.y > 0.1f) 
-            {
-                currentOffsetY = offsetY_Up;
-            }
-            else if (direction.y < -0.1f) 
-            {
-                currentOffsetY = offsetY_Down;
-            }
+            if (Mathf.Abs(direction.x) > 0.1f) currentOffsetY = offsetY_Horizontal;
+            else if (direction.y > 0.1f) currentOffsetY = offsetY_Up;
+            else if (direction.y < -0.1f) currentOffsetY = offsetY_Down;
 
             transform.localPosition = new Vector3(basePosition.x, basePosition.y + currentOffsetY, 0f);
-
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
         }
@@ -49,7 +38,10 @@ public class PlayerInteraction : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
-                return;
+            {
+                ConversationManager.Instance.PressBackground();
+                return; 
+            }
 
             if (currentItem != null)
             {
@@ -77,7 +69,6 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-
         if (other.CompareTag("NPCUI"))
         {
             SpriteRenderer spriteRenderer = other.GetComponent<SpriteRenderer>();
