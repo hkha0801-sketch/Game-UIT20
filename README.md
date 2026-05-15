@@ -7,7 +7,7 @@
 ![Platform](https://img.shields.io/badge/Platform-WebGL-orange?style=for-the-badge)
 ![Engine](https://img.shields.io/badge/Engine-Unity%206-blue?style=for-the-badge)
 [![Play on Itch.io](https://img.shields.io/badge/Chơi_ngay_trên-Itch.io-fa5c5c?style=for-the-badge&logo=itch.io)](https://vpthanh.itch.io/uit-game-20-years)
-[![Download for Windows](https://img.shields.io/badge/Tải_về-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://drive.google.com/file/d/12xhPawzK-BxE86Kj5hTV8bAve5J66wqr/view?usp=sharing)
+[![Download for Windows](https://img.shields.io/badge/Tải_về-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://drive.google.com/file/d/1UEkcQs5df5xN3pAZtFPjOVDIsR-Uk9Dh/view?usp=sharing)
 
 ---
 
