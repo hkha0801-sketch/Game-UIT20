@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Minigame/PunchMinigameScene.unity
     guid: 2928866d7631cd64ba3b7e46f2055bd7
   - enabled: 1
-    path: Assets/Scenes/KickMinigameScene.unity
+    path: Assets/Scenes/Minigame/KickMinigameScene.unity
     guid: 89315844ce19cd440b2fb2d88349a180
   - enabled: 1
     path: Assets/Scenes/EndingScene.unity
