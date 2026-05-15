@@ -22,7 +22,7 @@ public class SmartphoneController : MonoBehaviour
     [Header("Alls App")]
     public List<GameObject> objectsToHideWhenOpen;
 
-    [Header("Music UI")]
+    [Header("UI SFX")]
     public TextMeshProUGUI musicNameText;
     public SoundFeedback clickSound;
 

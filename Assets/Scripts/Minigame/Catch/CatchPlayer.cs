@@ -15,6 +15,13 @@ public class CatchPlayer : MonoBehaviour
     private Coroutine reverseCoroutine;
     private Coroutine scoreCoroutine;
 
+    private SpriteRenderer spriteRenderer;
+
+    void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     void Update()
     {
         float moveX = Input.GetAxis("Horizontal");
@@ -27,6 +34,15 @@ public class CatchPlayer : MonoBehaviour
         Vector3 pos = transform.position;
         pos.x = Mathf.Clamp(pos.x, -limitX, limitX);
         transform.position = pos;
+
+        if (actualMove < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (actualMove > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
     }
 
     public void ApplySpeedMultiplier(float multiplier, float duration)

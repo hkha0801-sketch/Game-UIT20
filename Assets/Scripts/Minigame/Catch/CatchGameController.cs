@@ -21,6 +21,11 @@ public class CatchGameController : MinigameController
     private float spawnTimer;
     private Sequence effectTextSeq;
 
+    [Header("Catch_SFX")]
+    public SoundFeedback correctSound;
+    public SoundFeedback wrongSound;
+    public SoundFeedback effectSound;
+
     protected override void OnInit()
     {
         if (MinigameManager.Instance != null)
@@ -124,6 +129,15 @@ public class CatchGameController : MinigameController
     {
         if (!isPlaying || isPaused) return;
 
+        if (amount > 0)
+        {
+            if (correctSound != null) correctSound.PlaySound();
+        }
+        else
+        {
+            if (wrongSound != null) wrongSound.PlaySound();
+        }
+
         currentScore += amount;
         UpdateScoreUI();
 
@@ -139,6 +153,9 @@ public class CatchGameController : MinigameController
 
     public void ShowEffectText(string desc, Color color)
     {
+        
+        if (effectSound != null) effectSound.PlaySound();
+
         if (effectTextSeq != null && effectTextSeq.IsActive()) effectTextSeq.Kill();
 
         effectNotifyText.gameObject.SetActive(true);

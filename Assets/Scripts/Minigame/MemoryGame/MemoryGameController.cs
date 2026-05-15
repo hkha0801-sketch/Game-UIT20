@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class MemoryGameController : MinigameController
-{[Header("Memory UI")]
+{
+    [Header("Memory UI")]
     public Transform gridParent;
     public MemoryCard cardPrefab;
 
@@ -15,6 +16,10 @@ public class MemoryGameController : MinigameController
     private MemoryCard firstCard;
     private MemoryCard secondCard;
     private bool isChecking = false;
+
+    [Header("MemoryCard_SFX")]
+    public SoundFeedback correctSound;
+    public SoundFeedback selectSound;
 
     protected override void OnInit()
     {
@@ -88,6 +93,8 @@ public class MemoryGameController : MinigameController
     {
         if (isChecking || !isPlaying || isPaused || card == firstCard) return;
 
+        if (selectSound != null) selectSound.PlaySound();
+
         card.Reveal();
 
         if (firstCard == null) firstCard = card;
@@ -103,6 +110,7 @@ public class MemoryGameController : MinigameController
     {
         if (firstCard.pairID == secondCard.pairID)
         {
+            if (correctSound != null) correctSound.PlaySound();
             yield return new WaitForSeconds(0.5f);
             firstCard.SetMatched();
             secondCard.SetMatched();

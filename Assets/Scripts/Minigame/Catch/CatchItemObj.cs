@@ -10,7 +10,7 @@ public class CatchItemObj : MonoBehaviour
     public void SetupNormal(Sprite sprite, float speed, int score, CatchGameController ctrl)
     {
         var sr = GetComponent<SpriteRenderer>();
-        if (sr != null && sprite != null) // Kiểm tra cả Sprite truyền vào
+        if (sr != null && sprite != null)
         {
             sr.sprite = sprite;
             NormalizeScale(sr, 1f);
@@ -47,7 +47,6 @@ public class CatchItemObj : MonoBehaviour
 
     private void NormalizeScale(SpriteRenderer sr, float targetSize)
     {
-        // Kiểm tra an toàn: Nếu không có sprite thì không tính toán scale
         if (sr == null || sr.sprite == null) return; 
 
         float width = sr.sprite.bounds.size.x;

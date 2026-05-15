@@ -22,6 +22,10 @@ public class QuizController : MinigameController
     private int currentLives;
     private bool isAnswering = false;
 
+    [Header("Quiz_SFX")]
+    public SoundFeedback correctSound;
+    public SoundFeedback wrongSound;
+
     protected override void OnInit()
     {
         if (MinigameManager.Instance == null) return;
@@ -97,6 +101,15 @@ public class QuizController : MinigameController
 
         isAnswering = true;
         bool isCorrect = (selectedIndex == quizData.Questions[currentQuestionIndex].CorrectAnswerIndex);
+
+        if (isCorrect)
+        {
+            if (correctSound != null) correctSound.PlaySound();
+        }
+        else
+        {
+            if (wrongSound != null) wrongSound.PlaySound();
+        }
 
         GameObject btnObj = answerButtons[selectedIndex].gameObject;
         btnObj.transform.DOKill(true);

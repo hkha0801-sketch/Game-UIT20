@@ -41,7 +41,7 @@ MonoBehaviour:
     fallSpeed: 6
     spawnWeight: 15
   - itemSprite: {fileID: 7315915769516933376, guid: afc6f24ab06a54f00a67cde9425e2acc, type: 3}
-    score: -10
+    score: -20
     fallSpeed: 6
     spawnWeight: 15
   effectItems:
